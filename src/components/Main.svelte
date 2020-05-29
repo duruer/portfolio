@@ -1,3 +1,8 @@
+<script>
+  import Router, { path } from "routve";
+  import RouterConfig from "../router.config";
+</script>
+
 <div class="container">
 
   <header class="row justify-content-center py-5">
@@ -112,7 +117,9 @@
     </div>
     <div class="col-lg-6">
       <nav class="nav lead pt-lg-0 pt-5">
-        <a class="nav-link active pl-0" href="#">About</a>
+        <a class="nav-link pl-0" class:active="{$path === '/'}" href="/">
+          About
+        </a>
         <a class="nav-link" href="#">References</a>
         <a class="nav-link" href="#">This Website</a>
         <a class="nav-link ml-auto" href="#">TR</a>
@@ -231,97 +238,7 @@
     </div>
 
     <div class="col-lg-6">
-
-      <h4 class="pb-3 text-light">About Me</h4>
-      <p>
-        Hello, I'm Ahmet. A software developer and entrepreneur from Turkey. In
-        my daily life I create and work on websites, mobile applications and
-        personal projects
-      </p>
-
-      <hr />
-
-      <h3 class="py-3 text-light">Skills</h3>
-
-      <div class="row flex-wrap">
-        <div class="col-auto">
-          <div class="skill kotlin-bg">
-            <span>
-              Kotlin
-              <small class="text-muted">
-                Android
-                <br />
-                Web
-              </small>
-            </span>
-          </div>
-        </div>
-        <div class="col-auto">
-          <div class="skill js-bg">
-            <span>
-              Javascript
-              <small class="text-muted">
-                Svelte
-                <br />
-                Vue.js
-              </small>
-            </span>
-          </div>
-        </div>
-        <div class="col-auto">
-          <div class="skill">
-            <span>
-              Java
-              <small class="text-muted">
-                Desktop App
-                <br />
-                Mobile Navite
-              </small>
-            </span>
-          </div>
-        </div>
-        <div class="col-auto">
-          <div class="skill">
-            <span>
-              Linux
-              <small class="text-muted">
-                <br />
-                Dev-Ops
-                <br />
-                Server Mang.
-              </small>
-            </span>
-          </div>
-        </div>
-        <div class="col-auto">
-          <div class="skill">
-            <span>
-              Database
-              <small class="text-muted">
-                <br />
-                SQL techs,
-                <br />
-                Data mang.
-              </small>
-            </span>
-          </div>
-        </div>
-        <div class="col-auto">
-          <div class="skill">
-            <span>
-              Others
-              <small class="text-muted">
-                <br />
-                Git
-                <br />
-                Docker
-              </small>
-            </span>
-          </div>
-        </div>
-      </div>
-
-      <hr />
+      <Router routerConfig="{RouterConfig}" />
     </div>
 
   </div>
