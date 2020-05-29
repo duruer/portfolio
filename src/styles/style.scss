@@ -1,43 +1,4 @@
-$body-bg: #1E1E1E;
-$body-color: #ccd1d9;
-
-// kahve bg 433c34
-
-// Colors
-
-$primary: #f6d365;
-$secondary: #fda085;
-$brown: #927553;
-$cream: #e9cc90;
-$navy: #333645;
-$coffee: #413525;
-$lightglass: rgba(255, 255, 255, 0.05);
-
-$theme-colors: (
-  "primary": $primary,
-  "secondary": $secondary,
-  "brown": $brown,
-  "cream": $cream,
-  "navy": $navy,
-  "coffee": $coffee,
-  "lightglass": $lightglass,
-);
-
-// Settings
-
-$enable-shadows: false;
-
-// Fonts
-
-$lead-font-weight: normal;
-$font-family-base: "Quicksand", sans-serif;
-
-// Borders
-
-$border-radius: 8px;
-$border-radius-lg: 8px;
-$border-radius-sm: 8px;
-
+@import "custom-definitions";
 @import "node_modules/bootstrap/scss/bootstrap";
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:ital,wght@0,400;0,700;1,300;1,400;1,700&display=swap");
 
