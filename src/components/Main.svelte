@@ -15,8 +15,8 @@
     <div class="col-6 text-right">
       <nav class="nav lead">
         <a class="nav-link active pl-0" href="#">About</a>
-        <a class="nav-link" href="#">Resume</a>
-        <a class="nav-link" href="#">Works</a>
+        <a class="nav-link" href="#">References</a>
+        <a class="nav-link" href="#">This Website</a>
         <a class="nav-link ml-auto" href="#">TR</a>
       </nav>
     </div>
@@ -137,10 +137,11 @@
 
       <h4 class="pb-3 text-light">About Me</h4>
       <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis,
-        doloribus possimus corrupti sunt deleniti unde eos ad culpa dolorum illo
-        sit tempora debitis odio ut.
+        Hello, I'm Ahmet. A software developer and entrepreneur from Turkey. In
+        my daily life I create and work on websites, mobile applications and
+        personal projects
       </p>
+
       <hr />
 
       <h3 class="py-3 text-light">Skills</h3>
@@ -163,9 +164,9 @@
             <span>
               Javascript
               <small class="text-muted">
-                Hybrid App
+                Svelte
                 <br />
-                Web App
+                Vue.js
               </small>
             </span>
           </div>
@@ -177,7 +178,7 @@
               <small class="text-muted">
                 Desktop App
                 <br />
-                Mobile App
+                Mobile Navite
               </small>
             </span>
           </div>
@@ -187,36 +188,43 @@
             <span>
               Linux
               <small class="text-muted">
-                System OP
+                <br />
+                Dev-Ops
                 <br />
                 Server Mang.
               </small>
             </span>
           </div>
         </div>
+        <div class="col-auto">
+          <div class="skill">
+            <span>
+              Database
+              <small class="text-muted">
+                <br />
+                SQL techs,
+                <br />
+                Data mang.
+              </small>
+            </span>
+          </div>
+        </div>
+        <div class="col-auto">
+          <div class="skill">
+            <span>
+              Others
+              <small class="text-muted">
+                <br />
+                Git
+                <br />
+                Docker
+              </small>
+            </span>
+          </div>
+        </div>
       </div>
 
-      <!-- <h3 class="py-3 text-light">Experience</h3>
-      <div class="row mb-4">
-        <div class="col-auto d-flex align-items-center">
-          <img
-            src="assets/img/gm-logo.png"
-            alt="General Mobile Inc."
-            title="General Mobile Inc."
-            class="rounded-circle inc-logo"
-            width="64"
-            height="64"
-          />
-        </div>
-        <div class="col">
-          <a href="#" target="_blank" title="Click To Visit">
-            <h5 class="mb-1">General Mobile Inc.</h5>
-          </a>
-          Android Developer — 2018
-          <br />
-          <span class="text-muted">w/ Kotlin, Java</span>
-        </div>
-      </div> -->
+      <hr />
     </div>
 
   </div>
