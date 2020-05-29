@@ -27,10 +27,10 @@ const watch = {
 };
 
 const plugins = [
-  // copyTo({
-  //   assets: ["./src/assets"],
-  //   outputDir: "public",
-  // }),
+  copyTo({
+    assets: ["./src/assets"],
+    outputDir: "public",
+  }),
 
   babel({
     runtimeHelpers: true,
