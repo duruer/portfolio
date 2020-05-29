@@ -27,7 +27,7 @@
 <div class="container">
 
   <header class="row justify-content-center py-5">
-    <div class="col-4">
+    <div class="col-5">
       <div class="pp-bg py-4">
         <img
           src="/assets/img/pp.jpeg"
