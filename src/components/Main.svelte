@@ -261,7 +261,7 @@
       </div>
 
       <small class="d-inline-block text-muted pt-5">
-        Maded with
+        Made with
         <span class="text-primary">❤</span>
         and
         <a href="https://svelte.dev/" target="_blank">Svelte</a>
