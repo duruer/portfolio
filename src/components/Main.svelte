@@ -6,7 +6,7 @@
   import LoadingPlaceHolder from "./LoadingPlaceHolder.svelte";
 
   let showLoading = true;
-  let showLoadingAlways = true;
+  let showLoadingAlways = false;
 
   const beforeRouteEnterHandler = beforeRouteEnter((context, next) => {
     showLoading = true;
@@ -48,7 +48,7 @@
         </p>
       </div>
       <ul class="list-unstyled pb-3">
-        <a href="#">
+        <a href="https://gitlab.com/kahverengi" target="_blank">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="20"
@@ -69,7 +69,7 @@
             ></path>
           </svg>
         </a>
-        <a href="#" class="mx-3">
+        <a href="https://github.com/kahverengi001" target="_blank" class="mx-3">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="20"
@@ -91,7 +91,7 @@
             ></path>
           </svg>
         </a>
-        <a class="mr-3" href="#">
+        <a class="mr-3" href="https://www.facebook.com/Ahmet.Enes.Duruer" target="_blank">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="20"
@@ -172,7 +172,7 @@
         </p>
       </div>
       <ul class="list-unstyled pb-3">
-        <a href="#">
+        <a href="https://gitlab.com/kahverengi" target="_blank">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="20"
@@ -193,7 +193,7 @@
             ></path>
           </svg>
         </a>
-        <a href="#" class="mx-3">
+        <a href="https://github.com/kahverengi001" target="_blank" class="mx-3">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="20"
@@ -215,7 +215,7 @@
             ></path>
           </svg>
         </a>
-        <a class="mr-3" href="#">
+        <a class="mr-3" href="https://www.facebook.com/Ahmet.Enes.Duruer" target="_blank">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="20"
