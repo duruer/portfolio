@@ -68,9 +68,9 @@
         Database
         <small class="text-muted">
           <br />
-          SQL techs,
+          MySQL
           <br />
-          Data mang.
+          SQLite
         </small>
       </span>
     </div>
