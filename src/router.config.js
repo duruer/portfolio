@@ -8,6 +8,9 @@ export default {
     },
     "/this-website": {
       component: () => import("./pages/ThisWebsite.svelte")
+    },
+    "*": {
+      component: () => import("./pages/Error404.svelte")
     }
   },
 };
