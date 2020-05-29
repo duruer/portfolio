@@ -1,7 +1,7 @@
 
 <h4 class="pb-3 text-light">About Me</h4>
 <p>
-  Hello, I'm Ahmet. A software developer and entrepreneur from Turkey. In
+  Hello, I'm Ahmet. Also known as "Kahverengi" in software and gaming world. A software developer and entrepreneur from Turkey. In
   my daily life, I create and work on websites, mobile applications and
   personal projects. In my free times, I develop myself in programming, I
   try to learn and test new technologies. Mainly, I'm a back-end
