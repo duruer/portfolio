@@ -53,7 +53,7 @@
 
 .nav-link.active {
   position: relative;
-  color: cyan;
+  color: $muted;
   &:after {
     width: 100%;
     height: 20px;
