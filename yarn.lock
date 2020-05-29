@@ -1482,6 +1482,11 @@ pkg-up@^2.0.0:
   dependencies:
     find-up "^2.1.0"
 
+placeholder-loading@^0.2.6:
+  version "0.2.6"
+  resolved "https://registry.yarnpkg.com/placeholder-loading/-/placeholder-loading-0.2.6.tgz#6c34c12397785b74c7f8473c9d6d788cc4a97612"
+  integrity sha512-5h/8xiTzhVBwtj9aZWN3SMK+bjjXT+UvV5q8FZQ5Gn5VFBrEefBzSc+s/SuepToSpbMQf2SeiOrMhKYGhZaGAA==
+
 popper.js@^1.16.1:
   version "1.16.1"
   resolved "https://registry.yarnpkg.com/popper.js/-/popper.js-1.16.1.tgz#2a223cb3dc7b6213d740e40372be40de43e65b1b"

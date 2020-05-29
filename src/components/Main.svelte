@@ -1,6 +1,9 @@
 <script>
   import Router, { path } from "routve";
   import RouterConfig from "../router.config";
+  import LoadingPlaceHolder from "./LoadingPlaceHolder.svelte";
+
+  let showLoading = true;
 </script>
 
 <div class="container">
@@ -120,8 +123,20 @@
         <a class="nav-link pl-0" class:active="{$path === '/'}" href="/">
           About
         </a>
-        <a class="nav-link" class:active="{$path === '/references'}" href="/references">References</a>
-        <a class="nav-link" class:active="{$path === '/this-website'}" href="/this-website">This Website</a>
+        <a
+          class="nav-link"
+          class:active="{$path === '/references'}"
+          href="/references"
+        >
+          References
+        </a>
+        <a
+          class="nav-link"
+          class:active="{$path === '/this-website'}"
+          href="/this-website"
+        >
+          This Website
+        </a>
         <a class="nav-link ml-auto" href="#">TR</a>
       </nav>
     </div>
@@ -238,7 +253,8 @@
     </div>
 
     <div class="col-lg-6">
-      <Router routerConfig="{RouterConfig}" />
+      <Router routerConfig="{RouterConfig}" hidden="{showLoading}" />
+      <LoadingPlaceHolder hidden="{!showLoading}" />
     </div>
 
   </div>
