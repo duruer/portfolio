@@ -91,7 +91,7 @@
             ></path>
           </svg>
         </a>
-        <a class="mr-3" href="#">
+        <a class="mr-3" href="https://www.facebook.com/Ahmet.Enes.Duruer" target="_blank">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="20"
@@ -215,7 +215,7 @@
             ></path>
           </svg>
         </a>
-        <a class="mr-3" href="#">
+        <a class="mr-3" href="https://www.facebook.com/Ahmet.Enes.Duruer" target="_blank">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="20"
