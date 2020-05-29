@@ -6,7 +6,7 @@
   import LoadingPlaceHolder from "./LoadingPlaceHolder.svelte";
 
   let showLoading = true;
-  let showLoadingAlways = false;
+  let showLoadingAlways = true;
 
   const beforeRouteEnterHandler = beforeRouteEnter((context, next) => {
     showLoading = true;
@@ -271,7 +271,10 @@
     </div>
 
     <div class="col-lg-6">
-      <Router routerConfig="{RouterConfig}" hidden="{showLoading || showLoadingAlways}" />
+      <Router
+        routerConfig="{RouterConfig}"
+        hidden="{showLoading || showLoadingAlways}"
+      />
       <LoadingPlaceHolder hidden="{!showLoading && !showLoadingAlways}" />
     </div>
 
