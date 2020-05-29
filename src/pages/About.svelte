@@ -40,10 +40,11 @@
     <div class="skill">
       <span>
         Java
+        <br>
         <small class="text-muted">
-          Desktop App
+          JVM Apps
           <br />
-          Mobile Navite
+          Web Server
         </small>
       </span>
     </div>
@@ -54,9 +55,9 @@
         Linux
         <small class="text-muted">
           <br />
-          Dev-Ops
+          DevOps
           <br />
-          Server Mang.
+          Server
         </small>
       </span>
     </div>
