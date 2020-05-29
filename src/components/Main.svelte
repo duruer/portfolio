@@ -9,7 +9,7 @@
     <div class="col-4">
       <div class="pp-bg py-4">
         <img
-          src="assets/img/pp.jpeg"
+          src="/assets/img/pp.jpeg"
           class="rounded-circle d-block m-auto mb-3"
           width="100"
           height="100"
