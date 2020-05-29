@@ -1,1 +1,105 @@
+$body-bg: #111;
+$body-color: #ccd1d9;
+
+// kahve bg 433c34
+
+// Colors
+
+$primary: #927553;
+$secondary: #4a89dc;
+$brown: #927553;
+$cream: #e9cc90;
+$navy: #333645;
+$coffee: #413525;
+$lightglass: rgba(255, 255, 255, 0.05);
+
+$theme-colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+  "brown": $brown,
+  "cream": $cream,
+  "navy": $navy,
+  "coffee": $coffee,
+  "lightglass": $lightglass,
+);
+
+// Settings
+
+$enable-shadows: false;
+
+// Fonts
+
+$lead-font-weight: normal;
+$font-family-base: "Quicksand", sans-serif;
+
+// Borders
+
+$border-radius: 8px;
+$border-radius-lg: 8px;
+$border-radius-sm: 8px;
+
 @import "node_modules/bootstrap/scss/bootstrap";
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:ital,wght@0,400;0,700;1,300;1,400;1,700&display=swap");
+
+.skill {
+  width: 100px;
+  height: 100px;
+  border-radius: $border-radius;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  background: $lightglass;
+  border: 10px solid $lightglass;
+  &:after {
+    width: 95px;
+    height: 95px;
+    border-radius: $border-radius;
+    content: "";
+    position: absolute;
+    background: $body-bg;
+  }
+  > * {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+    font-weight: lighter;
+  }
+}
+
+.skill-list {
+  display: flex;
+  flex-direction: row;
+}
+
+.kotlin-bg {
+  background: rgba(249, 219, 25, 0.8);
+  background: linear-gradient(
+    90deg,
+    rgba(249, 219, 25, 0.8) 0%,
+    rgba(242, 99, 33, 0.8) 50%,
+    rgba(191, 42, 144, 0.8) 100%
+  );
+}
+
+.js-bg {
+  background: rgba(0, 0, 0, 0.8);
+  background: linear-gradient(
+    90deg,
+    rgba(235, 215, 76, 0.8) 0%,
+    rgba(235, 215, 76, 0.8) 50%,
+    rgba(255, 255, 255, 0.8) 100%
+  );
+}
+
+.nav-link.active {
+  border-radius: $border-radius;
+  background: rgb(246, 211, 101);
+  background: linear-gradient(
+    circle,
+    rgba(246, 211, 101, 1) 0%,
+    rgba(253, 160, 133, 1) 15%
+  );
+}
