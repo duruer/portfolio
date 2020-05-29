@@ -51,6 +51,33 @@
   );
 }
 
+.java-bg {
+  background: rgb(231, 111, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(231, 111, 0, 1) 0%,
+    rgba(83, 130, 161, 1) 100%
+  );
+}
+
+.db-bg {
+  background: rgb(245, 245, 245);
+  background: linear-gradient(
+    90deg,
+    rgba(245, 245, 245, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+}
+
+.linux-bg {
+  background: rgb(228, 177, 35);
+  background: linear-gradient(
+    90deg,
+    rgba(228, 177, 35, 1) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
+
 .nav-link.active {
   position: relative;
   color: cyan;

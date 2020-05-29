@@ -265,7 +265,6 @@
       </ul>
       <div>
         <button class="btn bg-lightglass text-primary">Contact Me</button>
-        <button class="btn btn-link text-light">CV</button>
       </div>
 
       <small class="d-inline-block text-muted pt-5">

@@ -37,10 +37,10 @@
     </div>
   </div>
   <div class="col-auto">
-    <div class="skill">
+    <div class="skill java-bg">
       <span>
         Java
-        <br>
+        <br />
         <small class="text-muted">
           JVM Apps
           <br />
@@ -50,7 +50,7 @@
     </div>
   </div>
   <div class="col-auto">
-    <div class="skill">
+    <div class="skill linux-bg">
       <span>
         Linux
         <small class="text-muted">
@@ -63,7 +63,7 @@
     </div>
   </div>
   <div class="col-auto">
-    <div class="skill">
+    <div class="skill db-bg">
       <span>
         Database
         <small class="text-muted">
