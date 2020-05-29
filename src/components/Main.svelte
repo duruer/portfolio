@@ -69,7 +69,7 @@
             ></path>
           </svg>
         </a>
-        <a href="#" class="mx-3">
+        <a href="https://github.com/kahverengi001" target="_blank" class="mx-3">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="20"
@@ -193,7 +193,7 @@
             ></path>
           </svg>
         </a>
-        <a href="#" class="mx-3">
+        <a href="https://github.com/kahverengi001" target="_blank" class="mx-3">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="20"
