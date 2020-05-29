@@ -231,7 +231,7 @@
         Maded with
         <span class="text-primary">❤</span>
         and
-        <a href="#">Svelte</a>
+        <a href="https://svelte.dev/" target="_blank">Svelte</a>
         .
       </small>
       <div class="particle-1"></div>
