@@ -121,7 +121,7 @@
           About
         </a>
         <a class="nav-link" class:active="{$path === '/references'}" href="/references">References</a>
-        <a class="nav-link" href="#">This Website</a>
+        <a class="nav-link" class:active="{$path === '/this-website'}" href="/this-website">This Website</a>
         <a class="nav-link ml-auto" href="#">TR</a>
       </nav>
     </div>
