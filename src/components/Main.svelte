@@ -1,9 +1,27 @@
 <script>
-  import Router, { path } from "routve";
+  import Router, { path, beforeRouteEnter, afterRouteEnter } from "routve";
+  import { onDestroy } from "svelte";
+
   import RouterConfig from "../router.config";
   import LoadingPlaceHolder from "./LoadingPlaceHolder.svelte";
 
   let showLoading = true;
+  let showLoadingAlways = false;
+
+  const beforeRouteEnterHandler = beforeRouteEnter((context, next) => {
+    showLoading = true;
+
+    next();
+  });
+
+  const afterRouteEnterHandler = afterRouteEnter((context, next) => {
+    showLoading = false;
+
+    next();
+  });
+
+  onDestroy(beforeRouteEnterHandler);
+  onDestroy(afterRouteEnterHandler);
 </script>
 
 <div class="container">
@@ -253,8 +271,8 @@
     </div>
 
     <div class="col-lg-6">
-      <Router routerConfig="{RouterConfig}" hidden="{showLoading}" />
-      <LoadingPlaceHolder hidden="{!showLoading}" />
+      <Router routerConfig="{RouterConfig}" hidden="{showLoading || showLoadingAlways}" />
+      <LoadingPlaceHolder hidden="{!showLoading && !showLoadingAlways}" />
     </div>
 
   </div>
