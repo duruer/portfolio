@@ -1,12 +1,12 @@
-$body-bg: #111;
+$body-bg: #19181a;
 $body-color: #ccd1d9;
 
 // kahve bg 433c34
 
 // Colors
 
-$primary: #927553;
-$secondary: #4a89dc;
+$primary: #f6d365;
+$secondary: #fda085;
 $brown: #927553;
 $cream: #e9cc90;
 $navy: #333645;
@@ -52,6 +52,7 @@ $border-radius-sm: 8px;
   position: relative;
   background: $lightglass;
   border: 10px solid $lightglass;
+  margin-bottom: 24px;
   &:after {
     width: 95px;
     height: 95px;
@@ -67,11 +68,6 @@ $border-radius-sm: 8px;
     z-index: 1;
     font-weight: lighter;
   }
-}
-
-.skill-list {
-  display: flex;
-  flex-direction: row;
 }
 
 .kotlin-bg {
@@ -95,11 +91,34 @@ $border-radius-sm: 8px;
 }
 
 .nav-link.active {
-  border-radius: $border-radius;
-  background: rgb(246, 211, 101);
-  background: linear-gradient(
-    circle,
-    rgba(246, 211, 101, 1) 0%,
-    rgba(253, 160, 133, 1) 15%
-  );
+  position: relative;
+  color: cyan;
+  &:after {
+    width: 100%;
+    height: 20px;
+    border-radius: $border-radius;
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    color: grey;
+    background: url("/assets/img/menu-link-bg.svg") no-repeat center center;
+    background-size: contain;
+  }
+}
+
+.pp-bg {
+  background: url("/assets/img/pp-bg.svg") no-repeat center center;
+  background-size: 180px;
+}
+
+.inc-logo {
+  opacity: 0.5;
+  filter: grayscale(1);
+  transition: 0.5s all;
+  &:hover {
+    opacity: 1;
+    filter: grayscale(0);
+    transition: 0.5s all;
+  }
 }

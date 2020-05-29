@@ -2,14 +2,15 @@
 
   <div class="row justify-content-center mt-4 py-5">
     <div class="col-4">
-
-      <img
-        src="assets/img/pp.jpeg"
-        class="rounded border border-cream d-block m-auto p-1 mb-3"
-        width="120"
-        height="120"
-        alt="Ahmet Enes Duruer"
-      />
+      <div class="pp-bg py-4">
+        <img
+          src="assets/img/pp.jpeg"
+          class="rounded-circle d-block m-auto mb-3"
+          width="100"
+          height="100"
+          alt="Ahmet Enes Duruer"
+        />
+      </div>
     </div>
     <div class="col-6 text-right">
       <nav class="nav lead">
@@ -116,12 +117,16 @@
           </svg>
         </a>
       </ul>
-      <button class="btn bg-lightglass text-primary d-block m-auto">
-        Contact Me
-      </button>
+      <div>
+
+        <button class="btn bg-lightglass text-primary">Contact Me</button>
+        <button class="btn btn-link text-light">CV</button>
+      </div>
 
       <small class="d-inline-block text-muted pt-5">
-        Maded with ❤ and
+        Maded with
+        <span class="text-primary">❤</span>
+        and
         <a href="#">Svelte</a>
         .
       </small>
@@ -140,39 +145,78 @@
 
       <h3 class="py-3 text-light">Skills</h3>
 
-      <div class="row">
+      <div class="row flex-wrap">
         <div class="col-auto">
           <div class="skill kotlin-bg">
-            <span>Kotlin</span>
+            <span>
+              Kotlin
+              <small class="text-muted">
+                Android
+                <br />
+                Web
+              </small>
+            </span>
           </div>
         </div>
         <div class="col-auto">
           <div class="skill js-bg">
-            <span>Javascript</span>
+            <span>
+              Javascript
+              <small class="text-muted">
+                Hybrid App
+                <br />
+                Web App
+              </small>
+            </span>
           </div>
         </div>
         <div class="col-auto">
           <div class="skill">
-            <span>Mobile</span>
-          </div>
-        </div>
-        <div class="w-100 py-3"></div>
-        <div class="col-auto">
-          <div class="skill">
-            <span>Other</span>
-          </div>
-        </div>
-        <div class="col-auto">
-          <div class="skill">
-            <span>Other</span>
+            <span>
+              Java
+              <small class="text-muted">
+                Desktop App
+                <br />
+                Mobile App
+              </small>
+            </span>
           </div>
         </div>
         <div class="col-auto">
           <div class="skill">
-            <span>Other</span>
+            <span>
+              Linux
+              <small class="text-muted">
+                System OP
+                <br />
+                Server Mang.
+              </small>
+            </span>
           </div>
         </div>
       </div>
+
+      <!-- <h3 class="py-3 text-light">Experience</h3>
+      <div class="row mb-4">
+        <div class="col-auto d-flex align-items-center">
+          <img
+            src="assets/img/gm-logo.png"
+            alt="General Mobile Inc."
+            title="General Mobile Inc."
+            class="rounded-circle inc-logo"
+            width="64"
+            height="64"
+          />
+        </div>
+        <div class="col">
+          <a href="#" target="_blank" title="Click To Visit">
+            <h5 class="mb-1">General Mobile Inc.</h5>
+          </a>
+          Android Developer — 2018
+          <br />
+          <span class="text-muted">w/ Kotlin, Java</span>
+        </div>
+      </div> -->
     </div>
 
   </div>
