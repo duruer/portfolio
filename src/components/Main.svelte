@@ -120,7 +120,7 @@
         <a class="nav-link pl-0" class:active="{$path === '/'}" href="/">
           About
         </a>
-        <a class="nav-link" href="#">References</a>
+        <a class="nav-link" class:active="{$path === '/references'}" href="/references">References</a>
         <a class="nav-link" href="#">This Website</a>
         <a class="nav-link ml-auto" href="#">TR</a>
       </nav>
