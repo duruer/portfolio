@@ -6,7 +6,7 @@
   import LoadingPlaceHolder from "./LoadingPlaceHolder.svelte";
 
   let showLoading = true;
-  let showLoadingAlways = true;
+  let showLoadingAlways = false;
 
   const beforeRouteEnterHandler = beforeRouteEnter((context, next) => {
     showLoading = true;
