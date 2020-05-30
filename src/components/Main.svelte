@@ -241,7 +241,7 @@
             ></path>
           </svg>
         </a>
-        <a href="#">
+        <a href="https://linkedin.com/in/ahmet-enes-duruer-9bb3b554" target="_blank">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="20"
