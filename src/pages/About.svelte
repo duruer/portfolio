@@ -14,8 +14,11 @@
 
   <div class="row">
     <div class="col-6">
-      <div class="row align-items-center">
-        <div class="col-auto text-primary">
+      <div class="row">
+        <div
+          class="col-auto text-primary d-flex align-items-center
+          justify-content-center"
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
@@ -36,8 +39,11 @@
       </div>
     </div>
     <div class="col-6">
-      <div class="row align-items-center">
-        <div class="col-auto text-primary">
+      <div class="row">
+        <div
+          class="col-auto text-primary d-flex align-items-center
+          justify-content-center"
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
@@ -60,8 +66,11 @@
     </div>
     <div class="w-100 py-3"></div>
     <div class="col-6">
-      <div class="row align-items-center">
-        <div class="col-auto text-primary">
+      <div class="row">
+        <div
+          class="col-auto text-primary d-flex align-items-center
+          justify-content-center"
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="20"
@@ -86,8 +95,11 @@
 
     </div>
     <div class="col-6">
-      <div class="row align-items-center">
-        <div class="col-auto text-primary">
+      <div class="row">
+        <div
+          class="col-auto text-primary d-flex align-items-center
+          justify-content-center"
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="20"
