@@ -1,5 +1,5 @@
 <script>
-  import Router, { path, beforeRouteEnter, afterRouteEnter } from "routve";
+  import Router, { path, isPageLoading } from "routve";
   import { onDestroy } from "svelte";
 
   import RouterConfig from "../router.config";
@@ -8,20 +8,11 @@
   let showLoading = true;
   let showLoadingAlways = false;
 
-  const beforeRouteEnterHandler = beforeRouteEnter((context, next) => {
-    showLoading = true;
-
-    next();
+  const isPageLoadingUnsubscribe = isPageLoading.subscribe((value) => {
+    showLoading = value;
   });
 
-  const afterRouteEnterHandler = afterRouteEnter((context, next) => {
-    showLoading = false;
-
-    next();
-  });
-
-  onDestroy(beforeRouteEnterHandler);
-  onDestroy(afterRouteEnterHandler);
+  onDestroy(isPageLoadingUnsubscribe);
 </script>
 
 <div class="container">
@@ -241,7 +232,10 @@
             ></path>
           </svg>
         </a>
-        <a href="https://linkedin.com/in/ahmet-enes-duruer-9bb3b554" target="_blank">
+        <a
+          href="https://linkedin.com/in/ahmet-enes-duruer-9bb3b554"
+          target="_blank"
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="20"
