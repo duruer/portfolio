@@ -1,4 +1,4 @@
-<h4 class="pb-3 text-light">About Me</h4>
+<h4 class="mb-3 text-light">About Me</h4>
 <p>
   Hello, I'm Ahmet. Also known as "Kahverengi" in software and gaming world. A
   software developer and entrepreneur from Turkey. In my daily life, I create
@@ -9,7 +9,7 @@
 
 <hr />
 
-<h3 class="py-3 text-light">Skills</h3>
+<h4 class="mb-4 text-light">Skills</h4>
 
 <div class="row flex-wrap">
   <div class="col-auto">

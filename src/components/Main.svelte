@@ -131,7 +131,7 @@
       </div>
     </div>
     <div class="col-lg-6">
-      <nav class="nav lead pt-lg-0 pt-4">
+      <nav class="nav pt-lg-0 pt-4">
         <a class="nav-link pl-0" class:active="{$path === '/'}" href="/">
           About
         </a>

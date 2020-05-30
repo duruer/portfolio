@@ -12,7 +12,6 @@
   flex-direction: column;
   position: relative;
   background: $lightglass;
-  border: 10px solid $lightglass;
   margin-bottom: 24px;
   &:after {
     width: 95px;
@@ -80,7 +79,7 @@
 
 .nav-link.active {
   position: relative;
-  color: cyan;
+  color: lightgray;
   &:after {
     width: 100%;
     height: 20px;
@@ -89,7 +88,6 @@
     position: absolute;
     left: 0;
     bottom: -10px;
-    color: grey;
     background: url("/assets/img/menu-link-bg.svg") no-repeat center center;
     background-size: contain;
   }
