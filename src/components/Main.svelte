@@ -140,7 +140,7 @@
       </div>
     </div>
     <div class="col-lg-6">
-      <nav class="nav lead pt-lg-0 pt-4">
+      <nav class="nav pt-lg-0 pt-4">
         <a class="nav-link pl-0" class:active="{$path === '/'}" href="/">
           About
         </a>
@@ -241,7 +241,10 @@
             ></path>
           </svg>
         </a>
-        <a href="https://linkedin.com/in/ahmet-enes-duruer-9bb3b554" target="_blank">
+        <a
+          href="https://linkedin.com/in/ahmet-enes-duruer-9bb3b554"
+          target="_blank"
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="20"
