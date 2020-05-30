@@ -8,7 +8,7 @@
   let showLoading = true;
   let showLoadingAlways = false;
 
-  const isPageLoadingUnsubscribe = isPageLoading.subscribe((value) => {
+  const isPageLoadingUnsubscribe = isPageLoading.subscribe(value => {
     showLoading = value;
   });
 
@@ -127,7 +127,10 @@
         </a>
       </ul>
       <div>
-        <button class="btn bg-lightglass text-primary">Contact Me</button>
+        <button class="btn bg-lightglass text-primary">Contact</button>
+        <button class="btn btn-outline-lightglass text-light">
+          Download CV
+        </button>
       </div>
     </div>
     <div class="col-lg-6">
@@ -258,7 +261,10 @@
         </a>
       </ul>
       <div>
-        <button class="btn bg-lightglass text-primary">Contact Me</button>
+        <button class="btn bg-lightglass text-primary">Contact</button>
+        <button class="btn btn-outline-lightglass text-light">
+          Download CV
+        </button>
       </div>
 
       <small class="d-inline-block text-muted pt-5">
