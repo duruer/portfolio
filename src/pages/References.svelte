@@ -72,7 +72,7 @@
           <a href="#">
             <h5>Project Name</h5>
           </a>
-          <p>
+          <p class="mb-0">
             Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet
             consectetur
           </p>
@@ -95,7 +95,7 @@
           <a href="#">
             <h5>Project Name</h5>
           </a>
-          <p>Lorem ipsum dolor sit amet consectetur.</p>
+          <p class="mb-0">Lorem ipsum dolor sit amet consectetur.</p>
         </div>
       </div>
     </div>
@@ -115,7 +115,7 @@
           <a href="#">
             <h5>Project Name</h5>
           </a>
-          <p>Lorem ipsum dolor sit amet consectetur.</p>
+          <p class="mb-0">Lorem ipsum dolor sit amet consectetur.</p>
         </div>
       </div>
     </div>
