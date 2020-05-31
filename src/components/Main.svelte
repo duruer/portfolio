@@ -19,7 +19,7 @@
 
   <header class="row justify-content-center py-5">
     <div class="col-md-4 col-5">
-      <div class="pp-bg py-4">
+      <div class="py-4">
         <img
           src="/assets/img/pp.jpeg"
           class="rounded-circle d-block m-auto mb-3 img-shadow"
@@ -135,7 +135,9 @@
     </div>
     <div class="col-lg-6">
       <nav class="nav pt-lg-0 pt-4">
-        <a class="nav-link" class:active="{$path === '/'}" href="/">About</a>
+        <a class="nav-link pl-0" class:active="{$path === '/'}" href="/">
+          About
+        </a>
         <a
           class="nav-link"
           class:active="{$path === '/references'}"
