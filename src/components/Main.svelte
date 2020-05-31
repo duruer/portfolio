@@ -8,7 +8,7 @@
   let showLoading = true;
   let showLoadingAlways = false;
 
-  const isPageLoadingUnsubscribe = isPageLoading.subscribe(value => {
+  const isPageLoadingUnsubscribe = isPageLoading.subscribe((value) => {
     showLoading = value;
   });
 
@@ -147,8 +147,8 @@
         </a>
         <a
           class="nav-link"
-          class:active="{$path === '/this-website'}"
-          href="/this-website"
+          href="https://github.com/kahverengi001/portfolio"
+          target="_blank"
         >
           This Website
         </a>
