@@ -127,10 +127,15 @@
         </a>
       </ul>
       <div>
-        <button class="btn bg-lightglass text-primary">Contact</button>
-        <button class="btn btn-outline-lightglass text-light">
+        <a
+          href="mailto:mail@mail.com"
+          class="btn btn-outline-lightglass text-primary"
+        >
+          Contact
+        </a>
+        <a href="#" class="btn btn-outline-lightglass text-light">
           Download CV
-        </button>
+        </a>
       </div>
     </div>
     <div class="col-lg-6">
@@ -261,10 +266,15 @@
         </a>
       </ul>
       <div>
-        <button class="btn bg-lightglass text-primary">Contact</button>
-        <button class="btn btn-outline-lightglass text-light">
+        <a
+          href="mailto:mail@mail.com"
+          class="btn btn-outline-lightglass text-primary"
+        >
+          Contact
+        </a>
+        <a href="#" class="btn btn-outline-lightglass text-light">
           Download CV
-        </button>
+        </a>
       </div>
 
       <small class="d-inline-block text-muted pt-5">
