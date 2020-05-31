@@ -58,7 +58,7 @@
   <div class="row">
 
     <div class="col-lg-6">
-      <div class="row">
+      <div class="row mb-3">
         <div class="col-auto">
           <img
             src="assets/img/gm-logo.png"
@@ -78,7 +78,7 @@
     </div>
 
     <div class="col-lg-6">
-      <div class="row">
+      <div class="row mb-3">
         <div class="col-auto">
           <img
             src="assets/img/gm-logo.png"
@@ -98,7 +98,7 @@
     </div>
 
     <div class="col-lg-6">
-      <div class="row">
+      <div class="row mb-3">
         <div class="col-auto">
           <img
             src="assets/img/gm-logo.png"
