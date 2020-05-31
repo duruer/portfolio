@@ -5,7 +5,7 @@
 </style>
 
 <artice class="d-block mb-5">
-  <h4 class="mb-4 text-light">Experiences</h4>
+  <h4 class="mb-4 text-light">Work Experiences</h4>
 
   <div class="row mb-3">
     <div class="col-3">
@@ -54,5 +54,68 @@
 
 <article class="d-block mb-5">
   <h4 class="mb-4 text-light">Projects</h4>
+
+  <div class="row">
+
+    <div class="col-lg-6">
+      <div class="row">
+        <div class="col-auto">
+          <img
+            src="assets/img/gm-logo.png"
+            alt="Project Name"
+            width="64"
+            height="64"
+            class="rounded project-img"
+          />
+        </div>
+        <div class="col">
+          <a href="#">
+            <h5>Project Name</h5>
+          </a>
+          <p>Lorem ipsum dolor sit amet consectetur.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-6">
+      <div class="row">
+        <div class="col-auto">
+          <img
+            src="assets/img/gm-logo.png"
+            alt="Project Name"
+            width="64"
+            height="64"
+            class="rounded project-img"
+          />
+        </div>
+        <div class="col">
+          <a href="#">
+            <h5>Project Name</h5>
+          </a>
+          <p>Lorem ipsum dolor sit amet consectetur.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-6">
+      <div class="row">
+        <div class="col-auto">
+          <img
+            src="assets/img/gm-logo.png"
+            alt="Project Name"
+            width="64"
+            height="64"
+            class="rounded project-img"
+          />
+        </div>
+        <div class="col">
+          <a href="#">
+            <h5>Project Name</h5>
+          </a>
+          <p>Lorem ipsum dolor sit amet consectetur.</p>
+        </div>
+      </div>
+    </div>
+  </div>
 
 </article>
