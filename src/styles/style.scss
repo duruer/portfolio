@@ -75,41 +75,7 @@
   background: linear-gradient(90deg, $primary 0%, rgba(0, 0, 0, 0) 100%);
 }
 
-.nav-link.active {
-  font-weight: 600;
-}
-
-// .nav-link.active {
-//   font-weight: 600;
-//   position: relative;
-//   &::after {
-//     position: absolute;
-//     background: rgb(253, 160, 133);
-//     background: linear-gradient(
-//       90deg,
-//       rgba(253, 160, 133, 1) 40%,
-//       rgba(0, 0, 0, 0) 100%
-//     );
-//     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fda085",endColorstr="#000000",GradientType=1);
-//     border-radius: $border-radius;
-
-//     height: 10px;
-//     bottom: 0;
-//   }
-// }
-
-.inc-logo {
-  opacity: 0.5;
-  filter: grayscale(1);
-  transition: 0.5s all;
-  &:hover {
-    opacity: 1;
-    filter: grayscale(0);
-    transition: 0.5s all;
-  }
-}
-
-.img-shadow {
+.pp {
   border: 4px solid $body-bg;
   background: $primary;
   box-shadow: 5px 5px 0px 0px $primary;
