@@ -8,7 +8,7 @@
   let showLoading = true;
   let showLoadingAlways = false;
 
-  const isPageLoadingUnsubscribe = isPageLoading.subscribe((value) => {
+  const isPageLoadingUnsubscribe = isPageLoading.subscribe(value => {
     showLoading = value;
   });
 
@@ -135,9 +135,7 @@
     </div>
     <div class="col-lg-6">
       <nav class="nav pt-lg-0 pt-4">
-        <a class="nav-link pl-0" class:active="{$path === '/'}" href="/">
-          About
-        </a>
+        <a class="nav-link" class:active="{$path === '/'}" href="/">About</a>
         <a
           class="nav-link"
           class:active="{$path === '/references'}"

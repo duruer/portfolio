@@ -1,6 +1,6 @@
 <style>
   li {
-    list-style: ;
+    list-style: none;
   }
 </style>
 
@@ -12,7 +12,7 @@
       <li class="text-muted">2020 - Now</li>
     </div>
     <div class="col-9">
-      <a href="#" class="text-secondary">Company Name</a>
+      <a href="#">Company Name</a>
       /
       <i>UI/UX Designer, Project Head</i>
     </div>
@@ -23,7 +23,7 @@
       <li class="text-muted">2020 - Now</li>
     </div>
     <div class="col-9">
-      <a href="#" class="text-secondary">Company Name</a>
+      <a href="#">Company Name</a>
       /
       <i>UI/UX Designer, Project Head</i>
     </div>
@@ -34,7 +34,7 @@
       <li class="text-muted">2020 - Now</li>
     </div>
     <div class="col-9">
-      <a href="#" class="text-secondary">Company Name</a>
+      <a href="#">Company Name</a>
       /
       <i>UI/UX Designer, Project Head</i>
     </div>
@@ -45,7 +45,7 @@
       <li class="text-muted">2020 - Now</li>
     </div>
     <div class="col-9">
-      <a href="#" class="text-secondary">Company Name</a>
+      <a href="#">Company Name</a>
       /
       <i>UI/UX Designer, Project Head</i>
     </div>
