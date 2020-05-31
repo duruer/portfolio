@@ -6,9 +6,6 @@ export default {
     "/references": {
       component: () => import("./pages/References.svelte")
     },
-    "/this-website": {
-      component: () => import("./pages/ThisWebsite.svelte")
-    },
     "/project/:project": {
       component: () => import("./pages/ProjectDetail.svelte")
     },
