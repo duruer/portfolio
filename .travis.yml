@@ -27,6 +27,6 @@ deploy:
   skip_cleanup: true
   api_key: $HEROKU_API_KEY
   strategy: api
-  app: test-kahverengi-portfolio
+  app: kahverengi-portfolio
   on:
     branch: master
