@@ -14,42 +14,13 @@
     <div class="col-9">
       <a href="#">Company Name</a>
       /
-      <i>UI/UX Designer, Project Head</i>
+      <i>
+        UI/UX Designer, Project Head
+        <a title="Go Details" href="#">≫</a>
+      </i>
     </div>
   </div>
 
-  <div class="row mb-3">
-    <div class="col-3">
-      <li class="text-muted">2020 - Now</li>
-    </div>
-    <div class="col-9">
-      <a href="#">Company Name</a>
-      /
-      <i>UI/UX Designer, Project Head</i>
-    </div>
-  </div>
-
-  <div class="row mb-3">
-    <div class="col-3">
-      <li class="text-muted">2020 - Now</li>
-    </div>
-    <div class="col-9">
-      <a href="#">Company Name</a>
-      /
-      <i>UI/UX Designer, Project Head</i>
-    </div>
-  </div>
-
-  <div class="row mb-3">
-    <div class="col-3">
-      <li class="text-muted">2020 - Now</li>
-    </div>
-    <div class="col-9">
-      <a href="#">Company Name</a>
-      /
-      <i>UI/UX Designer, Project Head</i>
-    </div>
-  </div>
 </artice>
 
 <article class="d-block mb-5">
