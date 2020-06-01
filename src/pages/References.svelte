@@ -4,22 +4,33 @@
   }
 </style>
 
+<script>
+  import References from "../references.config";
+</script>
+
 <artice class="d-block mb-5">
   <h4 class="mb-4 text-light">Work Experiences</h4>
 
-  <div class="row mb-3">
-    <div class="col-3">
-      <li class="text-muted">2020 - Now</li>
+  {#each Object.values(References['works']) as work, index (work)}
+    <div class="row mb-3">
+      <div class="col-3">
+        <li class="text-muted">{work.startDate} - {work.endDate}</li>
+      </div>
+      <div class="col-9">
+        <a href="{work.webAddress}" target="_blank">{work.companyName}</a>
+        /
+        <i>
+          {work.position}
+          <a
+            title="Go Details"
+            href="/work/{Object.keys(References['works']).find((key) => References['works'][key] === work)}"
+          >
+            ≫
+          </a>
+        </i>
+      </div>
     </div>
-    <div class="col-9">
-      <a href="#">Company Name</a>
-      /
-      <i>
-        UI/UX Designer, Project Head
-        <a title="Go Details" href="#">≫</a>
-      </i>
-    </div>
-  </div>
+  {/each}
 
 </artice>
 
