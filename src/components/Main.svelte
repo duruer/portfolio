@@ -18,7 +18,7 @@
 <div class="container">
 
   <header class="row justify-content-center py-5">
-    <div class="col-md-4 col-5">
+    <div class="col-4">
       <div class="pb-4">
         <img
           src="/assets/img/pp.jpeg"
@@ -127,11 +127,11 @@
       <div>
         <a
           href="mailto:mail@mail.com"
-          class="btn btn-outline-lightglass text-primary btn-sm"
+          class="btn btn-outline-lightglass text-primary"
         >
           Contact
         </a>
-        <a href="#" class="btn btn-outline-lightglass text-light btn-sm">
+        <a href="#" class="btn btn-outline-lightglass text-light">
           Download CV
         </a>
       </div>
