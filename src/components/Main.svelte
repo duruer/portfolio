@@ -19,7 +19,7 @@
 
   <header class="row justify-content-center py-5">
     <div class="col-md-4 col-5">
-      <div class="py-4">
+      <div class="pb-4">
         <img
           src="/assets/img/pp.jpeg"
           class="rounded-circle d-block m-auto mb-3 pp"
@@ -30,15 +30,13 @@
       </div>
     </div>
     <div class="col d-lg-none">
-      <div class="pb-3">
-        <h4 class="font-weight-normal text-white">Ahmet Enes Duruer</h4>
-        <p>
-          Software Developer,
-          <br />
-          Entrepreneur
-        </p>
-      </div>
-      <ul class="list-unstyled pb-3">
+      <h4 class="font-weight-normal text-white">Ahmet Enes Duruer</h4>
+      <p class="mb-2">
+        Software Developer,
+        <br />
+        Entrepreneur
+      </p>
+      <ul class="list-unstyled py-2">
         <a href="https://gitlab.com/kahverengi" target="_blank">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -129,11 +127,11 @@
       <div>
         <a
           href="mailto:mail@mail.com"
-          class="btn btn-outline-lightglass text-primary"
+          class="btn btn-outline-lightglass text-primary btn-sm"
         >
           Contact
         </a>
-        <a href="#" class="btn btn-outline-lightglass text-light">
+        <a href="#" class="btn btn-outline-lightglass text-light btn-sm">
           Download CV
         </a>
       </div>
@@ -165,14 +163,12 @@
   <div class="row justify-content-center">
 
     <div class="col-lg-4 text-center d-lg-block d-none">
-      <div class="pb-3">
-        <h4 class="font-weight-normal text-white">Ahmet Enes Duruer</h4>
-        <p>
-          Software Developer,
-          <br />
-          Entrepreneur
-        </p>
-      </div>
+      <h4 class="font-weight-normal text-white">Ahmet Enes Duruer</h4>
+      <p class="mb-4">
+        Software Developer,
+        <br />
+        Entrepreneur
+      </p>
       <ul class="list-unstyled pb-3">
         <a href="https://gitlab.com/kahverengi" target="_blank">
           <svg
