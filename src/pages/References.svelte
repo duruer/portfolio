@@ -17,7 +17,7 @@
         <li class="text-muted">{work.startDate} - {work.endDate}</li>
       </div>
       <div class="col-9">
-        <a href="{work.webAddress}" target="_blank">{work.companyName}</a>
+        <a href="{work.webAddress}" target="_blank">{work.companyName} ({work.location.city})</a>
         /
         <i>
           {work.position}

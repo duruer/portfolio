@@ -1,11 +1,23 @@
 <script>
+  import { route } from "routve";
+
+  import References from "../references.config";
+
   export let work;
+
+  if (
+    typeof work === "undefined" ||
+    work === null ||
+    References["works"][work] === undefined
+  )
+    route("/error-404");
+  else work = References["works"][work];
 </script>
 
 <artice class="mb-5">
   <h4 class="mb-4 text-light">
     <a href="#">Work</a>
-    ≫ General Mobile Inc.
+    ≫ {work.companyName}
   </h4>
   <img
     src="../assets/img/gm-logo.jpeg"
@@ -57,7 +69,7 @@
           <circle cx="12" cy="10" r="3"></circle>
         </svg>
       </span>
-      İstanbul, Turkey
+      {work.location.city}, {work.location.country}
     </li>
   </ul>
 
