@@ -49,7 +49,7 @@
           <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
         </svg>
       </span>
-      as Android Developer, between 2018-1019
+      as {work.position}, between {work.startDate}-{work.endDate}
     </li>
     <li>
       <span class="mr-2 text-primary">
