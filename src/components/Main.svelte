@@ -15,7 +15,6 @@
 
   import RouterConfig from "../router.config";
   import LoadingPlaceHolder from "./LoadingPlaceHolder.svelte";
-  import { lang } from "../store";
 
   let showLoading = true;
   let showLoadingAlways = false;
@@ -29,21 +28,15 @@
 
   init({
     fallbackLocale: "en",
-    initialLocale: getLocaleFromNavigator(),
-  });
-
-  const localeUnsubscribe = locale.subscribe((value) => {
-    if (value === "tr") lang.set("tr");
-    else lang.set("en");
+    initialLocale: getLocaleFromNavigator().toUpperCase() === "tr".toUpperCase() || getLocaleFromNavigator().toUpperCase() === "tr-tr".toUpperCase() ? "tr" : "en",
   });
 
   function onLocaleChangeClick() {
-    if (get(lang) === "tr") locale.set("en");
+    if (get(locale) === "tr") locale.set("en");
     else locale.set("tr");
   }
 
   onDestroy(isPageLoadingUnsubscribe);
-  onDestroy(localeUnsubscribe);
 </script>
 
 <svelte:head>
@@ -198,7 +191,7 @@
           on:click="{() => onLocaleChangeClick()}"
           title="{$_('language.change_title')}"
         >
-          {$lang === 'tr' ? 'EN (US)' : 'TR'}
+          {$locale === 'tr' ? 'EN (US)' : 'TR'}
         </a>
       </nav>
     </div>
