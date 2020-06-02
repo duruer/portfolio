@@ -108,7 +108,19 @@ export default {
         description: "A complete Turkish Minecraft MMORPG community server."
       },
     },
-    "Papuaya": {
+    "sosyal-okul": {
+      tr: {
+        logoImage: "/assets/img/references/projects/sosyal-okul-image.jpg",
+        projectName: "Sosyal Okul",
+        description: "Okullar için tasarlanmış bir sosyal medya paylaşım sitesi."
+      },
+      en: {
+        logoImage: "/assets/img/references/projects/sosyal-okul-image.jpg",
+        projectName: "Social School",
+        description: "A social networking website designed for schools."
+      },
+    },
+    "papuaya": {
       tr: {
         logoImage: "/assets/img/references/projects/papuaya-image.png",
         projectName: "Papuaya",
