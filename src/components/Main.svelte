@@ -156,7 +156,7 @@
       </ul>
       <div>
         <a
-          href="mailto:mail@mail.com"
+          href="mailto:ahmet.duruer@yandex.com"
           class="btn btn-outline-lightglass text-primary"
         >
           {$_('bio.contact_button')}
@@ -298,7 +298,7 @@
       </ul>
       <div>
         <a
-          href="mailto:mail@mail.com"
+          href="mailto:ahmet.duruer@yandex.com"
           class="btn btn-outline-lightglass text-primary"
         >
           {$_('bio.contact_button')}
