@@ -36,6 +36,9 @@
       "used_technologies": "Used Technologies",
       "position": "as {position}, between {startDate}-{endDate}",
       "still": "present"
+    },
+    "error_404": {
+      "message": "Welp, I haven't seen this page before ever..."
     }
   }
 }
