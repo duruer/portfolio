@@ -6,7 +6,7 @@
     addMessages,
     init,
     getLocaleFromNavigator,
-    locale
+    locale,
   } from "svelte-i18n";
   import { get } from "svelte/store";
 
@@ -15,11 +15,12 @@
 
   import RouterConfig from "../router.config";
   import LoadingPlaceHolder from "./LoadingPlaceHolder.svelte";
+  import { lang } from "../store";
 
   let showLoading = true;
   let showLoadingAlways = false;
 
-  const isPageLoadingUnsubscribe = isPageLoading.subscribe(value => {
+  const isPageLoadingUnsubscribe = isPageLoading.subscribe((value) => {
     showLoading = value;
   });
 
@@ -28,15 +29,21 @@
 
   init({
     fallbackLocale: "en",
-    initialLocale: getLocaleFromNavigator()
+    initialLocale: getLocaleFromNavigator(),
+  });
+
+  const localeUnsubscribe = locale.subscribe((value) => {
+    if (value === "tr") lang.set("tr");
+    else lang.set("en");
   });
 
   function onLocaleChangeClick() {
-    if (get(locale) === "tr") locale.set("en");
+    if (get(lang) === "tr") locale.set("en");
     else locale.set("tr");
   }
 
   onDestroy(isPageLoadingUnsubscribe);
+  onDestroy(localeUnsubscribe);
 </script>
 
 <svelte:head>
@@ -191,7 +198,7 @@
           on:click="{() => onLocaleChangeClick()}"
           title="{$_('language.change_title')}"
         >
-          {$locale === 'tr' ? 'EN (US)' : 'TR'}
+          {$lang === 'tr' ? 'EN (US)' : 'TR'}
         </a>
       </nav>
     </div>

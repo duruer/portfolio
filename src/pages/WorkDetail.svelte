@@ -1,10 +1,11 @@
 <script>
   import { route } from "routve";
-  import { _, locale } from "svelte-i18n";
+  import { _ } from "svelte-i18n";
   import { onDestroy } from "svelte";
   import { get } from "svelte/store";
 
   import References from "../references.config";
+  import { lang } from "../store";
 
   export let workID;
   let work;
@@ -17,13 +18,13 @@
     route("/error-404");
     work = null;
   } else {
-    const localeSubscriber = locale.subscribe((locale) => {
-      work = References["works"][workID][locale];
+    const langSubscriber = lang.subscribe((value) => {
+      work = References["works"][workID][value];
     });
 
-    work = References["works"][workID][get(locale)];
+    work = References["works"][workID][get(lang)];
 
-    onDestroy(localeSubscriber);
+    onDestroy(langSubscriber);
   }
 </script>
 
