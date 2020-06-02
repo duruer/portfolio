@@ -8,6 +8,7 @@
   "bio": {
     "status": "Yazılım Geliştiricisi,<br />Girişimci",
     "contact_button": "İletişim",
-    "download_cv_button": "CV'yi İndir"
+    "download_cv_button": "CV'yi İndir",
+    "made_with": "<span class=\"text-primary\">❤</span> ve <a href=\"https://svelte.dev/\" target=\"_blank\">Svelte</a> ile yapıldı."
   }
 }

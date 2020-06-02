@@ -306,11 +306,7 @@
       </div>
 
       <small class="d-inline-block text-muted pt-5">
-        Made with
-        <span class="text-primary">❤</span>
-        and
-        <a href="https://svelte.dev/" target="_blank">Svelte</a>
-        .
+        {@html $_("bio.made_with")}
       </small>
       <div class="particle-1"></div>
     </div>

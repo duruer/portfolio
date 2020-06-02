@@ -8,6 +8,7 @@
   "bio": {
     "status": "Software Developer, <br /> Entrepreneur",
     "contact_button": "Contact",
-    "download_cv_button": "Download CV"
+    "download_cv_button": "Download CV",
+    "made_with": "Made with <span class=\"text-primary\">❤</span> and <a href=\"https://svelte.dev/\" target=\"_blank\">Svelte</a>."
   }
 }
