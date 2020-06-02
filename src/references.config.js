@@ -59,5 +59,14 @@ export default {
       },
     },
   },
-  projects: {},
+  projects: {
+    routve: {
+      tr: {
+        logoImage: "/assets/img/references/companies/gm-logo-white.png",
+      },
+      en: {
+        logoImage: "/assets/img/references/companies/gm-logo-white.png",
+      },
+    },
+  },
 };
