@@ -95,7 +95,7 @@
 
   <h5 class="my-4">{$_('pages.work_details.used_technologies')}</h5>
   <ul class="list-inline">
-    {#each work.usedTechnologies as technology, index (technology)}
+    {#each work ? work.usedTechnologies : [] as technology, index (technology)}
       <li>- {technology}</li>
     {/each}
   </ul>
