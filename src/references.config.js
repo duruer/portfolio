@@ -60,6 +60,18 @@ export default {
     },
   },
   projects: {
+    "pano": {
+      tr: {
+        logoImage: "/assets/img/references/projects/pano-logo.png",
+        projectName: "Pano",
+        description: "Minecraft sunucunuzun website ihtiyaçlarını karşılayan gelişmiş bir web platform."
+      },
+      en: {
+        logoImage: "/assets/img/references/projects/pano-logo.png",
+        projectName: "Pano",
+        description: "An advanced web platform that comfort your Minecraft server's website needs."
+      },
+    },
     "routve": {
       tr: {
         logoImage: "/assets/img/references/projects/routve-logo.png",
@@ -70,30 +82,6 @@ export default {
         logoImage: "/assets/img/references/projects/routve-logo.png",
         projectName: "Routve",
         description: "An advanced <a href='https://svelte.dev' target='_blank'>Svelte 3</a> router library."
-      },
-    },
-    "pano": {
-      tr: {
-        logoImage: "/assets/img/references/companies/gm-logo-white.png",
-        projectName: "Routve",
-        description: "Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur."
-      },
-      en: {
-        logoImage: "/assets/img/references/companies/gm-logo-white.png",
-        projectName: "Routve",
-        description: "Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur."
-      },
-    },
-    "antik-küp": {
-      tr: {
-        logoImage: "/assets/img/references/companies/gm-logo-white.png",
-        projectName: "Routve",
-        description: "Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur."
-      },
-      en: {
-        logoImage: "/assets/img/references/companies/gm-logo-white.png",
-        projectName: "Routve",
-        description: "Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur."
       },
     },
   },
