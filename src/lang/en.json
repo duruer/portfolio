@@ -6,6 +6,8 @@
     "this_website": "This Website"
   },
   "bio": {
-    "status": "Software Developer, <br /> Entrepreneur"
+    "status": "Software Developer, <br /> Entrepreneur",
+    "contact_button": "Contact",
+    "download_cv_button": "Download CV"
   }
 }

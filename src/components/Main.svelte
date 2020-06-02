@@ -298,10 +298,10 @@
           href="mailto:mail@mail.com"
           class="btn btn-outline-lightglass text-primary"
         >
-          Contact
+          {$_("bio.contact_button")}
         </a>
         <a href="#" class="btn btn-outline-lightglass text-light">
-          Download CV
+          {$_("bio.download_cv_button")}
         </a>
       </div>
 

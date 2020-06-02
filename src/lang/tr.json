@@ -6,6 +6,8 @@
     "this_website": "Bu Website"
   },
   "bio": {
-    "status": "Yazılım Geliştiricisi,<br />Girişimci"
+    "status": "Yazılım Geliştiricisi,<br />Girişimci",
+    "contact_button": "İletişim",
+    "download_cv_button": "CV'yi İndir"
   }
 }
