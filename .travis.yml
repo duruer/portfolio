@@ -23,10 +23,17 @@ install:
   - rm -rf portfolio-front-end
 
 deploy:
-  provider: heroku
-  skip_cleanup: true
-  api_key: $HEROKU_API_KEY
-  strategy: api
-  app: kahverengi-portfolio
-  on:
-    branch: master
+  - provider: heroku
+    skip_cleanup: true
+    api_key: $HEROKU_API_KEY
+    strategy: api
+    app: kahverengi-portfolio
+    on:
+      branch: master
+  - provider: heroku
+    skip_cleanup: true
+    api_key: $HEROKU_API_KEY
+    strategy: api
+    app: test-kahverengi-portfolio
+    on:
+      branch: staging
