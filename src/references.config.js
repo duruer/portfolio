@@ -60,6 +60,18 @@ export default {
     },
   },
   projects: {
+    "portfolio": {
+      tr: {
+        logoImage: "/assets/img/references/projects/portfolio-tr.png",
+        projectName: "Portfolio",
+        description: "Kendi portfolyo websitem."
+      },
+      en: {
+        logoImage: "/assets/img/references/projects/portfolio-en.png",
+        projectName: "Portfolio",
+        description: "My own portfolio website."
+      },
+    },
     "pano": {
       tr: {
         logoImage: "/assets/img/references/projects/pano-logo.png",
