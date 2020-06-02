@@ -10,5 +10,17 @@
     "contact_button": "Contact",
     "download_cv_button": "Download CV",
     "made_with": "Made with <span class=\"text-primary\">❤</span> and <a href=\"https://svelte.dev/\" target=\"_blank\">Svelte</a>."
+  },
+  "pages": {
+    "about": {
+      "title": "About Me",
+      "description": "Hello, I'm Ahmet. Also known as \"Kahverengi\" in software and gaming world. A software developer and entrepreneur from Turkey. In my daily life, I create and work on websites, mobile applications and personal projects. In my free times, I develop myself in programming and trying new technologies. Mainly, I'm a back-end developer.",
+      "interests_title": "Interests",
+      "skills_title": "Skills",
+      "skills": {
+        "database_title": "Database",
+        "others_title": "Others"
+      }
+    }
   }
 }

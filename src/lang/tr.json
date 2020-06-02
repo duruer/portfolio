@@ -10,5 +10,17 @@
     "contact_button": "İletişim",
     "download_cv_button": "CV'yi İndir",
     "made_with": "<span class=\"text-primary\">❤</span> ve <a href=\"https://svelte.dev/\" target=\"_blank\">Svelte</a> ile yapıldı."
+  },
+  "pages": {
+    "about": {
+      "title": "Hakkımda",
+      "description": "Merhaba, ben Ahmet. Ya da oyun ve yazılım dünyasında \"Kahverengi\". Sakarya'dan bir yazılım geliştiricisi ve girişimci. Günlük hayatımda, websiteler, mobil uygulamalar ve kişisel projelerimle uğraşıyorum. Boş zamanlarımda, yazılımda yeni teknolojiler deniyor ve öğreniyorum. Genel olarak, bir Back-End geliştiricisiyim.",
+      "interests_title": "İlgi Alanlarım",
+      "skills_title": "Yeteneklerim",
+      "skills": {
+        "database_title": "Veritabanı",
+        "others_title": "Diğerleri"
+      }
+    }
   }
 }

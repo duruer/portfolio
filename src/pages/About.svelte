@@ -1,16 +1,16 @@
+<script>
+  import { _ } from "svelte-i18n";
+</script>
+
 <artice class="d-block mb-5">
-  <h4 class="mb-4 text-light">About Me</h4>
+  <h4 class="mb-4 text-light">{$_("pages.about.title")}</h4>
   <p class="mb-0">
-    Hello, I'm Ahmet. Also known as "Kahverengi" in software and gaming world. A
-    software developer and entrepreneur from Turkey. In my daily life, I create
-    and work on websites, mobile applications and personal projects. In my free
-    times, I develop myself in programming and trying new technologies. Mainly,
-    I'm a back-end developer.
+    {$_("pages.about.description")}
   </p>
 </artice>
 
 <artice class="d-block mb-5">
-  <h4 class="mb-4 text-light">Interests</h4>
+  <h4 class="mb-4 text-light">{$_("pages.about.interests_title")}</h4>
 
   <div class="row">
     <div class="col-6">
@@ -127,7 +127,7 @@
 </artice>
 
 <artice class="d-block mb-5">
-  <h4 class="mb-4 text-light">Skills</h4>
+  <h4 class="mb-4 text-light">{$_("pages.about.skills_title")}</h4>
   <div class="row flex-wrap">
     <div class="col-auto">
       <div class="skill kotlin-bg">
@@ -182,7 +182,7 @@
     <div class="col-auto">
       <div class="skill db-bg">
         <span>
-          Database
+          {$_("pages.about.skills.database_title")}
           <small class="text-muted">
             <br />
             MySQL
@@ -195,7 +195,7 @@
     <div class="col-auto">
       <div class="skill">
         <span>
-          Others
+          {$_("pages.about.skills.others_title")}
           <small class="text-muted">
             <br />
             Git
