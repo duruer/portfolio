@@ -5,22 +5,25 @@
 
   export let work;
 
-  if (
-    typeof work === "undefined" ||
-    work === null ||
-    References["works"][work] === undefined
-  )
-    route("/error-404");
-  else work = References["works"][work];
+  $: {
+    if (
+      typeof work === "undefined" ||
+      work === null ||
+      typeof References["works"][work] === "undefined"
+    ) {
+      route("/error-404");
+      work = null;
+    } else work = References["works"][work];
+  }
 </script>
 
 <artice class="mb-5">
   <h4 class="mb-4 text-light">
-    <a href="#">Work</a>
-    ≫ {work.companyName}
+    <a href="/references#work">Work</a>
+    ≫ {work ? work.companyName : ''}
   </h4>
   <img
-    src="../assets/img/gm-logo-dark.jpeg"
+    src="{work ? work.logoImage : ''}"
     alt="General Mobile Inc."
     class="rounded img-fluid"
   />
@@ -49,7 +52,7 @@
           <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
         </svg>
       </span>
-      as {work.position}, between {work.startDate}-{work.endDate}
+      as {work ? work.position : ''}, between {work ? work.startDate : ''}-{work ? work.endDate : ''}
     </li>
     <li>
       <span class="mr-2 text-primary">
@@ -69,7 +72,7 @@
           <circle cx="12" cy="10" r="3"></circle>
         </svg>
       </span>
-      {work.location.city}, {work.location.country}
+      {work ? work.location.city : ''}, {work ? work.location.country : ''}
     </li>
   </ul>
 
@@ -78,5 +81,4 @@
     <li>- Kotlin</li>
     <li>- Java</li>
   </ul>
-
 </artice>
