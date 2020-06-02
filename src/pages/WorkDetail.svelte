@@ -1,20 +1,29 @@
 <script>
   import { route } from "routve";
-  import { _ } from "svelte-i18n";
+  import { _, locale } from "svelte-i18n";
+  import { onDestroy } from "svelte";
+  import { get } from "svelte/store";
 
   import References from "../references.config";
 
-  export let work;
+  export let workID;
+  let work;
 
-  $: {
-    if (
-      typeof work === "undefined" ||
-      work === null ||
-      typeof References["works"][work] === "undefined"
-    ) {
-      route("/error-404");
-      work = null;
-    } else work = References["works"][work];
+  if (
+    typeof workID === "undefined" ||
+    workID === null ||
+    typeof References["works"][workID] === "undefined"
+  ) {
+    route("/error-404");
+    work = null;
+  } else {
+    const localeSubscriber = locale.subscribe((locale) => {
+      work = References["works"][workID][locale];
+    });
+
+    work = References["works"][workID][get(locale)];
+
+    onDestroy(localeSubscriber);
   }
 </script>
 

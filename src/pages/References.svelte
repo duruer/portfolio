@@ -5,7 +5,7 @@
 </style>
 
 <script>
-  import { _ } from "svelte-i18n";
+  import { _, locale } from "svelte-i18n";
 
   import References from "../references.config";
 </script>
@@ -16,13 +16,13 @@
   {#each Object.values(References['works']) as work, index (work)}
     <div class="row mb-3">
       <div class="col-3">
-        <li class="text-muted">{work.startDate} - {work.endDate}</li>
+        <li class="text-muted">{work[$locale].startDate} - {work[$locale].endDate}</li>
       </div>
       <div class="col-9">
-        <a href="{work.webAddress}" target="_blank">{work.companyName} ({work.location.city})</a>
+        <a href="{work[$locale].webAddress}" target="_blank">{work[$locale].companyName} ({work[$locale].location.city})</a>
         /
         <i>
-          {work.position}
+          {work[$locale].position}
           <a
             title="{$_('pages.references.go_details')}"
             href="/work/{Object.keys(References['works']).find((key) => References['works'][key] === work)}"
