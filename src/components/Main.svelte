@@ -60,9 +60,7 @@
     <div class="col d-lg-none">
       <h4 class="font-weight-normal text-white">Ahmet Enes Duruer</h4>
       <p class="mb-2">
-        Software Developer,
-        <br />
-        Entrepreneur
+        {@html $_("bio.status")}
       </p>
       <ul class="list-unstyled py-2">
         <a href="https://gitlab.com/kahverengi" target="_blank">
@@ -157,10 +155,10 @@
           href="mailto:mail@mail.com"
           class="btn btn-outline-lightglass text-primary"
         >
-          Contact
+          {$_("bio.contact_button")}
         </a>
         <a href="#" class="btn btn-outline-lightglass text-light">
-          Download CV
+          {$_("bio.download_cv_button")}
         </a>
       </div>
     </div>
