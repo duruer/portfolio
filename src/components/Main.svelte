@@ -189,6 +189,7 @@
           class="nav-link ml-auto"
           href="javascript:void(0);"
           on:click="{() => onLocaleChangeClick()}"
+          title="{$_('language.change_title')}"
         >
           {$locale === 'tr' ? 'EN (US)' : 'TR'}
         </a>

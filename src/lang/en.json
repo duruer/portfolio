@@ -1,5 +1,8 @@
 {
   "page_title": "Ahmet Enes Duruer - Software Developer",
+  "language": {
+    "change_title": "Change Language"
+  },
   "nav_links": {
     "about": "About",
     "references": "References",
