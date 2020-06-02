@@ -6,7 +6,7 @@
     addMessages,
     init,
     getLocaleFromNavigator,
-    locale,
+    locale
   } from "svelte-i18n";
   import { get } from "svelte/store";
 
@@ -19,7 +19,7 @@
   let showLoading = true;
   let showLoadingAlways = false;
 
-  const isPageLoadingUnsubscribe = isPageLoading.subscribe((value) => {
+  const isPageLoadingUnsubscribe = isPageLoading.subscribe(value => {
     showLoading = value;
   });
 
@@ -28,7 +28,7 @@
 
   init({
     fallbackLocale: "en",
-    initialLocale: getLocaleFromNavigator(),
+    initialLocale: getLocaleFromNavigator()
   });
 
   function onLocaleChangeClick() {
@@ -45,14 +45,14 @@
 
 <div class="container">
 
-  <header class="row justify-content-center py-5">
+  <header class="row justify-content-center py-4">
     <div class="col-4">
       <div class="pb-4">
         <img
           src="/assets/img/pp.jpeg"
-          class="rounded-circle d-block m-auto mb-3 pp"
-          width="100"
-          height="100"
+          class="rounded-circle d-block m-auto pp"
+          width="120"
+          height="120"
           alt="Ahmet Enes Duruer"
         />
       </div>
