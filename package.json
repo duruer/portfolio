@@ -12,6 +12,7 @@
     "@babel/plugin-transform-runtime": "^7.10.1",
     "@babel/preset-env": "^7.10.2",
     "@rollup/plugin-commonjs": "12.0.0",
+    "@rollup/plugin-json": "^4.0.3",
     "@rollup/plugin-node-resolve": "^8.0.0",
     "@rollup/plugin-replace": "^2.3.2",
     "autoprefixer": "^9.8.0",
@@ -32,6 +33,7 @@
     "sass": "^1.26.7",
     "sirv-cli": "^0.4.6",
     "svelte": "^3.23.0",
+    "svelte-i18n": "^3.0.4",
     "svelte-preprocess": "^3.7.4"
   }
 }

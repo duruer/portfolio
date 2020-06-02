@@ -8,6 +8,7 @@ import livereload from "rollup-plugin-livereload";
 import { terser } from "rollup-plugin-terser";
 import babel from "rollup-plugin-babel";
 import rmdir from "rimraf";
+import json from '@rollup/plugin-json';
 
 rmdir("public/assets", function (error) {});
 
@@ -27,6 +28,8 @@ const watch = {
 };
 
 const plugins = [
+  json(),
+
   copyTo({
     assets: ["./src/assets"],
     outputDir: "public",

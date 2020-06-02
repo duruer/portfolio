@@ -1,6 +1,17 @@
 <script>
   import Router, { path, isPageLoading } from "routve";
   import { onDestroy } from "svelte";
+  import {
+    _,
+    addMessages,
+    init,
+    getLocaleFromNavigator,
+    locale,
+  } from "svelte-i18n";
+  import { get } from "svelte/store";
+
+  import tr from "../lang/tr.json";
+  import en from "../lang/en.json";
 
   import RouterConfig from "../router.config";
   import LoadingPlaceHolder from "./LoadingPlaceHolder.svelte";
@@ -8,12 +19,29 @@
   let showLoading = true;
   let showLoadingAlways = false;
 
-  const isPageLoadingUnsubscribe = isPageLoading.subscribe(value => {
+  const isPageLoadingUnsubscribe = isPageLoading.subscribe((value) => {
     showLoading = value;
   });
 
+  addMessages("tr", tr);
+  addMessages("en", en);
+
+  init({
+    fallbackLocale: "en",
+    initialLocale: getLocaleFromNavigator(),
+  });
+
+  function onLocaleChangeClick() {
+    if (get(locale) === "tr") locale.set("en");
+    else locale.set("tr");
+  }
+
   onDestroy(isPageLoadingUnsubscribe);
 </script>
+
+<svelte:head>
+  <title>{$_('page_title')}</title>
+</svelte:head>
 
 <div class="container">
 
@@ -155,7 +183,13 @@
         >
           This Website
         </a>
-        <a class="nav-link ml-auto" href="#">TR</a>
+        <a
+          class="nav-link ml-auto"
+          href="javascript:void(0);"
+          on:click="{() => onLocaleChangeClick()}"
+        >
+          {$locale === "tr" ? "EN (US)" : "TR"}
+        </a>
       </nav>
     </div>
   </header>
