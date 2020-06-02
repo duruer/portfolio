@@ -62,14 +62,14 @@ export default {
   projects: {
     "routve": {
       tr: {
-        logoImage: "/assets/img/references/companies/gm-logo-white.png",
+        logoImage: "/assets/img/references/projects/routve-logo.png",
         projectName: "Routve",
-        description: "Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur."
+        description: "Gelişmiş bir <a href='https://svelte.dev' target='_blank'>Svelte 3</a> router kütüphanesi."
       },
       en: {
-        logoImage: "/assets/img/references/companies/gm-logo-white.png",
+        logoImage: "/assets/img/references/projects/routve-logo.png",
         projectName: "Routve",
-        description: "Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur."
+        description: "An advanced <a href='https://svelte.dev' target='_blank'>Svelte 3</a> router library."
       },
     },
     "pano": {

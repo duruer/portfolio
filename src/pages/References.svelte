@@ -61,7 +61,7 @@
               <h5>{project[$locale].projectName}</h5>
             </a>
             <p class="mb-0">
-              {project[$locale].description}
+              {@html project[$locale].description}
             </p>
           </div>
         </div>
