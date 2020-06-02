@@ -4,5 +4,8 @@
     "about": "About",
     "references": "References",
     "this_website": "This Website"
+  },
+  "bio": {
+    "status": "Software Developer, <br /> Entrepreneur"
   }
 }

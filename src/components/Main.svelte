@@ -199,9 +199,7 @@
     <div class="col-lg-4 text-center d-lg-block d-none">
       <h4 class="font-weight-normal text-white">Ahmet Enes Duruer</h4>
       <p class="mb-4">
-        Software Developer,
-        <br />
-        Entrepreneur
+        {@html $_("bio.status")}
       </p>
       <ul class="list-unstyled pb-3">
         <a href="https://gitlab.com/kahverengi" target="_blank">
