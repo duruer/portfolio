@@ -60,12 +60,40 @@ export default {
     },
   },
   projects: {
-    routve: {
+    "routve": {
       tr: {
         logoImage: "/assets/img/references/companies/gm-logo-white.png",
+        projectName: "Routve",
+        description: "Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur."
       },
       en: {
         logoImage: "/assets/img/references/companies/gm-logo-white.png",
+        projectName: "Routve",
+        description: "Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur."
+      },
+    },
+    "pano": {
+      tr: {
+        logoImage: "/assets/img/references/companies/gm-logo-white.png",
+        projectName: "Routve",
+        description: "Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur."
+      },
+      en: {
+        logoImage: "/assets/img/references/companies/gm-logo-white.png",
+        projectName: "Routve",
+        description: "Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur."
+      },
+    },
+    "antik-küp": {
+      tr: {
+        logoImage: "/assets/img/references/companies/gm-logo-white.png",
+        projectName: "Routve",
+        description: "Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur."
+      },
+      en: {
+        logoImage: "/assets/img/references/companies/gm-logo-white.png",
+        projectName: "Routve",
+        description: "Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur."
       },
     },
   },
