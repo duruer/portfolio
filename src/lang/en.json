@@ -26,6 +26,13 @@
       "title": "Work Experiences",
       "go_details": "Go Details",
       "projects_title": "Projects"
+    },
+    "work_details": {
+      "work": "Work",
+      "description": "Description",
+      "used_technologies": "Used Technologies",
+      "position": "as {position}, between {startDate}-{endDate}",
+      "still": "present"
     }
   }
 }

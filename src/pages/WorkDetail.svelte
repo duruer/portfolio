@@ -1,5 +1,6 @@
 <script>
   import { route } from "routve";
+  import { _ } from "svelte-i18n";
 
   import References from "../references.config";
 
@@ -19,7 +20,7 @@
 
 <artice class="mb-5">
   <h4 class="mb-4 text-light">
-    <a href="/references#work">Work</a>
+    <a href="/references#work">{$_('pages.work_details.work')}</a>
     ≫ {work ? work.companyName : ''}
   </h4>
   <img
@@ -27,7 +28,7 @@
     alt="General Mobile Inc."
     class="rounded img-fluid"
   />
-  <h5 class="my-4">Description</h5>
+  <h5 class="my-4">{$_('pages.work_details.description')}</h5>
   <p>
     Lorem ipsum dolor sit amet consectetur adipisicing elit. Non esse fugiat
     corporis optio voluptatum a eveniet. Dolorum ex praesentium ducimus! Quasi
@@ -52,7 +53,17 @@
           <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
         </svg>
       </span>
-      as {work ? work.position : ''}, between {work ? work.startDate : ''}-{work ? work.endDate : ''}
+      {$_('pages.work_details.position', {
+        values: {
+          position: work ? work.position : '',
+          startDate: work ? work.startDate : '',
+          endDate: work
+            ? work.endDate === ''
+              ? $_('pages.work_details.still')
+              : work.endDate
+            : '',
+        },
+      })}
     </li>
     <li>
       <span class="mr-2 text-primary">
@@ -76,7 +87,7 @@
     </li>
   </ul>
 
-  <h5 class="my-4">Used Technologies</h5>
+  <h5 class="my-4">{$_('pages.work_details.used_technologies')}</h5>
   <ul class="list-inline">
     <li>- Kotlin</li>
     <li>- Java</li>

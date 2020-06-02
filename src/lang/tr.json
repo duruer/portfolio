@@ -26,6 +26,13 @@
       "title": "İş Deneyimleri",
       "go_details": "Detaya Git",
       "projects_title": "Projeler"
+    },
+    "work_details": {
+      "work": "İş",
+      "description": "Açıklama",
+      "used_technologies": "Kullanılan Teknolojiler",
+      "position": "{position} olarak, {startDate}-{endDate}",
+      "still": "hala"
     }
   }
 }
