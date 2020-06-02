@@ -3,7 +3,7 @@ export default {
     "general-mobile": {
       tr: {
         companyName: "General Mobile AŞ.",
-        logoImage: "/assets/img/gm-logo-dark.jpeg",
+        logoImage: "/assets/img/references/companies/gm-logo-dark.jpeg",
         startDate: 2017,
         endDate: 2018,
         webAddress: "https://www.generalmobile.com",
@@ -31,7 +31,7 @@ export default {
       },
       en: {
         companyName: "General Mobile Inc.",
-        logoImage: "/assets/img/gm-logo-dark.jpeg",
+        logoImage: "/assets/img/references/companies/gm-logo-dark.jpeg",
         startDate: 2017,
         endDate: 2018,
         webAddress: "https://www.generalmobile.com",
