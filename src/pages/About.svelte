@@ -3,17 +3,15 @@
 </script>
 
 <artice class="d-block mb-5">
-  <h4 class="mb-4 text-light">{$_("pages.about.title")}</h4>
-  <p class="mb-0">
-    {$_("pages.about.description")}
-  </p>
+  <h4 class="mb-4 text-light">{$_('pages.about.title')}</h4>
+  <p class="mb-0">{$_('pages.about.description')}</p>
 </artice>
 
 <artice class="d-block mb-5">
-  <h4 class="mb-4 text-light">{$_("pages.about.interests_title")}</h4>
+  <h4 class="mb-4 text-light">{$_('pages.about.interests_title')}</h4>
 
   <div class="row">
-    <div class="col-6">
+    <div class="col-6 align-items-center">
       <div class="row">
         <div
           class="col-auto text-primary d-flex align-items-center
@@ -38,7 +36,7 @@
         <div class="col">Android</div>
       </div>
     </div>
-    <div class="col-6">
+    <div class="col-6 align-items-center">
       <div class="row">
         <div
           class="col-auto text-primary d-flex align-items-center
@@ -65,7 +63,7 @@
 
     </div>
     <div class="w-100 py-3"></div>
-    <div class="col-6">
+    <div class="col-6 align-items-center">
       <div class="row">
         <div
           class="col-auto text-primary d-flex align-items-center
@@ -94,7 +92,7 @@
       </div>
 
     </div>
-    <div class="col-6">
+    <div class="col-6 align-items-center">
       <div class="row">
         <div
           class="col-auto text-primary d-flex align-items-center
@@ -127,7 +125,7 @@
 </artice>
 
 <artice class="d-block mb-5">
-  <h4 class="mb-4 text-light">{$_("pages.about.skills_title")}</h4>
+  <h4 class="mb-4 text-light">{$_('pages.about.skills_title')}</h4>
   <div class="row flex-wrap">
     <div class="col-auto">
       <div class="skill kotlin-bg">
@@ -182,7 +180,7 @@
     <div class="col-auto">
       <div class="skill db-bg">
         <span>
-          {$_("pages.about.skills.database_title")}
+          {$_('pages.about.skills.database_title')}
           <small class="text-muted">
             <br />
             MySQL
@@ -195,7 +193,7 @@
     <div class="col-auto">
       <div class="skill">
         <span>
-          {$_("pages.about.skills.others_title")}
+          {$_('pages.about.skills.others_title')}
           <small class="text-muted">
             <br />
             Git
