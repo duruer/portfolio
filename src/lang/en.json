@@ -1,3 +1,8 @@
 {
-  "page_title": "Ahmet Enes Duruer - Software Developer"
+  "page_title": "Ahmet Enes Duruer - Software Developer",
+  "nav_links": {
+    "about": "About",
+    "references": "References",
+    "this_website": "This Website"
+  }
 }

@@ -167,21 +167,21 @@
     <div class="col-lg-6">
       <nav class="nav pt-lg-0 pt-4">
         <a class="nav-link pl-0" class:active="{$path === '/'}" href="/">
-          About
+          {$_("nav_links.about")}
         </a>
         <a
           class="nav-link"
           class:active="{$path === '/references'}"
           href="/references"
         >
-          References
+          {$_("nav_links.references")}
         </a>
         <a
           class="nav-link"
           href="https://github.com/kahverengi001/portfolio"
           target="_blank"
         >
-          This Website
+          {$_("nav_links.this_website")}
         </a>
         <a
           class="nav-link ml-auto"

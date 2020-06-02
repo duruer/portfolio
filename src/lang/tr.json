@@ -1,3 +1,8 @@
 {
-  "page_title": "Ahmet Enes Duruer - Yazılım Geliştiricisi"
+  "page_title": "Ahmet Enes Duruer - Yazılım Geliştiricisi",
+  "nav_links": {
+    "about": "Hakkında",
+    "references": "Referanslar",
+    "this_website": "Bu Website"
+  }
 }
