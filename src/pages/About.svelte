@@ -11,7 +11,7 @@
   <h4 class="mb-4 text-light">{$_('pages.about.interests_title')}</h4>
 
   <div class="row">
-    <div class="col-6 align-items-center">
+    <div class="col-6 d-flex align-items-center">
       <div class="row">
         <div
           class="col-auto text-primary d-flex align-items-center
@@ -36,7 +36,7 @@
         <div class="col">Android</div>
       </div>
     </div>
-    <div class="col-6 align-items-center">
+    <div class="col-6 d-flex align-items-center">
       <div class="row">
         <div
           class="col-auto text-primary d-flex align-items-center
@@ -63,7 +63,7 @@
 
     </div>
     <div class="w-100 py-3"></div>
-    <div class="col-6 align-items-center">
+    <div class="col-6 d-flex align-items-center">
       <div class="row">
         <div
           class="col-auto text-primary d-flex align-items-center
@@ -92,7 +92,7 @@
       </div>
 
     </div>
-    <div class="col-6 align-items-center">
+    <div class="col-6 d-flex align-items-center">
       <div class="row">
         <div
           class="col-auto text-primary d-flex align-items-center
