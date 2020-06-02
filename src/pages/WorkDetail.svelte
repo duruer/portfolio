@@ -20,7 +20,7 @@
     ≫ {work.companyName}
   </h4>
   <img
-    src="../assets/img/gm-logo.jpeg"
+    src="../assets/img/gm-logo-dark.jpeg"
     alt="General Mobile Inc."
     class="rounded img-fluid"
   />

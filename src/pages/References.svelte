@@ -43,7 +43,7 @@
       <div class="row mb-3">
         <div class="col-auto">
           <img
-            src="assets/img/gm-logo.png"
+            src="assets/img/gm-logo-white.png"
             alt="Project Name"
             width="64"
             height="64"
@@ -66,7 +66,7 @@
       <div class="row mb-3">
         <div class="col-auto">
           <img
-            src="assets/img/gm-logo.png"
+            src="assets/img/gm-logo-white.png"
             alt="Project Name"
             width="64"
             height="64"
@@ -86,7 +86,7 @@
       <div class="row mb-3">
         <div class="col-auto">
           <img
-            src="assets/img/gm-logo.png"
+            src="assets/img/gm-logo-white.png"
             alt="Project Name"
             width="64"
             height="64"
