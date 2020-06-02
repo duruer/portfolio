@@ -13,7 +13,7 @@ export default {
           country: "Türkiye",
         },
         description:
-          "Stok Android uygulamaları üzerinde çalışıyorduk. Tasarımcı tarafından <a href='https://www.sketch.com' target='_blank'>Sketch</a>'te çizilen çizimleri Android'de UI yaptık." +
+          "Stok Android uygulamaları üzerinde çalışıyorduk. Tasarımcımız tarafından <a href='https://www.sketch.com' target='_blank'>Sketch</a>'te çizilen çizimleri Android'de UI yaptık. " +
           "Başlangıçta 6 kişilik bir geliştirici ekibiyle devam ettik. " +
           "Ben bazı şirket uygulama projelerinde yer aldım. Bunlardan bazıları <a href='https://play.google.com/store/apps/details?id=com.generalmobile.app.gallery' target='_blank'>GM Gallery Go</a>, <a href='https://play.google.com/store/apps/details?id=com.generalmobile.app.musicplayer' target='_blank'>GM Music Player</a>, <a href='https://play.google.com/store/apps/details?id=com.generalmobile.assistant' target='_blank'>GM Assistant</a> ve <a href='https://play.google.com/store/apps/details?id=com.generalmobile.app.gmfilemanager' target='_blank'>GM Files</a>. " +
           "Hala Google Play'de aktif bir şekilde bulunuyorlar. Tamamen Java ve Kotlin ile üretildiler. " +
