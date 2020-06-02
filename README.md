@@ -1,2 +1,18 @@
-# portfolio-kahverengi
-Kahverengi Portfolio / Resume / CV website.
+<p align="center"><h1>Kahverengi Portfolio</h1></p>
+<p align="center">Kahverengi Portfolio website.</p>
+<p align="center">
+<a href="https://travis-ci.com/github/kahverengi001/portfolio" target="_blank"><img src="https://img.shields.io/travis/com/kahverengi001/portfolio/dev?style=for-the-badge" alt="Travis CI Build Status"></a>
+<a href="https://github.com/kahverengi001/portfolio/blob/dev/LICENSE"><img src="https://img.shields.io/github/license/kahverengi001/portfolio?style=for-the-badge" alt="License"></a>
+</p>
+
+# Introduction
+
+This project is using <a href="https://svelte.dev" target="_blank">Svelte 3</a>, <a href="https://getbootstrap.com" target="_blank">Bootstrap 4</a>, <a href="https://sass-lang.com" target="_blank">SASS</a> and <a href="https://github.com/routve/routve" target="_blank">Routve</a> library. For deploy <a href="https://heroku.com" target="_blank">Heroku</a> and <a href="https://travis-ci.com" target="_blank">Travis CI</a> has used.
+
+## Contributing
+
+Merge requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+## License
+
+This project is licensed under the GNU GPLv3 License - see the [LICENSE](LICENSE) file for details
