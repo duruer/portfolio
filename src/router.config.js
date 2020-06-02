@@ -9,7 +9,7 @@ export default {
     "/project/:project": {
       component: () => import("./pages/ProjectDetail.svelte")
     },
-    "/work/:work": {
+    "/work/:workID": {
       component: () => import("./pages/WorkDetail.svelte")
     },
     "*": {
