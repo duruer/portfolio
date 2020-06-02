@@ -5,11 +5,13 @@
 </style>
 
 <script>
+  import { _ } from "svelte-i18n";
+
   import References from "../references.config";
 </script>
 
 <artice class="d-block mb-5">
-  <h4 class="mb-4 text-light">Work Experiences</h4>
+  <h4 class="mb-4 text-light">{$_("pages.references.title")}</h4>
 
   {#each Object.values(References['works']) as work, index (work)}
     <div class="row mb-3">
@@ -22,7 +24,7 @@
         <i>
           {work.position}
           <a
-            title="Go Details"
+            title="{$_('pages.references.go_details')}"
             href="/work/{Object.keys(References['works']).find((key) => References['works'][key] === work)}"
           >
             ≫
@@ -35,7 +37,7 @@
 </artice>
 
 <article class="d-block mb-5">
-  <h4 class="mb-4 text-light">Projects</h4>
+  <h4 class="mb-4 text-light">{$_("pages.references.projects_title")}</h4>
 
   <div class="row">
 

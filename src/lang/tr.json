@@ -21,6 +21,11 @@
         "database_title": "Veritabanı",
         "others_title": "Diğerleri"
       }
+    },
+    "references": {
+      "title": "İş Deneyimleri",
+      "go_details": "Detaya Git",
+      "projects_title": "Projeler"
     }
   }
 }

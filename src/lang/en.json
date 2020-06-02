@@ -21,6 +21,11 @@
         "database_title": "Database",
         "others_title": "Others"
       }
+    },
+    "references": {
+      "title": "Work Experiences",
+      "go_details": "Go Details",
+      "projects_title": "Projects"
     }
   }
 }
