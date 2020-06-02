@@ -96,5 +96,17 @@ export default {
         description: "An advanced web platform that comfort your Minecraft server's website needs."
       },
     },
+    "antik-kup": {
+      tr: {
+        logoImage: "/assets/img/references/projects/ak-logo.png",
+        projectName: "Antik Küp",
+        description: "Türkçe Minecraft MMORPG topluluk sunucusu."
+      },
+      en: {
+        logoImage: "/assets/img/references/projects/ak-logo.png",
+        projectName: "Antik Küp",
+        description: "A complete Turkish Minecraft MMORPG community server."
+      },
+    },
   },
 };
