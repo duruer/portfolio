@@ -38,11 +38,7 @@
     class="rounded img-fluid"
   />
   <h5 class="my-4">{$_('pages.work_details.description')}</h5>
-  <p>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Non esse fugiat
-    corporis optio voluptatum a eveniet. Dolorum ex praesentium ducimus! Quasi
-    incidunt impedit aut, rem at repellat repudiandae quas a!
-  </p>
+  <p>{@html work ? work.description : ''}</p>
   <ul class="list-inline text-muted">
     <li class="mb-2">
       <span class="mr-2 text-primary">
@@ -98,7 +94,8 @@
 
   <h5 class="my-4">{$_('pages.work_details.used_technologies')}</h5>
   <ul class="list-inline">
-    <li>- Kotlin</li>
-    <li>- Java</li>
+    {#each work.usedTechnologies as technology, index (technology)}
+      <li>- {technology}</li>
+    {/each}
   </ul>
 </artice>
