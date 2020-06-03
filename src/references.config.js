@@ -27,6 +27,8 @@ export default {
           "Slack",
           "Jenkins",
           "Android Studio",
+          "Firebase",
+          "Fabric.io"
         ],
       },
       en: {
@@ -55,6 +57,8 @@ export default {
           "Slack",
           "Jenkins",
           "Android Studio",
+          "Firebase",
+          "Fabric.io"
         ],
       },
     },
