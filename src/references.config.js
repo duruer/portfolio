@@ -306,11 +306,71 @@ export default {
         projectName: "Sosyal Okul",
         description:
           "Okullar için tasarlanmış bir sosyal medya paylaşım sitesi.",
+        startDate: 2014,
+        endDate: 2015,
+        detailsDescription:
+          "Okullar için tasarlanmış bir sosyal medya paylaşım sitesi (Papuaya gibi ama okullar için). " +
+          "E-Biko adlı uluslararası bilişim yarışmasında 3. sıraya yerleştim ve bronz madalya kazanmaya hak sahibi oldum. Tüm Türkiye'de haber oldum. " +
+          "Proje PHP ile yazılmıştı. Şu an maalesef artık yayında değil.",
+        links: [
+          {
+            name: "Haber 1",
+            address: "https://www.haberler.com/twitter-a-rakip-olmak-istiyor-6049513-haberi/"
+          },
+          {
+            name: "Haber 2",
+            address: "http://www.hudutgazetesi.com/haber/17945/ogul-duruerden-bronz.html"
+          },
+          {
+            name: "Haber 3",
+            address: "https://www.takvim.com.tr/guncel/2014/05/21/twittera-rakip "
+          },
+          {
+            name: "Haber 4",
+            address: "https://www.ucankus.com/detay/120658/turk-gencinin-twitter-a-altrnatif-olarak-hazirladigi-site-projesi-bilisim-olimpiyatinda-dunya-ikincisi"
+          }
+        ],
+        images: [
+          {
+            title: "Sosyal Okul Ekran Görüntüsü",
+            address: "/assets/img/references/projects/sosyal-okul-image.jpg",
+          },
+        ],
       },
       en: {
         logoImage: "/assets/img/references/projects/sosyal-okul-image.jpg",
         projectName: "Social School",
         description: "A social networking website designed for schools.",
+        startDate: 2014,
+        endDate: 2015,
+        detailsDescription:
+          "A social networking website designed for schools (like Papuaya but for schools). " +
+          "I have won 3rd place and bronze medal with this project in an international IT competition. I was in news in Turkey. " +
+          "It has written in PHP language. Currently unfortunately it's not alive anymore.",
+        links: [
+          {
+            name: "News 1",
+            address: "https://www.haberler.com/twitter-a-rakip-olmak-istiyor-6049513-haberi/"
+          },
+          {
+            name: "News 2",
+            address: "http://www.hudutgazetesi.com/haber/17945/ogul-duruerden-bronz.html"
+          },
+          {
+            name: "News 3",
+            address: "https://www.takvim.com.tr/guncel/2014/05/21/twittera-rakip "
+          },
+          {
+            name: "News 4",
+            address: "https://www.ucankus.com/detay/120658/turk-gencinin-twitter-a-altrnatif-olarak-hazirladigi-site-projesi-bilisim-olimpiyatinda-dunya-ikincisi"
+          }
+        ],
+        images: [
+          {
+            title: "Social School Screenshot",
+            address: "/assets/img/references/projects/sosyal-okul-image.jpg",
+          },
+        ],
       },
     },
     papuaya: {
