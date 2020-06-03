@@ -181,12 +181,57 @@ export default {
         projectName: "Pano",
         description:
           "Minecraft sunucunuzun website ihtiyaçlarını karşılayan gelişmiş bir web platform.",
+        startDate: 2018,
+        endDate: "",
+        detailsDescription:
+          "Minecraft sunucunuzun website ihtiyaçlarını karşılayan, tema, eklentiler ve daha bir çok özelliği destekleyen gelişmiş bir web platform. " +
+          "Bu projede back-end dili olarak <a href='https://kotlinlang.org' target='_blank'>Kotlin</a>, " +
+          "websitesinde front-end için <a href='https://vuejs.org' target='_blank'>Vue.js</a>, " +
+          "projede front-end için <a href='https://svelte.dev' target='_blank'>Svelte 3</a>, plan yönetimi için <a href='https://trello.com' target='_blank'>Trello</a>, " +
+          "veritabanı olarak <a href='https://mysql.com' target='_blank'>MySQL</a> / <a href='https://mariadb.org' target='_blank'>MariaDB</a>, " +
+          "geliştirme ortamı için <a href='https://docker.com' target='_blank'>Docker</a>, back-end'in geliştirilmesinde <a href='https://vertx.io' target='_blank'>Vert.x</a>, " +
+          "dependency injection için <a href='https://dagger.dev' target='_blank'>Dagger 2</a> ve CSS kodlayabilmek için <a href='https://sass-lang.com' target='_blank'>SASS</a> " +
+          "teknolojileri kullanıldı.",
+        links: [
+          {
+            name: "GitHub",
+            address: "https://github.com/panocms",
+          },
+        ],
+        images: [
+          {
+            title: "Pano Screenshot 1",
+            address: "/assets/img/references/projects/pano-ss-1.png",
+          },
+        ],
       },
       en: {
         logoImage: "/assets/img/references/projects/pano-logo.png",
         projectName: "Pano",
         description:
           "An advanced web platform that comfort your Minecraft server's website needs.",
+        startDate: 2018,
+        endDate: "",
+        detailsDescription:
+          "An advanced web platform that comfort your Minecraft server's website needs and supports themes, addons and more features. " +
+          "In this project, these technologies has used in, <a href='https://kotlinlang.org' target='_blank'>Kotlin</a> as back-end project language, " +
+          "<a href='https://vuejs.org' target='_blank'>Vue.js</a> in front-end of website of project, " +
+          "<a href='https://svelte.dev' target='_blank'>Svelte 3</a> as front-end technology in proejct, <a href='https://trello.com' target='_blank'>Trello</a> for project plan managements, " +
+          "<a href='https://mysql.com' target='_blank'>MySQL</a> / <a href='https://mariadb.org' target='_blank'>MariaDB</a> as database, " +
+          "<a href='https://docker.com' target='_blank'>Docker</a> for development environment, <a href='https://vertx.io' target='_blank'>Vert.x</a> in back-end developing, " +
+          "<a href='https://sass-lang.com' target='_blank'>SASS</a> for CSS coding and <a href='https://dagger.dev' target='_blank'>Dagger 2</a> in dependency injection.",
+        links: [
+          {
+            name: "GitHub",
+            address: "https://github.com/panocms",
+          },
+        ],
+        images: [
+          {
+            title: "Pano Screenshot 1",
+            address: "/assets/img/references/projects/pano-ss-1.png",
+          },
+        ],
       },
     },
     "antik-kup": {
