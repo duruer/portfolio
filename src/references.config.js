@@ -257,12 +257,13 @@ export default {
         links: [
           {
             name: "Gamer.com.tr",
-            address: "https://forum.gamer.com.tr/konu/antik-kuep-tuerkce-minecraft-mmorpg-1-9-x-1-12-x.377687"
+            address:
+              "https://forum.gamer.com.tr/konu/antik-kuep-tuerkce-minecraft-mmorpg-1-9-x-1-12-x.377687",
           },
           {
             name: "GitLab",
-            address: "https://gitlab.com/defio-workshop/antik-kup"
-          }
+            address: "https://gitlab.com/defio-workshop/antik-kup",
+          },
         ],
         images: [
           {
@@ -285,12 +286,13 @@ export default {
         links: [
           {
             name: "Gamer.com.tr",
-            address: "https://forum.gamer.com.tr/konu/antik-kuep-tuerkce-minecraft-mmorpg-1-9-x-1-12-x.377687"
+            address:
+              "https://forum.gamer.com.tr/konu/antik-kuep-tuerkce-minecraft-mmorpg-1-9-x-1-12-x.377687",
           },
           {
             name: "GitLab",
-            address: "https://gitlab.com/defio-workshop/antik-kup"
-          }
+            address: "https://gitlab.com/defio-workshop/antik-kup",
+          },
         ],
         images: [
           {
@@ -315,20 +317,24 @@ export default {
         links: [
           {
             name: "Haber 1",
-            address: "https://www.haberler.com/twitter-a-rakip-olmak-istiyor-6049513-haberi/"
+            address:
+              "https://www.haberler.com/twitter-a-rakip-olmak-istiyor-6049513-haberi/",
           },
           {
             name: "Haber 2",
-            address: "http://www.hudutgazetesi.com/haber/17945/ogul-duruerden-bronz.html"
+            address:
+              "http://www.hudutgazetesi.com/haber/17945/ogul-duruerden-bronz.html",
           },
           {
             name: "Haber 3",
-            address: "https://www.takvim.com.tr/guncel/2014/05/21/twittera-rakip "
+            address:
+              "https://www.takvim.com.tr/guncel/2014/05/21/twittera-rakip ",
           },
           {
             name: "Haber 4",
-            address: "https://www.ucankus.com/detay/120658/turk-gencinin-twitter-a-altrnatif-olarak-hazirladigi-site-projesi-bilisim-olimpiyatinda-dunya-ikincisi"
-          }
+            address:
+              "https://www.ucankus.com/detay/120658/turk-gencinin-twitter-a-altrnatif-olarak-hazirladigi-site-projesi-bilisim-olimpiyatinda-dunya-ikincisi",
+          },
         ],
         images: [
           {
@@ -350,20 +356,24 @@ export default {
         links: [
           {
             name: "News 1",
-            address: "https://www.haberler.com/twitter-a-rakip-olmak-istiyor-6049513-haberi/"
+            address:
+              "https://www.haberler.com/twitter-a-rakip-olmak-istiyor-6049513-haberi/",
           },
           {
             name: "News 2",
-            address: "http://www.hudutgazetesi.com/haber/17945/ogul-duruerden-bronz.html"
+            address:
+              "http://www.hudutgazetesi.com/haber/17945/ogul-duruerden-bronz.html",
           },
           {
             name: "News 3",
-            address: "https://www.takvim.com.tr/guncel/2014/05/21/twittera-rakip "
+            address:
+              "https://www.takvim.com.tr/guncel/2014/05/21/twittera-rakip ",
           },
           {
             name: "News 4",
-            address: "https://www.ucankus.com/detay/120658/turk-gencinin-twitter-a-altrnatif-olarak-hazirladigi-site-projesi-bilisim-olimpiyatinda-dunya-ikincisi"
-          }
+            address:
+              "https://www.ucankus.com/detay/120658/turk-gencinin-twitter-a-altrnatif-olarak-hazirladigi-site-projesi-bilisim-olimpiyatinda-dunya-ikincisi",
+          },
         ],
         images: [
           {
@@ -387,20 +397,24 @@ export default {
         links: [
           {
             name: "Haber 1",
-            address: "https://www.hurriyet.com.tr/teknoloji/edirne-valisi-duruerin-oglu-twittera-rakip-olacak-23290428"
+            address:
+              "https://www.hurriyet.com.tr/teknoloji/edirne-valisi-duruerin-oglu-twittera-rakip-olacak-23290428",
           },
           {
             name: "Haber 2",
-            address: "https://www.edirneajans.com/vali-duruer-ogluna-plaket-verdi.html"
+            address:
+              "https://www.edirneajans.com/vali-duruer-ogluna-plaket-verdi.html",
           },
           {
             name: "Haber 3",
-            address: "https://www.marasgundem.com.tr/yerel-haberler/madalya-canavari-ogrencilerden-vali-duruere-ziyaret-473958h"
+            address:
+              "https://www.marasgundem.com.tr/yerel-haberler/madalya-canavari-ogrencilerden-vali-duruere-ziyaret-473958h",
           },
           {
             name: "Haber 4",
-            address: "https://www.yenisafak.com/teknoloji/twittera-turk-rakip-522054"
-          }
+            address:
+              "https://www.yenisafak.com/teknoloji/twittera-turk-rakip-522054",
+          },
         ],
         images: [
           {
@@ -426,20 +440,24 @@ export default {
         links: [
           {
             name: "News 1",
-            address: "https://www.hurriyet.com.tr/teknoloji/edirne-valisi-duruerin-oglu-twittera-rakip-olacak-23290428"
+            address:
+              "https://www.hurriyet.com.tr/teknoloji/edirne-valisi-duruerin-oglu-twittera-rakip-olacak-23290428",
           },
           {
             name: "News 2",
-            address: "https://www.edirneajans.com/vali-duruer-ogluna-plaket-verdi.html"
+            address:
+              "https://www.edirneajans.com/vali-duruer-ogluna-plaket-verdi.html",
           },
           {
             name: "News 3",
-            address: "https://www.marasgundem.com.tr/yerel-haberler/madalya-canavari-ogrencilerden-vali-duruere-ziyaret-473958h"
+            address:
+              "https://www.marasgundem.com.tr/yerel-haberler/madalya-canavari-ogrencilerden-vali-duruere-ziyaret-473958h",
           },
           {
             name: "News 4",
-            address: "https://www.yenisafak.com/teknoloji/twittera-turk-rakip-522054"
-          }
+            address:
+              "https://www.yenisafak.com/teknoloji/twittera-turk-rakip-522054",
+          },
         ],
         images: [
           {
