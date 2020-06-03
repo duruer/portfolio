@@ -79,7 +79,7 @@ export default {
           "CSS kodlamak için <a href='https://sass-lang.com' target='_blank'>SASS</a>, " +
           "proje bundler'ı olarak <a href='https://rollupjs.org' target='_blank'>RollupJS</a>, versiyon kontrol sistemi olarak <a href='https://github.com' target='_blank'>GitHub (Git)</a>, " +
           "daha fazla tarayıcı desteği için <a href='https://babeljs.io' target='_blank'>Babel JS</a>, kod formatlayıcısı olarak <a href='https://prettier.io/' target='_blank'>Prettier</a>," +
-          "build için <a href='https://travis-ci.com' target='_blank'>Travis CI</a>, deploy ve yayın için <a href='https://heroku.com' target='_blank'>Heroku</a> teknolojileri kullanıldı.",
+          "build için <a href='https://travis-ci.com' target='_blank'>Travis CI</a>, altyapı için <a href='https://cloudflare.com' target='_blank'>CloudFlare</a>, deploy ve yayın için <a href='https://heroku.com' target='_blank'>Heroku</a> teknolojileri kullanıldı.",
         links: [
           {
             name: "Website",
@@ -109,7 +109,8 @@ export default {
           "<a href='https://sass-lang.com' target='_blank'>SASS</a> for coding CSS, " +
           "<a href='https://rollupjs.org' target='_blank'>RollupJS</a> as project bundler, <a href='https://github.com' target='_blank'>GitHub (Git)</a> as version controlling system, " +
           "<a href='https://babeljs.io' target='_blank'>Babel JS</a> for more browser support, <a href='https://prettier.io/' target='_blank'>Prettier</a> as code formatter, " +
-          "<a href='https://travis-ci.com' target='_blank'>Travis CI</a> for build up project and <a href='https://heroku.com' target='_blank'>Heroku</a> for deploy.",
+          "<a href='https://travis-ci.com' target='_blank'>Travis CI</a> for build up project, <a href='https://heroku.com' target='_blank'>Heroku</a> for deploy and " +
+          "<a href='https://cloudflare.com' target='_blank'>CloudFlare</a> for infrastructure.",
         links: [
           {
             name: "Website",
