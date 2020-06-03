@@ -28,7 +28,7 @@ export default {
           "Jenkins",
           "Android Studio",
           "Firebase",
-          "Fabric.io"
+          "Fabric.io",
         ],
       },
       en: {
@@ -58,7 +58,7 @@ export default {
           "Jenkins",
           "Android Studio",
           "Firebase",
-          "Fabric.io"
+          "Fabric.io",
         ],
       },
     },
