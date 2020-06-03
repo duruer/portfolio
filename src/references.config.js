@@ -309,8 +309,8 @@ export default {
         startDate: 2014,
         endDate: 2015,
         detailsDescription:
-          "Okullar için tasarlanmış bir sosyal medya paylaşım sitesi (Papuaya gibi ama okullar için). " +
-          "E-Biko adlı uluslararası bilişim yarışmasında 3. sıraya yerleştim ve bronz madalya kazanmaya hak sahibi oldum. Tüm Türkiye'de haber oldum. " +
+          "Okullar için tasarlanmış bir sosyal medya paylaşım sitesi (<a href='/project/papuaya'>Papuaya</a> gibi ama okullar için). " +
+          "<a href='/project/papuaya'>Papuaya</a>'dan sonraki yıl tekrar E-Biko adlı uluslararası bilişim yarışmasında 3. sıraya yerleştim ve bronz madalya kazanmaya hak sahibi oldum. Tüm Türkiye'de haber oldum. " +
           "Proje PHP ile yazılmıştı. Şu an maalesef artık yayında değil.",
         links: [
           {
@@ -344,8 +344,8 @@ export default {
         startDate: 2014,
         endDate: 2015,
         detailsDescription:
-          "A social networking website designed for schools (like Papuaya but for schools). " +
-          "I have won 3rd place and bronze medal with this project in an international IT competition. I was in news in Turkey. " +
+          "A social networking website designed for schools (like <a href='/project/papuaya'>Papuaya</a> but for schools). " +
+          "I have won 3rd place and bronze medal with this project again entering next year after <a href='/project/papuaya'>Papuaya</a> project in an international IT competition which name called E-Biko. I was in news in Turkey. " +
           "It has written in PHP language. Currently unfortunately it's not alive anymore.",
         links: [
           {
