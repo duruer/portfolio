@@ -247,11 +247,57 @@ export default {
         logoImage: "/assets/img/references/projects/ak-logo.png",
         projectName: "Antik Küp",
         description: "Türkçe Minecraft MMORPG topluluk sunucusu.",
+        startDate: 2015,
+        endDate: 2019,
+        detailsDescription:
+          "Türkçe Minecraft MMORPG topluluk sunucusu. Bu projede kod yönetimi için önce " +
+          "<a href='https://bitbucket.org' target='_blank'>BitBucket</a> sonra <a href='https://gitlab.com' target='_blank'>GitLab</a>, " +
+          "plan yönetimi için <a href='https://onenote.com' target='_blank'>OneNote</a>, oyun özellikleri için <a href='https://kotlinlang.org' target='_blank'>Kotlin</a> " +
+          "dilini ve teknolojilerini kullandık. Minecraft'ta bağımsız eşsiz bir MMORPG tadı yarattık.",
+        links: [
+          {
+            name: "Gamer.com.tr",
+            address: "https://forum.gamer.com.tr/konu/antik-kuep-tuerkce-minecraft-mmorpg-1-9-x-1-12-x.377687"
+          },
+          {
+            name: "GitLab",
+            address: "https://gitlab.com/defio-workshop/antik-kup"
+          }
+        ],
+        images: [
+          {
+            title: "Antik Küp Website",
+            address: "/assets/img/references/projects/ak-screenshot-1.jpg",
+          },
+        ],
       },
       en: {
         logoImage: "/assets/img/references/projects/ak-logo.png",
         projectName: "Antik Küp",
         description: "A complete Turkish Minecraft MMORPG community server.",
+        startDate: 2015,
+        endDate: 2019,
+        detailsDescription:
+          "A complete Turkish Minecraft MMORPG community server. In this project, these technologies and features has used, for code version management firstly " +
+          "<a href='https://bitbucket.org' target='_blank'>BitBucket</a> then <a href='https://gitlab.com' target='_blank'>GitLab</a>, " +
+          "<a href='https://onenote.com' target='_blank'>OneNote</a> for plan management, <a href='https://kotlinlang.org' target='_blank'>Kotlin</a> language for designing game play features. " +
+          "In Minecraft world we have created an independent and unique taste of MMORPG.",
+        links: [
+          {
+            name: "Gamer.com.tr",
+            address: "https://forum.gamer.com.tr/konu/antik-kuep-tuerkce-minecraft-mmorpg-1-9-x-1-12-x.377687"
+          },
+          {
+            name: "GitLab",
+            address: "https://gitlab.com/defio-workshop/antik-kup"
+          }
+        ],
+        images: [
+          {
+            title: "Antik Küp Website",
+            address: "/assets/img/references/projects/ak-screenshot-1.jpg",
+          },
+        ],
       },
     },
     "sosyal-okul": {
