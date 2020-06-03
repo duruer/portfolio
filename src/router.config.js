@@ -6,7 +6,7 @@ export default {
     "/references": {
       component: () => import("./pages/References.svelte")
     },
-    "/project/:project": {
+    "/project/:projectID": {
       component: () => import("./pages/ProjectDetail.svelte")
     },
     "/work/:workID": {
