@@ -29,6 +29,7 @@ export default {
           "Android Studio",
           "Firebase",
           "Fabric.io",
+          "Dagger 2",
         ],
       },
       en: {
@@ -59,6 +60,7 @@ export default {
           "Android Studio",
           "Firebase",
           "Fabric.io",
+          "Dagger 2",
         ],
       },
     },
