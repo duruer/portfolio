@@ -132,12 +132,44 @@ export default {
         projectName: "Routve",
         description:
           "Gelişmiş bir <a href='https://svelte.dev' target='_blank'>Svelte 3</a> router kütüphanesi.",
+        startDate: 2020,
+        endDate: "",
+        detailsDescription:
+          "Gelişmiş bir <a href='https://svelte.dev' target='_blank'>Svelte 3</a> router kütüphanesi.",
+        links: [
+          {
+            name: "GitHub",
+            address: "https://github.com/routve/routve",
+          },
+        ],
+        images: [
+          {
+            title: "Routve Logo",
+            address: "/assets/img/references/projects/routve-logo.png",
+          },
+        ],
       },
       en: {
         logoImage: "/assets/img/references/projects/routve-logo.png",
         projectName: "Routve",
         description:
           "An advanced <a href='https://svelte.dev' target='_blank'>Svelte 3</a> router library.",
+        startDate: 2020,
+        endDate: "",
+        detailsDescription:
+          "An advanced <a href='https://svelte.dev' target='_blank'>Svelte 3</a> router library.",
+        links: [
+          {
+            name: "GitHub",
+            address: "https://github.com/routve/routve",
+          },
+        ],
+        images: [
+          {
+            title: "Routve Logo",
+            address: "/assets/img/references/projects/routve-logo.png",
+          },
+        ],
       },
     },
     pano: {
