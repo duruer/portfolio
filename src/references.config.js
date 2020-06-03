@@ -378,11 +378,79 @@ export default {
         logoImage: "/assets/img/references/projects/papuaya-image-corped.png",
         projectName: "Papuaya",
         description: "Bir sosyal medya paylaşım sitesi.",
+        startDate: 2013,
+        endDate: 2014,
+        detailsDescription:
+          "Bir sosyal medya paylaşım sitesi. E-Biko adlı uluslararası bilişim yarışmasında 2. sıraya " +
+          "yerleştim ve gümüş madalya kazanmaya hak sahibi oldum. Tüm Türkiye'de haber oldum. " +
+          "Proje PHP ile yazılmıştı. Şu an maalesef artık yayında değil. ",
+        links: [
+          {
+            name: "Haber 1",
+            address: "https://www.hurriyet.com.tr/teknoloji/edirne-valisi-duruerin-oglu-twittera-rakip-olacak-23290428"
+          },
+          {
+            name: "Haber 2",
+            address: "https://www.edirneajans.com/vali-duruer-ogluna-plaket-verdi.html"
+          },
+          {
+            name: "Haber 3",
+            address: "https://www.marasgundem.com.tr/yerel-haberler/madalya-canavari-ogrencilerden-vali-duruere-ziyaret-473958h"
+          },
+          {
+            name: "Haber 4",
+            address: "https://www.yenisafak.com/teknoloji/twittera-turk-rakip-522054"
+          }
+        ],
+        images: [
+          {
+            title: "Papuaya Ekran Görüntüsü 1",
+            address: "/assets/img/references/projects/papuaya-image.png",
+          },
+          {
+            title: "Papuaya Ekran Görüntüsü 2",
+            address: "/assets/img/references/projects/papuaya-image-2.jpg",
+          },
+        ],
       },
       en: {
         logoImage: "/assets/img/references/projects/papuaya-image-corped.png",
         projectName: "Papuaya",
         description: "A social networking website.",
+        startDate: 2013,
+        endDate: 2014,
+        detailsDescription:
+          "A social networking website. I have won 2nd place and silver medal with this project " +
+          "in an international IT competition which name called E-Biko. I was in news in Turkey. " +
+          "It has written in PHP language. Currently unfortunately it's not alive anymore.",
+        links: [
+          {
+            name: "News 1",
+            address: "https://www.hurriyet.com.tr/teknoloji/edirne-valisi-duruerin-oglu-twittera-rakip-olacak-23290428"
+          },
+          {
+            name: "News 2",
+            address: "https://www.edirneajans.com/vali-duruer-ogluna-plaket-verdi.html"
+          },
+          {
+            name: "News 3",
+            address: "https://www.marasgundem.com.tr/yerel-haberler/madalya-canavari-ogrencilerden-vali-duruere-ziyaret-473958h"
+          },
+          {
+            name: "News 4",
+            address: "https://www.yenisafak.com/teknoloji/twittera-turk-rakip-522054"
+          }
+        ],
+        images: [
+          {
+            title: "Papuaya Screenshot 1",
+            address: "/assets/img/references/projects/papuaya-image.png",
+          },
+          {
+            title: "Papuaya Screenshot 2",
+            address: "/assets/img/references/projects/papuaya-image-2.jpg",
+          },
+        ],
       },
     },
   },
