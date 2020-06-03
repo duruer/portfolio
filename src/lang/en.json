@@ -39,6 +39,9 @@
     },
     "error_404": {
       "message": "Welp, I haven't seen this page before ever..."
+    },
+    "project_details": {
+      "title": "Project"
     }
   }
 }

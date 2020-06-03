@@ -29,7 +29,7 @@
 
 <artice class="mb-5">
   <h4 class="mb-4 text-light">
-    <a href="#">Project</a>
+    <a href="/references#projects">{$_('pages.project_details.title')}</a>
     ≫ Pano
   </h4>
   <p>
