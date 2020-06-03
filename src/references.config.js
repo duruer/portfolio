@@ -315,12 +315,12 @@ export default {
     },
     papuaya: {
       tr: {
-        logoImage: "/assets/img/references/projects/papuaya-image.png",
+        logoImage: "/assets/img/references/projects/papuaya-image-corped.png",
         projectName: "Papuaya",
         description: "Bir sosyal medya paylaşım sitesi.",
       },
       en: {
-        logoImage: "/assets/img/references/projects/papuaya-image.png",
+        logoImage: "/assets/img/references/projects/papuaya-image-corped.png",
         projectName: "Papuaya",
         description: "A social networking website.",
       },
