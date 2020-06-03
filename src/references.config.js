@@ -135,7 +135,7 @@ export default {
         startDate: 2020,
         endDate: "",
         detailsDescription:
-          "Gelişmiş bir <a href='https://svelte.dev' target='_blank'>Svelte 3</a> router kütüphanesi.",
+          "<a href='https://visionmedia.github.io/page.js/' target='_blank'>Page.js</a> kütüphane tabanlı, dinamik ve statik component yüklemeyi destekleyen, gelişmiş bir <a href='https://svelte.dev' target='_blank'>Svelte 3</a> router kütüphanesi.",
         links: [
           {
             name: "GitHub",
@@ -157,7 +157,7 @@ export default {
         startDate: 2020,
         endDate: "",
         detailsDescription:
-          "An advanced <a href='https://svelte.dev' target='_blank'>Svelte 3</a> router library.",
+          "An advanced <a href='https://svelte.dev' target='_blank'>Svelte 3</a> router library which is based on <a href='https://visionmedia.github.io/page.js/' target='_blank'>Page.js</a> library, which supports dynamic and static component import..",
         links: [
           {
             name: "GitHub",
