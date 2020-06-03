@@ -34,8 +34,9 @@
       "work": "Work",
       "description": "Description",
       "used_technologies": "Used Technologies",
-      "position": "as {position}, between {startDate}-{endDate}",
-      "still": "present"
+      "position": "as {position}, {startDate}-{endDate}",
+      "still": "present",
+      "between": "between "
     },
     "error_404": {
       "message": "Welp, I haven't seen this page before ever..."

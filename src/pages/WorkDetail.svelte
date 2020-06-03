@@ -38,7 +38,9 @@
     class="rounded img-fluid"
   />
   <h5 class="my-4">{$_('pages.work_details.description')}</h5>
-  <p>{@html work ? work.description : ''}</p>
+  <p>
+    {@html work ? work.description : ''}
+  </p>
   <ul class="list-inline text-muted">
     <li class="mb-2">
       <span class="mr-2 text-primary">
@@ -61,7 +63,13 @@
       {$_('pages.work_details.position', {
         values: {
           position: work ? work.position : '',
-          startDate: work ? work.startDate : '',
+          startDate: work
+            ? work.endDate === ''
+              ? work.startDate
+              : $locale === 'en'
+              ? $_('pages.work_details.between') + work.startDate
+              : work.startDate
+            : '',
           endDate: work
             ? work.endDate === ''
               ? $_('pages.work_details.still')

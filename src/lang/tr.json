@@ -35,7 +35,8 @@
       "description": "Açıklama",
       "used_technologies": "Kullanılan Teknolojiler",
       "position": "{position} olarak, {startDate}-{endDate}",
-      "still": "hala"
+      "still": "hala",
+      "between": ""
     },
     "error_404": {
       "message": "Hmm, bura daha önce var mıydı ya? ..."
