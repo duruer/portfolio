@@ -42,7 +42,11 @@
       "message": "Welp, I haven't seen this page before ever..."
     },
     "project_details": {
-      "title": "Project"
+      "title": "Project",
+      "links_title": "Links",
+      "date": "{startDate} - {endDate}",
+      "still": "still",
+      "images": "Images"
     }
   }
 }

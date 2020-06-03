@@ -42,7 +42,10 @@
       "message": "Hmm, bura daha önce var mıydı ya? ..."
     },
     "project_details": {
-      "title": "Proje"
+      "title": "Proje",
+      "links_title": "Linkler",
+      "still": "hala",
+      "images": "Resimler"
     }
   }
 }

@@ -10,9 +10,9 @@
   let project;
 
   if (
-          typeof projectID === "undefined" ||
-          projectID === null ||
-          typeof References["projects"][projectID] === "undefined"
+    typeof projectID === "undefined" ||
+    projectID === null ||
+    typeof References["projects"][projectID] === "undefined"
   ) {
     route("/error-404");
     project = null;
@@ -30,33 +30,39 @@
 <artice class="mb-5">
   <h4 class="mb-4 text-light">
     <a href="/references#projects">{$_('pages.project_details.title')}</a>
-    ≫ Pano
+    ≫ {project ? project.projectName : ''}
   </h4>
   <p>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Non esse fugiat
-    corporis optio voluptatum a eveniet. Dolorum ex praesentium ducimus! Quasi
-    incidunt impedit aut, rem at repellat repudiandae quas a!
+    {@html project ? project.detailsDescription : ''}
   </p>
-  <h6 class="text-muted">2018 - 2020 Present</h6>
+  <h6 class="text-muted">
+    {$_('pages.project_details.date', {
+      values: {
+        startDate: project ? project.startDate : '',
+        endDate: project
+          ? project.endDate === ''
+            ? $_('pages.project_details.still')
+            : project.endDate
+          : '',
+      },
+    })}
+  </h6>
 
-  <h5 class="my-4">Links</h5>
+  <h5 class="my-4">{$_('pages.project_details.links_title')}</h5>
   <ul class="list-group list-group-horizontal list-unstyled mb-3">
-    <li class="list-group-item bg-transparent pl-0">
-      <a href="#">Website</a>
-    </li>
-    <li class="list-group-item bg-transparent">
-      <a href="#">Github</a>
-    </li>
-    <li class="list-group-item bg-transparent">
-      <a href="#">Gitlab</a>
-    </li>
+    {#each project ? project.links : [] as link, index (link)}
+      <li class="list-group-item bg-transparent">
+        <a href="{link.address}" target="_blank">{link.name}</a>
+      </li>
+    {/each}
   </ul>
 
-  <h5 class="my-4">Screenshots</h5>
-  <img
-    src="../assets/img/pano-ss-1.png"
-    class="border rounded img-fluid mb-3"
-    alt="Project Image 1"
-    title="Project Image 1"
-  />
+  <h5 class="my-4">{$_('pages.project_details.images')}</h5>
+  {#each project ? project.images : [] as image, index (image)}
+    <img
+      src="{image.address}"
+      class="border rounded img-fluid mb-3"
+      alt="{image.title}"
+    />
+  {/each}
 </artice>
