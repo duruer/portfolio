@@ -29,7 +29,7 @@
 
 <artice class="mb-5">
   <h4 class="mb-4 text-light">
-    <a href="/references#work">{$_('pages.work_details.work')}</a>
+    <a href="/references#works">{$_('pages.work_details.work')}</a>
     ≫ {work ? work.companyName : ''}
   </h4>
   <img
