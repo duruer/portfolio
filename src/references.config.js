@@ -44,10 +44,10 @@ export default {
           country: "Turkey",
         },
         description:
-          "We were working on and building stock Android applications. We were making UI in Android by design from <a href='https://www.sketch.com' target='_blank'>Sketch</a>. " +
-          "We were 6 members developer team in the beginning. " +
-          "I have worked on some of company application projects such as <a href='https://play.google.com/store/apps/details?id=com.generalmobile.app.gallery' target='_blank'>GM Gallery Go</a>, <a href='https://play.google.com/store/apps/details?id=com.generalmobile.app.musicplayer' target='_blank'>GM Music Player</a>, <a href='https://play.google.com/store/apps/details?id=com.generalmobile.assistant' target='_blank'>GM Assistant</a> and <a href='https://play.google.com/store/apps/details?id=com.generalmobile.app.gmfilemanager' target='_blank'>GM Files</a>. " +
-          "They Are still available in Google Play. They have built in completely Java and Kotlin. " +
+          "During my work experience I have been  working on and building stock Android applications with 6 other members in the beginning. " +
+          "We were making UI in Android by design from <a href='https://www.sketch.com' target='_blank'>Sketch</a>. " +
+          "In addition, I have worked on some of company application projects such as <a href='https://play.google.com/store/apps/details?id=com.generalmobile.app.gallery' target='_blank'>GM Gallery Go</a>, <a href='https://play.google.com/store/apps/details?id=com.generalmobile.app.musicplayer' target='_blank'>GM Music Player</a>, <a href='https://play.google.com/store/apps/details?id=com.generalmobile.assistant' target='_blank'>GM Assistant</a> and <a href='https://play.google.com/store/apps/details?id=com.generalmobile.app.gmfilemanager' target='_blank'>GM Files</a>, " +
+          "which are still available in Google Play. They have built in completely Java and Kotlin. " +
           "We have used issue tracking system in GitLab.",
         usedTechnologies: [
           "Kotlin",
