@@ -104,7 +104,7 @@ export default {
         startDate: 2020,
         endDate: "",
         detailsDescription:
-          "Turkish and English supported my small portfolio website that I have created to introduce myself. In this project while in development, these technologies has used in, <a href='https://svelte.dev' target='_blank'>Svelte 3</a> for coding of UI, " +
+          "This is my small portfolio website that I have created to introduce myself. It supports Turkish and English languages as well. In this project during the development, these technologies has been used in, <a href='https://svelte.dev' target='_blank'>Svelte 3</a> for coding of UI, " +
           "for router and routing the project I have created for Svelte 3 which is <a href='https://github.com/routve/routve' target='_blank'>Routve</a> library, " +
           "<a href='https://sass-lang.com' target='_blank'>SASS</a> for coding CSS, " +
           "<a href='https://rollupjs.org' target='_blank'>RollupJS</a> as project bundler, <a href='https://github.com' target='_blank'>GitHub (Git)</a> as version controlling system, " +
