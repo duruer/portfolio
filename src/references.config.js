@@ -200,8 +200,12 @@ export default {
         ],
         images: [
           {
-            title: "Pano Screenshot 1",
-            address: "/assets/img/references/projects/pano-ss-1.png",
+            title: "Pano Website Ekran Görüntüsü 1",
+            address: "/assets/img/references/projects/pano-website-ss-1.png",
+          },
+          {
+            title: "Pano Proje Panel Ekran Görüntüsü 1",
+            address: "/assets/img/references/projects/pano-project-ss-1.png",
           },
         ],
       },
@@ -228,8 +232,12 @@ export default {
         ],
         images: [
           {
-            title: "Pano Screenshot 1",
-            address: "/assets/img/references/projects/pano-ss-1.png",
+            title: "Pano Project Screenshot 1",
+            address: "/assets/img/references/projects/pano-website-ss-1.png",
+          },
+          {
+            title: "Pano Project Panel Screenshot 1",
+            address: "/assets/img/references/projects/pano-project-ss-1.png",
           },
         ],
       },
