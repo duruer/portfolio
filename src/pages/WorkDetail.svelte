@@ -1,13 +1,10 @@
 <script>
   import { route } from "routve";
   import { _, locale } from "svelte-i18n";
-  import { onDestroy } from "svelte";
-  import { get } from "svelte/store";
 
   import References from "../references.config";
 
   export let workID;
-  let work;
 
   if (
     typeof workID === "undefined" ||
@@ -15,16 +12,14 @@
     typeof References["works"][workID] === "undefined"
   ) {
     route("/error-404");
-    work = null;
-  } else {
-    const localeUnsubscribe = locale.subscribe((value) => {
-      work = References["works"][workID][value];
-    });
-
-    work = References["works"][workID][get(locale)];
-
-    onDestroy(localeUnsubscribe);
   }
+
+  $: work =
+    typeof workID === "undefined" ||
+    workID === null ||
+    typeof References["works"][workID] === "undefined"
+      ? null
+      : References["works"][workID][$locale];
 </script>
 
 <artice class="mb-5">
