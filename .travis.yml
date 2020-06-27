@@ -21,6 +21,7 @@ install:
   - cp -avr public ../public
   - cd ..
   - rm -rf portfolio-front-end
+  - ls -a
 
 deploy:
   - provider: heroku
