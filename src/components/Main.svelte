@@ -161,7 +161,7 @@
         >
           {$_('bio.contact_button')}
         </a>
-        <a href="#" class="btn btn-outline-lightglass text-light">
+        <a href="/assets/cv/cv-{$locale}.pdf" class="btn btn-outline-lightglass text-light" download>
           {$_('bio.download_cv_button')}
         </a>
       </div>
@@ -303,7 +303,7 @@
         >
           {$_('bio.contact_button')}
         </a>
-        <a href="#" class="btn btn-outline-lightglass text-light">
+        <a href="/assets/cv/cv-{$locale}.pdf" target="_blank" class="btn btn-outline-lightglass text-light" download>
           {$_('bio.download_cv_button')}
         </a>
       </div>
