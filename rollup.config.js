@@ -1,25 +1,18 @@
 import svelte from "rollup-plugin-svelte";
 import resolve from "@rollup/plugin-node-resolve";
 import commonjs from "@rollup/plugin-commonjs";
-import autoPreprocess from "svelte-preprocess";
+import sveltePreprocess from "svelte-preprocess";
 import copyTo from "rollup-plugin-copy-assets-to";
 import replace from "@rollup/plugin-replace";
 import livereload from "rollup-plugin-livereload";
 import { terser } from "rollup-plugin-terser";
 import babel from "rollup-plugin-babel";
 import rmdir from "rimraf";
-import json from '@rollup/plugin-json';
+import json from "@rollup/plugin-json";
 
 rmdir("public/assets", function (error) {});
 
 const production = !process.env.ROLLUP_WATCH;
-
-const preprocess = autoPreprocess({
-  scss: {},
-  postcss: {
-    plugins: [require("autoprefixer")],
-  },
-});
 
 const input = ["src/main.js"];
 
@@ -42,12 +35,8 @@ const plugins = [
   svelte({
     // enable run-time checks when not in production
     dev: !production,
-    // we'll extract any component CSS out into
-    // a separate file - better for performance
-    css: (css) => {
-      css.write("public/assets/css/bundle.css");
-    },
-    preprocess,
+
+    preprocess: sveltePreprocess(),
 
     onwarn: (warning, handler) => {
       // e.g. don't warn on <marquee> elements, cos they're cool
