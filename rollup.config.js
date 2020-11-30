@@ -9,12 +9,15 @@ import { terser } from "rollup-plugin-terser";
 import babel from "rollup-plugin-babel";
 import rmdir from "rimraf";
 import json from "@rollup/plugin-json";
+import css from "rollup-plugin-css-only";
 
 rmdir("public/assets", function (error) {});
 
+const fs = require("fs");
 const production = !process.env.ROLLUP_WATCH;
-
 const input = ["src/main.js"];
+
+let cssExported = false;
 
 const watch = {
   clearScreen: false,
@@ -34,7 +37,9 @@ const plugins = [
 
   svelte({
     // enable run-time checks when not in production
-    dev: !production,
+    compilerOptions: {
+      dev: !production,
+    },
 
     preprocess: sveltePreprocess(),
 
@@ -44,6 +49,23 @@ const plugins = [
 
       // let Rollup handle all other warnings normally
       handler(warning);
+    },
+  }),
+
+  css({
+    output: function (styles, styleNodes) {
+      if (!cssExported) {
+        const cssFileName = "bundle.css",
+          cssOutput = "public/assets/css/";
+        // cssMapFileName = cssFileName + ".map";
+
+        if (!fs.existsSync(cssOutput)) fs.mkdirSync(cssOutput);
+
+        fs.writeFileSync(cssOutput + cssFileName, styles);
+        // fs.writeFileSync(cssOutput + cssMapFileName, styleNodes);
+
+        cssExported = true;
+      }
     },
   }),
 
@@ -57,12 +79,7 @@ const plugins = [
     dedupe: ["svelte"],
   }),
 
-  commonjs({
-    namedExports: {
-      "node_modules/jquery/dist/jquery.min.js": ["jquery"],
-      "node_modules/bootstrap/dist/js/bootstrap.min.js": ["bootstrap"],
-    },
-  }),
+  commonjs(),
 
   replace({
     "process.env.NODE_ENV": JSON.stringify(
