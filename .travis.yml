@@ -16,8 +16,9 @@ install:
   - mv ../backup/* portfolio-front-end
   - rm -rf ../backup
   - cd portfolio-front-end
-  - npm install
-  - npm run build
+  - npm install -g yarn
+  - yarn
+  - yarn build
   - cp -avr public ../public
   - cd ..
   - rm -rf portfolio-front-end
