@@ -1,8 +1,7 @@
 language: generic
 
 install:
-  - nvm list
-  - nvm use 14.15.1
+  - nvm use 12.0.0
   - npm --version
   - node --version
   - mkdir ../backup
