@@ -22,12 +22,20 @@
 
   init({
     fallbackLocale: "en",
-    initialLocale: getLocaleFromNavigator().toUpperCase() === "tr".toUpperCase() || getLocaleFromNavigator().toUpperCase() === "tr-tr".toUpperCase() ? "tr" : "en",
+    initialLocale:
+      getLocaleFromNavigator().toUpperCase() === "tr".toUpperCase() ||
+      getLocaleFromNavigator().toUpperCase() === "tr-tr".toUpperCase()
+        ? "tr"
+        : "en",
   });
 
   function onLocaleChangeClick() {
     if (get(locale) === "tr") locale.set("en");
     else locale.set("tr");
+  }
+
+  function checkNavLink(path, linkURL) {
+    return path === linkURL || path.startsWith(linkURL + "#");
   }
 </script>
 
@@ -36,7 +44,6 @@
 </svelte:head>
 
 <div class="container">
-
   <header class="row justify-content-center py-4">
     <div class="col-4">
       <div class="pb-4">
@@ -153,19 +160,27 @@
         >
           {$_('bio.contact_button')}
         </a>
-        <a href="/assets/cv/cv-{$locale}.pdf" class="btn btn-outline-lightglass text-light" download>
+        <a
+          href="/assets/cv/cv-{$locale}.pdf"
+          class="btn btn-outline-lightglass text-light"
+          download
+        >
           {$_('bio.download_cv_button')}
         </a>
       </div>
     </div>
     <div class="col-lg-6">
       <nav class="nav pt-lg-0 pt-4">
-        <a class="nav-link pl-0" class:active="{$path === '/'}" href="/">
+        <a
+          class="nav-link pl-0"
+          class:active="{checkNavLink($path, '/')}"
+          href="/"
+        >
           {$_('nav_links.about')}
         </a>
         <a
           class="nav-link"
-          class:active="{$path === '/references'}"
+          class:active="{checkNavLink($path, '/references')}"
           href="/references"
         >
           {$_('nav_links.references')}
@@ -190,7 +205,6 @@
   </header>
 
   <div class="row justify-content-center">
-
     <div class="col-lg-4 text-center d-lg-block d-none">
       <h4 class="font-weight-normal text-white">Ahmet Enes Duruer</h4>
       <p class="mb-4">
@@ -295,7 +309,12 @@
         >
           {$_('bio.contact_button')}
         </a>
-        <a href="/assets/cv/cv-{$locale}.pdf" target="_blank" class="btn btn-outline-lightglass text-light" download>
+        <a
+          href="/assets/cv/cv-{$locale}.pdf"
+          target="_blank"
+          class="btn btn-outline-lightglass text-light"
+          download
+        >
           {$_('bio.download_cv_button')}
         </a>
       </div>
@@ -313,6 +332,5 @@
       />
       <LoadingPlaceHolder hidden="{!$isPageLoading && !showLoadingAlways}" />
     </div>
-
   </div>
 </div>
