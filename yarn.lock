@@ -1927,10 +1927,10 @@ rollup@^2.35.1:
   optionalDependencies:
     fsevents "~2.1.2"
 
-routve@^1.1.17:
-  version "1.1.17"
-  resolved "https://registry.yarnpkg.com/routve/-/routve-1.1.17.tgz#e139fd5021ce7b1aefb62f4efd75be5e6ce6167c"
-  integrity sha512-O+39dn/6W/e9hd/JLAbw8c0plev9qOasPenxWcdvnT0u+mfYE5ZSDl6PftchlCvtncSL+tbCNOzwOgJYz5TVow==
+routve@^1.1.18:
+  version "1.1.18"
+  resolved "https://registry.yarnpkg.com/routve/-/routve-1.1.18.tgz#ccf544b136b2e7d704c30114c653c7db011d12fe"
+  integrity sha512-FFn3kMP/5cT/If5C7USygNx8dO8CuVRaaH+2GC7PbvKxQ48nXiXdl4uyiI+D4RppidpSxhBaKUUouLWpKqPBNw==
   dependencies:
     page "^1.11.6"
     qs "^6.9.4"
