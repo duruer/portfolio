@@ -1,6 +1,5 @@
 <script>
   import Router, { path, isPageLoading } from "routve";
-  import { onDestroy } from "svelte";
   import {
     _,
     addMessages,
@@ -16,12 +15,7 @@
   import RouterConfig from "../router.config";
   import LoadingPlaceHolder from "./LoadingPlaceHolder.svelte";
 
-  let showLoading = true;
   let showLoadingAlways = false;
-
-  const isPageLoadingUnsubscribe = isPageLoading.subscribe((value) => {
-    showLoading = value;
-  });
 
   addMessages("tr", tr);
   addMessages("en", en);
@@ -35,8 +29,6 @@
     if (get(locale) === "tr") locale.set("en");
     else locale.set("tr");
   }
-
-  onDestroy(isPageLoadingUnsubscribe);
 </script>
 
 <svelte:head>
@@ -317,9 +309,9 @@
     <div class="col-lg-6">
       <Router
         routerConfig="{RouterConfig}"
-        hidden="{showLoading || showLoadingAlways}"
+        hidden="{$isPageLoading || showLoadingAlways}"
       />
-      <LoadingPlaceHolder hidden="{!showLoading && !showLoadingAlways}" />
+      <LoadingPlaceHolder hidden="{!$isPageLoading && !showLoadingAlways}" />
     </div>
 
   </div>
