@@ -327,7 +327,7 @@
 
     <div class="col-lg-6">
       <Router
-        routerConfig="{RouterConfig}"
+        config="{RouterConfig}"
         hidden="{$isPageLoading || showLoadingAlways}"
       />
       <LoadingPlaceHolder hidden="{!$isPageLoading && !showLoadingAlways}" />
