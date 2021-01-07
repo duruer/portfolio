@@ -4,7 +4,7 @@
 <p align="center">Kahverengi Portfolio website.</p>
 <p align="center">Live version: <a href="https://ahmetduruer.com" target="_blank">https://ahmetduruer.com</a></p>
 <p align="center">
-<img src="https://img.shields.io/maintenance/yes/2020?style=for-the-badge" alt="Maintained">
+<img src="https://img.shields.io/maintenance/yes/2021?style=for-the-badge" alt="Maintained">
 <a href="https://travis-ci.com/github/kahverengi001/portfolio" target="_blank"><img src="https://img.shields.io/travis/com/kahverengi001/portfolio/dev?style=for-the-badge" alt="Travis CI Build Status"></a>
 <a href="https://github.com/kahverengi001/portfolio/blob/dev/LICENSE"><img src="https://img.shields.io/github/license/kahverengi001/portfolio?style=for-the-badge" alt="License"></a>
 </p>
