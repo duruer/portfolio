@@ -133,18 +133,26 @@ if (production) listExports.push(systemExport);
 export default listExports;
 
 function serve() {
-  let started = false;
+  let server;
+
+  function toExit() {
+    if (server) server.kill(0);
+  }
 
   return {
     writeBundle() {
-      if (!started) {
-        started = true;
-
-        require("child_process").spawn("npm", ["run", "start", "--", "--dev"], {
+      if (server) return;
+      server = require("child_process").spawn(
+        "npm",
+        ["run", "start", "--", "--dev"],
+        {
           stdio: ["ignore", "inherit", "inherit"],
           shell: true,
-        });
-      }
+        }
+      );
+
+      process.on("SIGTERM", toExit);
+      process.on("exit", toExit);
     },
   };
 }
