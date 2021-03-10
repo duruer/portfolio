@@ -10,15 +10,15 @@
   import References from "../references.config";
 </script>
 
-<artice class="d-block mb-5">
+<article class="d-block mb-5">
   <h4 class="mb-4 text-light">{$_("pages.references.title")}</h4>
 
   {#each Object.values(References["works"]) as work, index (work)}
     <div class="row mb-3">
       <div class="col-3">
-        <li class="text-muted">
+        <span class="text-muted">
           {work[$locale].startDate} - {work[$locale].endDate}
-        </li>
+        </span>
       </div>
       <div class="col-9">
         <a href="{work[$locale].webAddress}" target="_blank">
@@ -38,7 +38,7 @@
       </div>
     </div>
   {/each}
-</artice>
+</article>
 
 <article class="d-block mb-5">
   <h4 class="mb-4 text-light">{$_("pages.references.projects_title")}</h4>
