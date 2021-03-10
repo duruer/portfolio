@@ -11,7 +11,8 @@ import postcss from "rollup-plugin-postcss";
 import fsExtra from "fs-extra";
 import fs from "fs";
 
-fs.rmdirSync("public/assets", { recursive: true });
+if (fs.existsSync("public/assets"))
+  fs.rmdirSync("public/assets", { recursive: true });
 
 fsExtra.copySync("src/assets", "public/assets");
 
