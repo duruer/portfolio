@@ -2,22 +2,21 @@ import svelte from "rollup-plugin-svelte";
 import resolve from "@rollup/plugin-node-resolve";
 import commonjs from "@rollup/plugin-commonjs";
 import sveltePreprocess from "svelte-preprocess";
-import copyTo from "rollup-plugin-copy-assets-to";
 import replace from "@rollup/plugin-replace";
 import livereload from "rollup-plugin-livereload";
 import { terser } from "rollup-plugin-terser";
 import babel from "rollup-plugin-babel";
-import rmdir from "rimraf";
 import json from "@rollup/plugin-json";
-import css from "rollup-plugin-css-only";
+import postcss from "rollup-plugin-postcss";
+import fsExtra from "fs-extra";
+import fs from "fs";
 
-rmdir("public/assets", function (error) {});
+fs.rmdirSync("public/assets", { recursive: true });
 
-const fs = require("fs");
+fsExtra.copySync("src/assets", "public/assets");
+
 const production = !process.env.ROLLUP_WATCH;
 const input = ["src/main.js"];
-
-let cssExported = false;
 
 const watch = {
   clearScreen: false,
@@ -26,13 +25,15 @@ const watch = {
 const plugins = [
   json(),
 
-  copyTo({
-    assets: ["./src/assets"],
-    outputDir: "public",
-  }),
+  production &&
+    babel({
+      runtimeHelpers: true,
+    }),
 
-  babel({
-    runtimeHelpers: true,
+  postcss({
+    extract: "assets/css/bundle.css",
+    sourceMap: production,
+    plugins: [],
   }),
 
   svelte({
@@ -52,23 +53,6 @@ const plugins = [
     },
   }),
 
-  css({
-    output: function (styles, styleNodes) {
-      if (!cssExported) {
-        const cssFileName = "bundle.css",
-          cssOutput = "public/assets/css/";
-        // cssMapFileName = cssFileName + ".map";
-
-        if (!fs.existsSync(cssOutput)) fs.mkdirSync(cssOutput);
-
-        fs.writeFileSync(cssOutput + cssFileName, styles);
-        // fs.writeFileSync(cssOutput + cssMapFileName, styleNodes);
-
-        cssExported = true;
-      }
-    },
-  }),
-
   // If you have external dependencies installed from
   // npm, you'll most likely need these plugins. In
   // some cases you'll need additional configuration -
@@ -82,9 +66,12 @@ const plugins = [
   commonjs(),
 
   replace({
-    "process.env.NODE_ENV": JSON.stringify(
-      production ? "production" : "development"
-    ),
+    preventAssignment: true,
+    values: {
+      "process.env.NODE_ENV": JSON.stringify(
+        production ? "production" : "development"
+      ),
+    },
   }),
 
   // In dev mode, call `npm run start` once
@@ -104,28 +91,38 @@ const esExport = {
   input: input,
   output: [
     {
-      sourcemap: true,
+      sourcemap: production,
       format: "es",
       name: "app",
-      dir: "public/assets/js/es/",
+      dir: "public/",
+      entryFileNames: "assets/js/es/[name].js",
+      chunkFileNames: "assets/js/es/[name].[hash].js",
+      assetFileNames: "assets/[name].[hash].[ext]",
     },
   ],
   plugins: plugins,
   watch: watch,
+  treeshake: production,
 };
+
+const systemBundlePlugins = [...plugins];
 
 const systemExport = {
   input: input,
   output: [
     {
-      sourcemap: true,
+      sourcemap: production,
       format: "system",
       name: "app",
-      dir: "public/assets/js/system/",
+      dir: "public/",
+      entryFileNames: "assets/js/system/[name].js",
+      chunkFileNames: "assets/js/system/[name].[hash].js",
+      assetFileNames: "assets/[name].[hash].[ext]",
     },
   ],
-  plugins: plugins,
+  plugins: systemBundlePlugins,
   watch: watch,
+  treeshake: production,
 };
 
 const listExports = [esExport];
