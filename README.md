@@ -1,4 +1,3 @@
-
 <p align="center"><a href="https://ahmetduruer.com" target="_blank"><img height="60" src="https://i.ibb.co/BqB16Gf/kahverengi-portfolio-logo.png" alt="Kahverengi Portfolio logo"></a></p>
 
 <p align="center">Kahverengi Portfolio website.</p>

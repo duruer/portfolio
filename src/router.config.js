@@ -4,16 +4,16 @@ export default {
       component: () => import("./pages/About.svelte"),
     },
     "/references": {
-      component: () => import("./pages/References.svelte")
+      component: () => import("./pages/References.svelte"),
     },
     "/project/:projectID": {
-      component: () => import("./pages/ProjectDetail.svelte")
+      component: () => import("./pages/ProjectDetail.svelte"),
     },
     "/work/:workID": {
-      component: () => import("./pages/WorkDetail.svelte")
+      component: () => import("./pages/WorkDetail.svelte"),
     },
     "*": {
-      component: () => import("./pages/Error404.svelte")
-    }
+      component: () => import("./pages/Error404.svelte"),
+    },
   },
 };

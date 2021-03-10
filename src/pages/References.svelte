@@ -11,9 +11,9 @@
 </script>
 
 <artice class="d-block mb-5">
-  <h4 class="mb-4 text-light">{$_('pages.references.title')}</h4>
+  <h4 class="mb-4 text-light">{$_("pages.references.title")}</h4>
 
-  {#each Object.values(References['works']) as work, index (work)}
+  {#each Object.values(References["works"]) as work, index (work)}
     <div class="row mb-3">
       <div class="col-3">
         <li class="text-muted">
@@ -29,22 +29,22 @@
           {work[$locale].position}
           <a
             title="{$_('pages.references.go_details')}"
-            href="/work/{Object.keys(References['works']).find((key) => References['works'][key] === work)}"
-          >
+            href="/work/{Object.keys(References['works']).find(
+              (key) => References['works'][key] === work
+            )}">
             ≫
           </a>
         </i>
       </div>
     </div>
   {/each}
-
 </artice>
 
 <article class="d-block mb-5">
-  <h4 class="mb-4 text-light">{$_('pages.references.projects_title')}</h4>
+  <h4 class="mb-4 text-light">{$_("pages.references.projects_title")}</h4>
 
   <div class="row">
-    {#each Object.values(References['projects']) as project, index (project)}
+    {#each Object.values(References["projects"]) as project, index (project)}
       <div class="col-lg-6">
         <div class="row mb-3">
           <div class="col-auto">
@@ -53,11 +53,13 @@
               alt="{project[$locale].projectName}"
               width="64"
               height="64"
-              class="rounded project-img"
-            />
+              class="rounded project-img" />
           </div>
           <div class="col">
-            <a href="/project/{Object.keys(References['projects']).find((key) => References['projects'][key] === project)}">
+            <a
+              href="/project/{Object.keys(References['projects']).find(
+                (key) => References['projects'][key] === project
+              )}">
               <h5>{project[$locale].projectName}</h5>
             </a>
             <p class="mb-0">
@@ -68,5 +70,4 @@
       </div>
     {/each}
   </div>
-
 </article>
