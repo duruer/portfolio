@@ -31,7 +31,7 @@
             <polyline points="8 6 2 12 8 18"></polyline>
           </svg>
         </div>
-        <div class="col">Javascript Engineering</div>
+        <div class="col">JavaScript Engineering</div>
       </div>
     </div>
 
@@ -131,7 +131,7 @@
     <div class="col-auto">
       <div class="skill js-bg">
         <span>
-          Javascript
+          JavaScript
           <small class="text-muted">
             Svelte
             <br />
