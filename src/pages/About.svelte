@@ -2,12 +2,12 @@
   import { _ } from "svelte-i18n";
 </script>
 
-<artice class="d-block mb-5">
+<article class="d-block mb-5">
   <h4 class="mb-4 text-light">{$_("pages.about.title")}</h4>
   <p class="mb-0">{$_("pages.about.description")}</p>
-</artice>
+</article>
 
-<artice class="d-block mb-5">
+<article class="d-block mb-5">
   <h4 class="mb-4 text-light">{$_("pages.about.interests_title")}</h4>
 
   <div class="row">
@@ -111,9 +111,9 @@
       </div>
     </div>
   </div>
-</artice>
+</article>
 
-<artice class="d-block mb-5">
+<article class="d-block mb-5">
   <h4 class="mb-4 text-light">{$_("pages.about.skills_title")}</h4>
   <div class="row flex-wrap">
     <div class="col-auto">
@@ -193,4 +193,4 @@
       </div>
     </div>
   </div>
-</artice>
+</article>

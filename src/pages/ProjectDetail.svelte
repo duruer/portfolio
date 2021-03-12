@@ -22,7 +22,7 @@
       : References["projects"][projectID][$locale];
 </script>
 
-<artice class="mb-5">
+<article class="mb-5">
   <h4 class="mb-4 text-light">
     <a href="/references#projects">{$_("pages.project_details.title")}</a>
     ≫ {project ? project.projectName : ""}
@@ -59,4 +59,4 @@
       class="border rounded img-fluid mb-3"
       alt="{image.title}" />
   {/each}
-</artice>
+</article>

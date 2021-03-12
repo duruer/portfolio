@@ -22,7 +22,7 @@
       : References["works"][workID][$locale];
 </script>
 
-<artice class="mb-5">
+<article class="mb-5">
   <h4 class="mb-4 text-light">
     <a href="/references#works">{$_("pages.work_details.work")}</a>
     ≫ {work ? work.companyName : ""}
@@ -98,4 +98,4 @@
       <li>- {technology}</li>
     {/each}
   </ul>
-</artice>
+</article>
