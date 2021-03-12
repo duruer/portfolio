@@ -26,14 +26,15 @@
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="feather feather-smartphone">
-            <rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect>
-            <line x1="12" y1="18" x2="12.01" y2="18"></line>
+            class="feather feather-code">
+            <polyline points="16 18 22 12 16 6"></polyline>
+            <polyline points="8 6 2 12 8 18"></polyline>
           </svg>
         </div>
-        <div class="col">Android</div>
+        <div class="col">Javascript Engineering</div>
       </div>
     </div>
+
     <div class="col-6 d-flex align-items-center">
       <div class="row">
         <div
@@ -49,12 +50,12 @@
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="feather feather-code">
-            <polyline points="16 18 22 12 16 6"></polyline>
-            <polyline points="8 6 2 12 8 18"></polyline>
+            class="feather feather-smartphone">
+            <rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect>
+            <line x1="12" y1="18" x2="12.01" y2="18"></line>
           </svg>
         </div>
-        <div class="col">Front-End Engineering</div>
+        <div class="col">Android</div>
       </div>
     </div>
     <div class="w-100 py-3"></div>
