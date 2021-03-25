@@ -1,16 +1,17 @@
 const production = !process.env.ROLLUP_WATCH;
-
 const autoprefixer = require("autoprefixer");
+const postcssImport = require("postcss-import");
 const cssnano = require("cssnano");
-
-// const postcssImport = require("postcss-import");
+const importUrl = require('postcss-import-url');
 
 module.exports = {
   plugins: [
-    // postcssImport(),
+    importUrl(),
+    postcssImport(),
     autoprefixer(),
-    production && cssnano({
-      preset: "default",
-    }),
+    production &&
+      cssnano({
+        preset: "default",
+      }),
   ],
 };

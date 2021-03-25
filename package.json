@@ -28,6 +28,8 @@
     "placeholder-loading": "^0.3.0",
     "popper.js": "^1.16.1",
     "postcss": "^8.2.8",
+    "postcss-import": "^14.0.0",
+    "postcss-import-url": "^7.0.0",
     "postcss-load-config": "^3.0.1",
     "prettier": "^2.2.1",
     "prettier-plugin-svelte": "^2.2.0",
