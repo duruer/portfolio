@@ -1,23 +1,38 @@
-<p align="center"><a href="https://ahmetduruer.com" target="_blank"><img height="60" src="https://i.ibb.co/BqB16Gf/kahverengi-portfolio-logo.png" alt="Kahverengi Portfolio logo"></a></p>
+# create-svelte
 
-<p align="center">Kahverengi Portfolio website.</p>
-<p align="center">Live version: <a href="https://ahmetduruer.com" target="_blank">https://ahmetduruer.com</a></p>
-<p align="center">
-<img src="https://img.shields.io/maintenance/yes/2021?style=for-the-badge" alt="Maintained">
-<a href="https://travis-ci.com/github/kahverengi001/portfolio" target="_blank"><img src="https://img.shields.io/travis/com/kahverengi001/portfolio/dev?style=for-the-badge" alt="Travis CI Build Status"></a>
-<a href="https://github.com/kahverengi001/portfolio/blob/dev/LICENSE"><img src="https://img.shields.io/github/license/kahverengi001/portfolio?style=for-the-badge" alt="License"></a>
-</p>
+Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte);
 
----
+## Creating a project
 
-# Introduction
+If you're seeing this, you've probably already done this step. Congrats!
 
-This project is using <a href="https://svelte.dev" target="_blank">Svelte 3</a>, <a href="https://getbootstrap.com" target="_blank">Bootstrap 4</a>, <a href="https://sass-lang.com" target="_blank">SASS</a> and <a href="https://github.com/routve/routve" target="_blank">Routve</a> library. For deploy <a href="https://heroku.com" target="_blank">Heroku</a> and <a href="https://travis-ci.com" target="_blank">Travis CI</a> has used.
+```bash
+# create a new project in the current directory
+npm init svelte@next
 
-## Contributing
+# create a new project in my-app
+npm init svelte@next my-app
+```
 
-Merge requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+> Note: the `@next` is temporary
 
-## License
+## Developing
 
-This project is licensed under the GNU GPLv3 License - see the [LICENSE](LICENSE) file for details
+Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+
+```bash
+npm run dev
+
+# or start the server and open the app in a new browser tab
+npm run dev -- --open
+```
+
+## Building
+
+Before creating a production version of your app, install an [adapter](https://kit.svelte.dev/docs#adapters) for your target environment. Then:
+
+```bash
+npm run build
+```
+
+> You can preview the built app with `npm run preview`, regardless of whether you installed an adapter. This should _not_ be used to serve your app in production.
