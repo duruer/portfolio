@@ -11,17 +11,17 @@
   "devDependencies": {
     "@sveltejs/kit": "^1.0.0-next.140",
     "bootstrap": "^4.6.0",
-    "eslint": "^7.22.0",
-    "eslint-config-prettier": "^8.1.0",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-svelte3": "^3.2.0",
     "jquery": "^3.6.0",
     "placeholder-loading": "^0.4.0",
     "popper.js": "^1.16.1",
-    "prettier": "~2.2.1",
-    "prettier-plugin-svelte": "^2.2.0",
-    "sass": "^1.35.1",
-    "svelte": "^3.34.0",
-    "svelte-preprocess": "^4.7.3"
+    "prettier": "~2.3.2",
+    "prettier-plugin-svelte": "^2.3.1",
+    "sass": "^1.37.5",
+    "svelte": "^3.41.0",
+    "svelte-preprocess": "^4.7.4"
   },
   "type": "module"
 }
