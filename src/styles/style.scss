@@ -33,40 +33,40 @@
 .kotlin-bg {
   background: rgba(249, 219, 25, 0.8);
   background: linear-gradient(
-                  90deg,
-                  $primary 0%,
-                  rgba(242, 99, 33, 0.8) 50%,
-                  rgba(191, 42, 144, 0.8) 100%
+    90deg,
+    $primary 0%,
+    rgba(242, 99, 33, 0.8) 50%,
+    rgba(191, 42, 144, 0.8) 100%
   );
 }
 
 .js-bg {
   background: rgba(0, 0, 0, 0.8);
   background: linear-gradient(
-                  90deg,
-                  $primary 0%,
-                  rgba(235, 215, 76, 0.8) 50%,
-                  rgba(255, 255, 255, 0.8) 100%
+    90deg,
+    $primary 0%,
+    rgba(235, 215, 76, 0.8) 50%,
+    rgba(255, 255, 255, 0.8) 100%
   );
 }
 
 .java-bg {
   background: $primary;
   background: linear-gradient(
-                  90deg,
-                  $primary 0%,
-                  rgba(231, 111, 0, 1) 50%,
-                  rgba(83, 130, 161, 1) 100%
+    90deg,
+    $primary 0%,
+    rgba(231, 111, 0, 1) 50%,
+    rgba(83, 130, 161, 1) 100%
   );
 }
 
 .db-bg {
   background: rgb(245, 245, 245);
   background: linear-gradient(
-                  90deg,
-                  $primary 0%,
-                  rgba(245, 245, 245, 1) 50%,
-                  rgba(148, 187, 233, 1) 100%
+    90deg,
+    $primary 0%,
+    rgba(245, 245, 245, 1) 50%,
+    rgba(148, 187, 233, 1) 100%
   );
 }
 
