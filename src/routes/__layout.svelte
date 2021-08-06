@@ -123,6 +123,8 @@
 </div>
 
 <script>
+  import { browser } from "$app/env";
+
   import {
     _,
     locale,
@@ -139,22 +141,18 @@
   import tr from "../../locales/tr.js";
   import en from "../../locales/en.js";
 
+  addMessages("tr", tr);
+  addMessages("tr-tr", tr);
+  addMessages("en", en);
 
-  if (get(locale) === null) {
-    addMessages("tr", tr);
-    addMessages("tr-tr", tr);
-    addMessages("en", en);
-
-    init({
-      fallbackLocale: "en",
-      initialLocale:
-        get(locale) === null
-          ? getLocaleFromNavigator() === null
-            ? get(session).acceptedLanguage
-            : getLocaleFromNavigator()
-          : get(locale),
-    });
-  }
+  init({
+    fallbackLocale: "en",
+    initialLocale: browser
+      ? get(locale) === null
+        ? getLocaleFromNavigator()
+        : get(locale)
+      : get(session).acceptedLanguage,
+  });
 
   function onLocaleChangeClick() {
     changeLanguage();
