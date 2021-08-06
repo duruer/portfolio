@@ -1,4 +1,9 @@
+/** @type {import('@sveltejs/kit').GetSession} */
 export function getSession(request) {
-  const acceptedLanguage = request.headers["accept-language"].split(",")[0];
+  const acceptedLanguage =
+    typeof request.headers["accept-language"] === "undefined"
+      ? ""
+      : request.headers["accept-language"].split(",")[0];
+
   return { acceptedLanguage };
 }
