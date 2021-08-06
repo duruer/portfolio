@@ -1,42 +1,27 @@
-<style>
-    li {
-        list-style: none;
-    }
-</style>
-
-<script>
-  // import { _, locale } from "svelte-i18n";
-
-  // import References from "../references.config";
-
-  const References = {}
-</script>
-
 <article class="d-block mb-5">
-  <!--{$_("pages.references.title")}-->
-  <h4 class="mb-4 text-light"></h4>
+  <h4 class="mb-4 text-light">{$_("pages.references.title")}</h4>
 
-  {#each Object.values(References["works"]) as work, index (work)}
+  {#each References["works"] as work, index (work)}
     <div class="row mb-3">
       <div class="col-3">
         <span class="text-muted">
-          <!--{work[$locale].startDate} - {work[$locale].endDate}-->
+          {$json("references.works." + work).start_date} - {$json(
+            "references.works." + work
+          ).end_date}
         </span>
       </div>
       <div class="col-9">
-<!--        href="{work[$locale].webAddress}"-->
-        <a target="_blank">
-          <!--{work[$locale].companyName} ({work[$locale].location.city})-->
+        <a
+          href="{$json('references.works.' + work).web_address}"
+          target="_blank">
+          {$json("references.works." + work).company_name} ({$json(
+            "references.works." + work
+          ).location.city})
         </a>
         /
         <i>
-          <!--{work[$locale].position}-->
-
-<!--          title="{$_('pages.references.go_details')}"-->
-<!--          href="/work/{Object.keys(References['works']).find(-->
-<!--          (key) => References['works'][key] === work-->
-<!--        )}"-->
-          <a>
+          {$json("references.works." + work).position}
+          <a title="{$_('pages.references.go_details')}" href="/work/{work}">
             ≫
           </a>
         </i>
@@ -49,26 +34,23 @@
   <h4 class="mb-4 text-light">{$_("pages.references.projects_title")}</h4>
 
   <div class="row">
-    {#each Object.values(References["projects"]) as project, index (project)}
+    {#each References["projects"] as project, index (project)}
       <div class="col-lg-6">
         <div class="row mb-3">
           <div class="col-auto">
-            <!--              src="{project[$locale].logoImage}"-->
-            <!--              alt="{project[$locale].projectName}"-->
             <img
+              src="{$json('references.projects.' + project).logo_image}"
+              alt="{$json('references.projects.' + project).project_name}"
               width="64"
               height="64"
               class="rounded project-img" />
           </div>
           <div class="col">
-<!--            href="/project/{Object.keys(References['projects']).find(-->
-<!--            (key) => References['projects'][key] === project-->
-<!--          )}"-->
-            <a>
-<!--              <h5>{project[$locale].projectName}</h5>-->
+            <a href="/project/{project}">
+              <h5>{$json("references.projects." + project).project_name}</h5>
             </a>
             <p class="mb-0">
-              <!--{@html project[$locale].description}-->
+              {@html $json("references.projects." + project).description}
             </p>
           </div>
         </div>
@@ -76,3 +58,11 @@
     {/each}
   </div>
 </article>
+
+<script>
+  import { _, json } from "svelte-i18n";
+
+  import Config from "$lib/Config";
+
+  const References = Config.references;
+</script>
