@@ -12,7 +12,7 @@
 
 # Introduction
 
-This project is using <a href="https://svelte.dev" target="_blank">Svelte 3</a>, <a href="https://kit.svelte.dev" target="_blank">Svelte Kit</a>, <a href="https://getbootstrap.com" target="_blank">Bootstrap 4</a>, <a href="https://sass-lang.com" target="_blank">SASS</a> and <a href="https://github.com/routve/routve" target="_blank">Routve</a> library. For deploy <a href="https://netlify.com" target="_blank">Netlify</a> and <a href="https://cloudflare.com" target="_blank">Cloudflare</a> used.
+This project is using <a href="https://svelte.dev" target="_blank">Svelte 3</a>, <a href="https://kit.svelte.dev" target="_blank">Svelte Kit</a>, <a href="https://getbootstrap.com" target="_blank">Bootstrap 4</a> and <a href="https://sass-lang.com" target="_blank">SASS</a>. For deploy <a href="https://netlify.com" target="_blank">Netlify</a> and <a href="https://cloudflare.com" target="_blank">Cloudflare</a> used.
 
 ## Contributing
 
