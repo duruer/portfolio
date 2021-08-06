@@ -1,3 +1,10 @@
+<svelte:head>
+  <title
+    >{$_("references.projects." + project).project_name} | {$_(
+      "page_title"
+    )}</title>
+</svelte:head>
+
 <article class="mb-5">
   <h4 class="mb-4 text-light">
     <a href="/references#projects">{$_("pages.project_details.title")}</a>
