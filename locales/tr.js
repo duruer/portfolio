@@ -66,6 +66,7 @@ export default {
       },
     },
     references: {
+      page_title: "Referanslar",
       title: "İş Deneyimleri",
       go_details: "Detaya Git",
       projects_title: "Projeler",

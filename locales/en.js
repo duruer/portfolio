@@ -66,6 +66,7 @@ export default {
       },
     },
     references: {
+      page_title: "References",
       title: "Work Experiences",
       go_details: "Go Details",
       projects_title: "Projects",

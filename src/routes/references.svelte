@@ -1,3 +1,7 @@
+<svelte:head>
+  <title>{$_("pages.references.page_title")} | {$_("page_title")}</title>
+</svelte:head>
+
 <article class="d-block mb-5">
   <h4 class="mb-4 text-light">{$_("pages.references.title")}</h4>
 
