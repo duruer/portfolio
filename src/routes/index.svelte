@@ -1,3 +1,7 @@
+<svelte:head>
+  <title>{$_("page_title")}</title>
+</svelte:head>
+
 <article class="d-block mb-5">
   <h4 class="mb-4 text-light">{$_("pages.about.title")}</h4>
   <p class="mb-0">{$_("pages.about.description")}</p>
