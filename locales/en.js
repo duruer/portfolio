@@ -132,12 +132,12 @@ export default {
         start_date: 2020,
         end_date: "",
         details_description:
-          "This is my small portfolio website that I have created to introduce myself. It supports Turkish and English languages as well. In this project during the development, these technologies has been used in, <a href='https://svelte.dev' target='_blank'>Svelte 3</a> for coding of UI, " +
-          "for router and routing the project I have created for Svelte 3 which is <a href='https://github.com/routve/routve' target='_blank'>Routve</a> library, " +
+          "This is my small portfolio website that I created to introduce myself. It supports Turkish and English languages as well. In this project during the development, recently I converted my project from Svelte Rollup to a Svelte Kit project with these technologies used in, <a href='https://svelte.dev' target='_blank'>Svelte 3</a> and <a href='https://kit.svelte.dev' target='_blank'>Svelte Kit</a> for coding of UI, " +
+          "previously I created a Svelte 3 router for routing the project which is <a href='https://github.com/routve/routve' target='_blank'>Routve</a> library, " +
           "<a href='https://sass-lang.com' target='_blank'>SASS</a> for coding CSS, " +
-          "<a href='https://rollupjs.org' target='_blank'>RollupJS</a> as project bundler, <a href='https://github.com' target='_blank'>GitHub (Git)</a> as version controlling system, " +
-          "<a href='https://babeljs.io' target='_blank'>Babel JS</a> for more browser support, <a href='https://prettier.io/' target='_blank'>Prettier</a> as code formatter, " +
-          "<a href='https://travis-ci.com' target='_blank'>Travis CI</a> for build up project, <a href='https://heroku.com' target='_blank'>Heroku</a> for deploy and " +
+          "previously I was using <a href='https://rollupjs.org' target='_blank'>RollupJS</a> as project bundler but now I use Svelte Kit framework (vite), <a href='https://github.com' target='_blank'>GitHub (Git)</a> as version controlling system, " +
+          "I was also using <a href='https://babeljs.io' target='_blank'>Babel JS</a> for more browser support, <a href='https://prettier.io/' target='_blank'>Prettier</a> as code formatter, " +
+          "previously I was using <a href='https://travis-ci.com' target='_blank'>Travis CI</a> for build up project but now <a href='https://netlify.com' target='_blank'>Netlify</a>, and again previously <a href='https://heroku.com' target='_blank'>Heroku</a> was used for deploy but now Netlify completes this job too and " +
           "<a href='https://cloudflare.com' target='_blank'>CloudFlare</a> for infrastructure.",
         links: [
           {
