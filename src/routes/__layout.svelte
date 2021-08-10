@@ -42,7 +42,7 @@
           {$_("bio.contact_button")}
         </a>
         <a
-          href="/assets/cv/cv-{$locale}.pdf"
+          href="/assets/cv/{$_('language.CV_file')}"
           class="btn btn-outline-lightglass text-light"
           download>
           {$_("bio.download_cv_button")}
@@ -103,7 +103,7 @@
           {$_("bio.contact_button")}
         </a>
         <a
-          href="/assets/cv/cv-{$locale}.pdf"
+          href="/assets/cv/{$_('language.CV_file')}"
           target="_blank"
           class="btn btn-outline-lightglass text-light"
           download>

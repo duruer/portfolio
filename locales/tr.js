@@ -3,6 +3,7 @@ export default {
   language: {
     next_lang_title: "EN (US)",
     change_title: "Dili Değiştir",
+    CV_file: "cv-tr.pdf"
   },
   nav_links: {
     about: "Hakkında",

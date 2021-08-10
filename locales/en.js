@@ -3,6 +3,7 @@ export default {
   language: {
     next_lang_title: "TR",
     change_title: "Change Language",
+    CV_file: "cv-en.pdf"
   },
   nav_links: {
     about: "About",
