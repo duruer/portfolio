@@ -1,6 +1,6 @@
 <svelte:head>
   <title
-    >{$_("references.projects." + project).project_name} | {$_(
+    >{$json("references.projects." + project).project_name} | {$_(
       "page_title"
     )}</title>
 </svelte:head>
