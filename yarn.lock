@@ -882,10 +882,10 @@ picomatch@^2.0.4, picomatch@^2.2.1, picomatch@^2.2.2:
   resolved "https://registry.yarnpkg.com/picomatch/-/picomatch-2.3.0.tgz#f1f061de8f6a4bf022892e2d128234fb98302972"
   integrity sha512-lY1Q/PiJGC2zOv/z391WOTD+Z02bCgsFfvxoXXf6h7kv9o+WmsmzYqrAwY63sNgOxE4xEdq0WyUnXfKeBrSvYw==
 
-placeholder-loading@^0.4.0:
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/placeholder-loading/-/placeholder-loading-0.4.0.tgz#bef86521d614ab76bfeff17cb4872f281d023116"
-  integrity sha512-Po3XESQ/rKy9WKJSmHV7xSvW9y7hl8y0YBWG6By6zdiP4xkSPSpYPxbUlL0m3WqMI4oBnt/eQMlRwo9OVgJHVQ==
+placeholder-loading@^0.5.0:
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/placeholder-loading/-/placeholder-loading-0.5.0.tgz#eab6f164c58eb8e462d39fcf83628ad0e2535cf9"
+  integrity sha512-7nhBjcdyhj/mdNiom0k3UBbwVL7M8jJj9uz9nODsWS319KJ+yWyhgFSc+Mwzf/oR/sprcQlcmEw43iqZ/I6rPw==
 
 popper.js@^1.16.1:
   version "1.16.1"

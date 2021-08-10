@@ -1,5 +1,6 @@
 <style lang="scss" global>
   @import "../styles/style";
+  @import "../styles/placeholder";
 </style>
 
 <svelte:head>
@@ -117,7 +118,10 @@
     </div>
 
     <div class="col-lg-6">
-      <slot />
+      <LoadingPlaceHolder hidden="{!$navigating}" />
+      <div hidden="{$navigating}">
+        <slot />
+      </div>
     </div>
   </div>
 </div>
@@ -134,7 +138,9 @@
   } from "svelte-i18n";
 
   import { get } from "svelte/store";
-  import { page, session } from "$app/stores";
+  import { navigating, page, session } from "$app/stores";
+
+  import LoadingPlaceHolder from "./_LoadingPlaceHolder.svelte";
 
   import Config from "$lib/Config";
 
