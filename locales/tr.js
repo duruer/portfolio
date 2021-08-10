@@ -135,7 +135,7 @@ export default {
           " için <a href='https://svelte.dev' target='_blank'>Svelte 3</a> ve <a href='https://kit.svelte.dev' target='_blank'>Svelte Kit</a>, en son güncelleme olarak Svelte Rollup olan projemi bir Svelte Kit projesi olarak değiştirdim ve daha önceden Svelte 3'te routing için kendi geliştirmiş olduğum <a href='https://github.com/routve/routve' target='_blank'>Routve</a> kütüphanesi kullanıyordum, " +
           "CSS kodlamak için <a href='https://sass-lang.com' target='_blank'>SASS</a>, " +
           "tekrar önceden proje bundler'ı olarak <a href='https://rollupjs.org' target='_blank'>RollupJS</a> fakat şimdi Svelte Kit (vite), versiyon kontrol sistemi olarak <a href='https://github.com' target='_blank'>GitHub (Git)</a>, " +
-          "daha önceden daha fazla tarayıcı desteği verebilmek için <a href='https://babeljs.io' target='_blank'>Babel JS</a>, kod formatlayıcısı olarak <a href='https://prettier.io/' target='_blank'>Prettier</a>," +
+          "daha önceden daha fazla tarayıcı desteği verebilmek için <a href='https://babeljs.io' target='_blank'>Babel JS</a>, kod formatlayıcısı olarak <a href='https://prettier.io/' target='_blank'>Prettier</a>, " +
           "tekrar önceden build için <a href='https://travis-ci.com' target='_blank'>Travis CI</a> fakat şimdi <a href='https://netlify.com' target='_blank'>Netlify</a>, altyapı için <a href='https://cloudflare.com' target='_blank'>CloudFlare</a>, deploy ve yayın için önceden <a href='https://heroku.com' target='_blank'>Heroku</a> fakat şimdi Netlify teknolojilerini kullandım.",
         links: [
           {
