@@ -118,10 +118,11 @@
     </div>
 
     <div class="col-lg-6">
-      <LoadingPlaceHolder hidden="{!$navigating}" />
-      <div hidden="{$navigating}">
+      {#if loading}
+        <LoadingPlaceHolder />
+      {:else}
         <slot />
-      </div>
+      {/if}
     </div>
   </div>
 </div>
@@ -146,6 +147,9 @@
 
   import tr from "../../locales/tr.js";
   import en from "../../locales/en.js";
+
+  let loading = false;
+  let navigatingCount = 0;
 
   addMessages("tr", tr);
   addMessages("tr-tr", tr);
@@ -182,4 +186,23 @@
       (startsWith && path.startsWith(pathName))
     );
   }
+
+  navigating.subscribe((isNavigating) => {
+    const currentCount = navigatingCount;
+
+    if (isNavigating) {
+      setTimeout(() => {
+        if (navigatingCount === currentCount && get(navigating)) {
+          if (get(navigating)) {
+            navigatingCount++;
+
+            loading = true;
+          }
+        }
+      }, 100);
+    } else {
+      navigatingCount++;
+      loading = false;
+    }
+  });
 </script>
