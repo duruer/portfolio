@@ -190,7 +190,7 @@ export default {
           "An advanced web platform that comfort your Minecraft server's website needs and supports themes, addons and more features. " +
           "In this project, these technologies has used in, <a href='https://kotlinlang.org' target='_blank'>Kotlin</a> as back-end project language, " +
           "<a href='https://vuejs.org' target='_blank'>Vue.js</a> in front-end of website of project, " +
-          "<a href='https://svelte.dev' target='_blank'>Svelte 3</a> as front-end technology in proejct, <a href='https://trello.com' target='_blank'>Trello</a> for project plan managements, " +
+          "<a href='https://svelte.dev' target='_blank'>Svelte 3</a> as front-end technology in project, <a href='https://trello.com' target='_blank'>Trello</a> for project plan managements, " +
           "<a href='https://mysql.com' target='_blank'>MySQL</a> / <a href='https://mariadb.org' target='_blank'>MariaDB</a> as database, " +
           "<a href='https://docker.com' target='_blank'>Docker</a> for development environment, <a href='https://vertx.io' target='_blank'>Vert.x</a> in back-end developing, " +
           "<a href='https://sass-lang.com' target='_blank'>SASS</a> for CSS coding and <a href='https://dagger.dev' target='_blank'>Dagger 2</a> in dependency injection.",
