@@ -5,7 +5,7 @@
 <p align="center">
 <img src="https://img.shields.io/maintenance/yes/2021?style=for-the-badge" alt="Maintained">
 <a href="https://app.netlify.com/sites/ahmetduruer/deploys" target="_blank"><img src="https://img.shields.io/netlify/f3e051e7-98d1-45d6-8d5d-eed67deff239?style=for-the-badge" alt="Netlify Status"></a>
-<a href="https://github.com/kahverengi001/portfolio/blob/dev/LICENSE"><img src="https://img.shields.io/github/license/kahverengi001/portfolio?style=for-the-badge" alt="License"></a>
+<a href="https://github.com/duruer/portfolio/blob/dev/LICENSE"><img src="https://img.shields.io/github/license/kahverengi001/portfolio?style=for-the-badge" alt="License"></a>
 </p>
 
 ---

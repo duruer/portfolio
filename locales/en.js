@@ -147,7 +147,7 @@ export default {
           },
           {
             name: "GitHub",
-            address: "https://github.com/kahverengi001/portfolio",
+            address: "https://github.com/duruer/portfolio",
           },
         ],
         images: [

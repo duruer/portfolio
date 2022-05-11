@@ -10,7 +10,7 @@ export default {
       },
       {
         name: "GitHub",
-        url: "https://github.com/kahverengi001",
+        url: "https://github.com/duruer",
         svg_code:
           '<svg\n\t\t\t\t\t\txmlns="http://www.w3.org/2000/svg"\n\t\t\t\t\t\twidth="20"\n\t\t\t\t\t\theight="20"\n\t\t\t\t\t\tviewBox="0 0 24 24"\n\t\t\t\t\t\tfill="none"\n\t\t\t\t\t\tstroke="currentColor"\n\t\t\t\t\t\tstroke-width="2"\n\t\t\t\t\t\tstroke-linecap="round"\n\t\t\t\t\t\tstroke-linejoin="round"\n\t\t\t\t\t\tclass="feather feather-github"\n\t\t\t\t\t>\n\t\t\t\t\t\t<path\n\t\t\t\t\t\t\td="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0\n              0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07\n              5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65\n              5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0\n              5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"\n\t\t\t\t\t\t/>\n\t\t\t\t\t</svg>',
       },
@@ -30,7 +30,7 @@ export default {
     email_address: "hello@ahmetduruer.com",
   },
   navigation: {
-    portfolio_github_link: "https://github.com/kahverengi001/portfolio",
+    portfolio_github_link: "https://github.com/duruer/portfolio",
   },
   pages: {
     about: {
