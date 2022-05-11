@@ -3,7 +3,7 @@
 <p align="center">Kahverengi Portfolio website.</p>
 <p align="center">Live version: <a href="https://ahmetduruer.com" target="_blank">https://ahmetduruer.com</a></p>
 <p align="center">
-<img src="https://img.shields.io/maintenance/yes/2021?style=for-the-badge" alt="Maintained">
+<img src="https://img.shields.io/maintenance/yes/2022?style=for-the-badge" alt="Maintained">
 <a href="https://app.netlify.com/sites/ahmetduruer/deploys" target="_blank"><img src="https://img.shields.io/netlify/f3e051e7-98d1-45d6-8d5d-eed67deff239?style=for-the-badge" alt="Netlify Status"></a>
 <a href="https://github.com/duruer/portfolio/blob/dev/LICENSE"><img src="https://img.shields.io/github/license/kahverengi001/portfolio?style=for-the-badge" alt="License"></a>
 </p>
