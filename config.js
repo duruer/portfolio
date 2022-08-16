@@ -27,7 +27,7 @@ export default {
           '<svg\n\t\t\t\t\t\txmlns="http://www.w3.org/2000/svg"\n\t\t\t\t\t\twidth="20"\n\t\t\t\t\t\theight="20"\n\t\t\t\t\t\tviewBox="0 0 24 24"\n\t\t\t\t\t\tfill="none"\n\t\t\t\t\t\tstroke="currentColor"\n\t\t\t\t\t\tstroke-width="2"\n\t\t\t\t\t\tstroke-linecap="round"\n\t\t\t\t\t\tstroke-linejoin="round"\n\t\t\t\t\t\tclass="feather feather-linkedin"\n\t\t\t\t\t>\n\t\t\t\t\t\t<path\n\t\t\t\t\t\t\td="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2\n              2v7h-4v-7a6 6 0 0 1 6-6z"\n\t\t\t\t\t\t/>\n\t\t\t\t\t\t<rect x="2" y="9" width="4" height="12" />\n\t\t\t\t\t\t<circle cx="4" cy="4" r="2" />\n\t\t\t\t\t</svg>',
       },
     ],
-    email_address: "hello@ahmetduruer.com",
+    email_address: "ahmet@duruer.dev",
   },
   navigation: {
     portfolio_github_link: "https://github.com/duruer/portfolio",
