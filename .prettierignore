@@ -1,4 +1,6 @@
-.svelte-kit/**
-static/**
-build/**
-node_modules/**
+.svelte
+static
+build
+functions
+node_modules
+.svelte-kit

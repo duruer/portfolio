@@ -85,28 +85,12 @@
   </ul>
 </article>
 
-<script context="module">
-  import Config from "$lib/Config";
-
-  const References = Config.references;
-
-  /**
-   * @type {import('@sveltejs/kit').Load}
-   */
-  export async function load({ page }) {
-    let output = {
-      props: {},
-    };
-
-    if (References["works"].indexOf(page.params.work) === -1) output = null;
-    else output.props.work = page.params.work;
-
-    return output;
-  }
-</script>
-
 <script>
   import { _, json, locale } from "svelte-i18n";
 
-  export let work;
+  export let data;
+
+  let { work } = data;
+
+  $: ({ work } = data);
 </script>

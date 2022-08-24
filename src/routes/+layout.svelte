@@ -53,13 +53,13 @@
       <nav class="nav pt-lg-0 pt-4">
         <a
           class="nav-link pl-0"
-          class:active="{checkNavLink($page.path, '/')}"
+          class:active="{checkNavLink($page.url.pathname, '/')}"
           href="/">
           {$_("nav_links.about")}
         </a>
         <a
           class="nav-link"
-          class:active="{checkNavLink($page.path, '/references')}"
+          class:active="{checkNavLink($page.url.pathname, '/references')}"
           href="/references">
           {$_("nav_links.references")}
         </a>
@@ -139,17 +139,20 @@
   } from "svelte-i18n";
 
   import { get } from "svelte/store";
-  import { navigating, page, session } from "$app/stores";
+  import { navigating, page } from "$app/stores";
 
   import LoadingPlaceHolder from "./_LoadingPlaceHolder.svelte";
 
   import Config from "$lib/Config";
 
-  import tr from "../../locales/tr.js";
-  import en from "../../locales/en.js";
+  import tr from "../locales/tr.js";
+  import en from "../locales/en.js";
 
   let loading = false;
   let navigatingCount = 0;
+  export let data;
+
+  const { acceptedLanguage } = data;
 
   addMessages("tr", tr);
   addMessages("tr-tr", tr);
@@ -161,7 +164,7 @@
       ? get(locale) === null
         ? getLocaleFromNavigator()
         : get(locale)
-      : get(session).acceptedLanguage,
+      : acceptedLanguage,
   });
 
   function onLocaleChangeClick() {

@@ -2,30 +2,31 @@
   "name": "kahverengi-portfolio",
   "version": "0.0.1",
   "scripts": {
-    "dev": "svelte-kit dev --host 0.0.0.0",
-    "build": "svelte-kit build",
-    "preview": "svelte-kit preview",
+    "dev": "vite dev --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview",
     "lint": "prettier --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
     "format": "prettier --write --plugin-search-dir=. ."
   },
   "devDependencies": {
-    "@sveltejs/adapter-netlify": "^1.0.0-next.27",
-    "@sveltejs/kit": "^1.0.0-next.142",
+    "@sveltejs/adapter-netlify": "^1.0.0-next.71",
+    "@sveltejs/kit": "^1.0.0-next.431",
     "bootstrap": "^4.6.0",
-    "eslint": "^7.32.0",
-    "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-svelte3": "^3.2.0",
+    "eslint": "^8.22.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-svelte3": "^4.0.0",
     "jquery": "^3.6.0",
-    "placeholder-loading": "^0.5.0",
+    "placeholder-loading": "^0.6.0",
     "popper.js": "^1.16.1",
-    "prettier": "~2.3.2",
-    "prettier-plugin-svelte": "^2.3.1",
-    "sass": "^1.37.5",
-    "svelte": "^3.42.1",
-    "svelte-preprocess": "^4.7.4"
+    "prettier": "~2.7.1",
+    "prettier-plugin-svelte": "^2.7.0",
+    "sass": "^1.54.5",
+    "svelte": "^3.49.0",
+    "svelte-preprocess": "^4.10.7",
+    "vite": "^3.0.9"
   },
   "type": "module",
   "dependencies": {
-    "svelte-i18n": "^3.3.9"
+    "svelte-i18n": "^3.4.0"
   }
 }

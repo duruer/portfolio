@@ -43,29 +43,12 @@
   {/each}
 </article>
 
-<script context="module">
-  import Config from "$lib/Config";
-
-  const References = Config.references;
-
-  /**
-   * @type {import('@sveltejs/kit').Load}
-   */
-  export async function load({ page }) {
-    const output = {
-      props: {},
-    };
-
-    if (References["projects"].indexOf(page.params.project) === -1)
-      output.status = 404;
-    else output.props.project = page.params.project;
-
-    return output;
-  }
-</script>
-
 <script>
   import { _, json } from "svelte-i18n";
 
-  export let project;
+  export let data;
+
+  let { project } = data;
+
+  $: ({ project } = data);
 </script>
