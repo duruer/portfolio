@@ -16,7 +16,7 @@
     alt="{$json('references.works.' + work).company_name}"
     class="rounded img-fluid" />
   <h5 class="my-4">{$_("pages.work_details.description")}</h5>
-  <p>
+  <p class="text-justify">
     {@html $json("references.works." + work).description}
   </p>
   <ul class="list-inline text-muted">

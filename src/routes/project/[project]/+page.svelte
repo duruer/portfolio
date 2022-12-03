@@ -10,7 +10,7 @@
     <a href="/references#projects">{$_("pages.project_details.title")}</a>
     ≫ {$json("references.projects." + project).project_name}
   </h4>
-  <p>
+  <p class="text-justify">
     {@html $json("references.projects." + project).details_description}
   </p>
   <h6 class="text-muted">

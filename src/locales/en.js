@@ -1,5 +1,5 @@
 export default {
-  page_title: "Ahmet Enes Duruer - Software Developer",
+  page_title: "Ahmet Enes Duruer - Software Engineer",
   language: {
     next_lang_title: "TR",
     change_title: "Change Language",
@@ -12,7 +12,7 @@ export default {
   },
   bio: {
     name: "Ahmet Enes Duruer",
-    status: "Software Developer, <br /> Entrepreneur",
+    status: "Software Engineer, <br /> Entrepreneur",
     contact_button: "Contact",
     download_cv_button: "Download CV",
     made_with:
@@ -22,15 +22,12 @@ export default {
     about: {
       title: "About Me",
       description:
-        "Hello, I'm Ahmet. Also known as \"Kahverengi\" in software and gaming world. A software developer and entrepreneur from Turkey. In my daily life, I create and work on websites, mobile applications and personal projects. I always develop myself in programming and interested to learn new technologies. Mainly, I'm a back-end developer.",
+        "Hello, I'm Ahmet. Also known as \"Kahverengi\" in software and gaming world. An attentive, passionate Kotlin/Java Software Engineer and entrepreneur from Turkey. I'm passionate about learning and researching new technologies. In my daily life, I create and work on websites, mobile applications and personal projects. I'm developing and contributing to open-source projects in my free times.",
       interests_title: "Interests",
       skills_title: "Skills",
       interests: {
         javascript_developing: {
           name: "JavaScript Developing",
-        },
-        android: {
-          name: "Android",
         },
         back_end_developing: {
           name: "Back-End Developing",
@@ -38,11 +35,14 @@ export default {
         server: {
           name: "Server",
         },
+        android: {
+          name: "Android",
+        },
       },
       skills: {
         kotlin: {
           name: "Kotlin",
-          techs: { android: "Android", web: "Web" },
+          techs: { android: "Android", "back-end":"Back-End" },
         },
         javascript: {
           name: "JavaScript",
@@ -96,8 +96,8 @@ export default {
       "general-mobile": {
         company_name: "General Mobile Inc.",
         logo_image: "/assets/img/references/companies/gm-logo-dark.jpeg",
-        start_date: 2017,
-        end_date: 2018,
+        start_date: "Nov 2017",
+        end_date: "Aug 2018",
         web_address: "https://www.generalmobile.com",
         position: "Android Developer",
         location: {
@@ -107,7 +107,7 @@ export default {
         description:
           "During my work experience I have been  working on and building stock Android applications with 6 other members in the beginning. " +
           "We were making UI in Android by design from <a href='https://www.sketch.com' target='_blank'>Sketch</a>. " +
-          "In addition, I have worked on some of company application projects such as <a href='https://play.google.com/store/apps/details?id=com.generalmobile.app.gallery' target='_blank'>GM Gallery Go</a>, <a href='https://play.google.com/store/apps/details?id=com.generalmobile.app.musicplayer' target='_blank'>GM Music Player</a>, <a href='https://play.google.com/store/apps/details?id=com.generalmobile.assistant' target='_blank'>GM Assistant</a> and <a href='https://play.google.com/store/apps/details?id=com.generalmobile.app.gmfilemanager' target='_blank'>GM Files</a>, " +
+          "In addition, I have worked on some company application projects such as <a href='https://play.google.com/store/apps/details?id=com.generalmobile.app.gallery' target='_blank'>GM Gallery Go</a>, <a href='https://play.google.com/store/apps/details?id=com.generalmobile.app.musicplayer' target='_blank'>GM Music Player</a>, <a href='https://play.google.com/store/apps/details?id=com.generalmobile.assistant' target='_blank'>GM Assistant</a> and <a href='https://play.google.com/store/apps/details?id=com.generalmobile.app.gmfilemanager' target='_blank'>GM Files</a>, " +
           "which are still available in Google Play. They have built in completely Java and Kotlin. " +
           "We have used issue tracking system in GitLab.",
         used_technologies: [
@@ -122,10 +122,135 @@ export default {
           "Firebase",
           "Fabric.io",
           "Dagger 2",
+          "MVVM",
+          "MVP",
+          "MVC"
+        ],
+      },
+      "kod-gemisi": {
+        company_name: "Kod Gemisi",
+        logo_image: "/assets/img/references/companies/kod-gemisi-logo.jpg",
+        start_date: "Oct 2021",
+        end_date: "Jan 2022",
+        web_address: "https://www.linkedin.com/company/kodgemisi/?originalSubdomain=tr",
+        position: "Intern",
+        location: {
+          city: "Remote",
+          country: "Turkey",
+        },
+        description:
+          "During my internship, I contributed in the project <a href='https://grispi.com' target='_blank'>Grispi</a>. " +
+          "Grispi is an enterprise CRM application like Zendesk. I improved and added new scenario tests, optimized code base, " +
+          "and developed web services for organization and group management systems.",
+        used_technologies: [
+          "Kotlin",
+          "Java",
+          "Gradle",
+          "Git",
+          "GitHub",
+          "Telegram",
+          "JIRA",
+          "Docker",
+          "Micronaut",
+          "Hibernate",
+          "Hexagonal Architecture"
+        ],
+      },
+      "iconecwave": {
+        company_name: "iConec Wave",
+        logo_image: "/assets/img/references/companies/iconecwave-logo.jpg",
+        start_date: "Feb 2022",
+        end_date: "Present",
+        web_address: "https://iconecwave.com/",
+        position: "Java Software Engineer",
+        location: {
+          city: "İstanbul/Remote",
+          country: "Turkey",
+        },
+        description:
+          "In iConec Wave, I'm contributing to development of two applications: Royal Canin and DxPathfinder. " +
+          "I create, optimize and improve web services for our customer's needs.",
+        used_technologies: [
+          "Kotlin",
+          "Java",
+          "Gradle",
+          "Maven",
+          "AWS Cloud",
+          "Spring",
+          "Slack",
+          "Jenkins",
+          "EC2",
+          "DynamoDB",
+          "S3",
         ],
       },
     },
     projects: {
+      "royal-canin": {
+        logo_image: "/assets/img/references/projects/royal-canin-logo.png",
+        project_name: "iConec Wave - Royal Canin",
+        description: "A french cat & dog food producer.",
+        start_date: 2022,
+        end_date: "",
+        details_description:
+          "The Royal Canin is a famous French cat & dog food producer. " +
+          "We are developing their modernization needs of business from factory formula management, " +
+          "packaging, veterinary clinics, distribution, to the end user.",
+        links: [
+          {
+            name: "Website",
+            address: "https://ahmetduruer.com",
+          },
+        ],
+        images: [
+          {
+            title: "Royal Canin",
+            address: "/assets/img/references/projects/royal-canin-ss-1.png",
+          },
+        ],
+      },
+      "dxpathfinder": {
+        logo_image: "/assets/img/references/projects/dxpathfinder-logo.jpg",
+        project_name: "iConec Wave - DxPathFinder",
+        description: "Online digital performance cockpit.",
+        start_date: 2022,
+        end_date: "",
+        details_description:
+          "The DxPathFinder is an online digital performance cockpit, where you will easily measure your digital performance and receive improvement recommendations for better business performance.",
+        links: [
+          {
+            name: "Website",
+            address: "https://www.dxpathfinder.com/",
+          },
+        ],
+        images: [
+          {
+            title: "DxPathFinder",
+            address: "/assets/img/references/projects/dxpathfinder-ss-1.png",
+          },
+        ],
+      },
+      "grispi": {
+        logo_image: "/assets/img/references/projects/grispi-logo.jpg",
+        project_name: "Kod Gemisi - Grispi",
+        description: "Enterprise CRM management application.",
+        start_date: "Oct 2021",
+        end_date: "Jan 2022",
+        details_description:
+          "The Grispi is an enterprise CRM application like Zendesk.",
+        links: [
+          {
+            name: "Website",
+            address: "https://grispi.com/",
+          },
+        ],
+        images: [
+          {
+            title: "Grispi",
+            address: "/assets/img/references/projects/grispi-ss-1.png",
+          },
+        ],
+      },
       portfolio: {
         logo_image: "/assets/img/references/projects/portfolio-en.png",
         project_name: "Portfolio",

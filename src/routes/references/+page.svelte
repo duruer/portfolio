@@ -7,14 +7,14 @@
 
   {#each References["works"] as work, index (work)}
     <div class="row mb-3">
-      <div class="col-3">
+      <div class="col-4">
         <span class="text-muted">
           {$json("references.works." + work).start_date} - {$json(
             "references.works." + work
           ).end_date}
         </span>
       </div>
-      <div class="col-9">
+      <div class="col-8">
         <a
           href="{$json('references.works.' + work).web_address}"
           target="_blank">

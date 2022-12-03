@@ -42,7 +42,7 @@ export default {
       skills: {
         kotlin: {
           name: "Kotlin",
-          techs: { android: "Android", web: "Web" },
+          techs: { android: "Android", "back-end": "Back-End" },
         },
         javascript: {
           name: "JavaScript",
@@ -95,8 +95,8 @@ export default {
       "general-mobile": {
         company_name: "General Mobile AŞ.",
         logo_image: "/assets/img/references/companies/gm-logo-dark.jpeg",
-        start_date: 2017,
-        end_date: 2018,
+        start_date: "Kas 2017",
+        end_date: "Ağu 2018",
         web_address: "https://www.generalmobile.com",
         position: "Android Geliştiricisi",
         location: {
@@ -123,8 +123,130 @@ export default {
           "Dagger 2",
         ],
       },
+      "kod-gemisi": {
+        company_name: "Kod Gemisi",
+        logo_image: "/assets/img/references/companies/kod-gemisi-logo.jpg",
+        start_date: "Ekim 2021",
+        end_date: "Ocak 2022",
+        web_address: "https://www.linkedin.com/company/kodgemisi/?originalSubdomain=tr",
+        position: "Staj",
+        location: {
+          city: "Uzaktan",
+          country: "Türkiye",
+        },
+        description:
+          "Staj sürem boyunca, <a href='https://grispi.com' target='_blank'>Grispi</a> projesinin geliştirilmesinde katkıda bulundum. " +
+          "Grispi bir CRM yani Zendesk gibi bir müşteri ilişki yönetim uygulaması. Yeni senaryo testleri oluşturdum ve varolan senaryo testlerini geliştirdim. " +
+          "Kod optimizasyonlarında bulundum, organizasyon ve grup sistemleri için yeni web servisler geliştirdim.",
+        used_technologies: [
+          "Kotlin",
+          "Java",
+          "Gradle",
+          "Git",
+          "GitHub",
+          "Telegram",
+          "JIRA",
+          "Docker",
+          "Micronaut",
+          "Hibernate",
+          "Hexagonal Mimari"
+        ],
+      },
+      "iconecwave": {
+        company_name: "iConec Wave",
+        logo_image: "/assets/img/references/companies/iconecwave-logo.jpg",
+        start_date: "Şub 2022",
+        end_date: "Hala",
+        web_address: "https://iconecwave.com/",
+        position: "Java Yazılım Geliştiricisi",
+        location: {
+          city: "İstanbul/Remote",
+          country: "Turkey",
+        },
+        description:
+          "iConec Wave'de 2 projeye katkıda bulunuyorum: Royal Canin ve DxPathFinder. " +
+          "İhtiyaçlara yönelik web servisleri üretiyor, geliştiriyor ve optimize ediyorum.",
+        used_technologies: [
+          "Kotlin",
+          "Java",
+          "Gradle",
+          "Maven",
+          "AWS Cloud",
+          "Spring",
+          "Slack",
+          "Jenkins",
+          "EC2",
+          "DynamoDB",
+          "S3",
+        ],
+      },
     },
     projects: {
+      "royal-canin": {
+        logo_image: "/assets/img/references/projects/royal-canin-logo.png",
+        project_name: "iConec Wave - Royal Canin",
+        description: "Fransız kedi köpek mama üreticisi.",
+        start_date: 2022,
+        end_date: "",
+        details_description:
+          "The Royal Canin is a famous French cat & dog food producer. " +
+          "We are developing their modernization needs of business from factory formula management, " +
+          "packaging, veterinary clinics, distribution, to the end user.",
+        links: [
+          {
+            name: "Website",
+            address: "https://ahmetduruer.com",
+          },
+        ],
+        images: [
+          {
+            title: "Royal Canin",
+            address: "/assets/img/references/projects/royal-canin-ss-1.png",
+          },
+        ],
+      },
+      "dxpathfinder": {
+        logo_image: "/assets/img/references/projects/dxpathfinder-logo.jpg",
+        project_name: "iConec Wave - DxPathFinder",
+        description: "Dijital iş yönetim performans kokpiti.",
+        start_date: 2022,
+        end_date: "",
+        details_description:
+          "DxPathFinder dijital performansınızı ölçebileceğiniz, işinizin gelişmesi için çözüm önerileri alabileceğiniz bir dijital iş yönetim performans kokpiti.",
+        links: [
+          {
+            name: "Website",
+            address: "https://www.dxpathfinder.com/",
+          },
+        ],
+        images: [
+          {
+            title: "DxPathFinder",
+            address: "/assets/img/references/projects/dxpathfinder-ss-1.png",
+          },
+        ],
+      },
+      "grispi": {
+        logo_image: "/assets/img/references/projects/grispi-logo.jpg",
+        project_name: "Kod Gemisi - Grispi",
+        description: "Müşteri iletişim yönetim uygulaması.",
+        start_date: "Oct 2021",
+        end_date: "Jan 2022",
+        details_description:
+          "Grispi Zendesk gibi içerisinde telefon, mail veya internet üzerinden müşteri taleplerinizi yönetebileceğiniz bir müşteri ilişki yönetim uygulaması.",
+        links: [
+          {
+            name: "Website",
+            address: "https://grispi.com/",
+          },
+        ],
+        images: [
+          {
+            title: "Grispi",
+            address: "/assets/img/references/projects/grispi-ss-1.png",
+          },
+        ],
+      },
       portfolio: {
         logo_image: "/assets/img/references/projects/portfolio-tr.png",
         project_name: "Portföy",

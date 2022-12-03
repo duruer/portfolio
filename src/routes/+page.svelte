@@ -4,7 +4,7 @@
 
 <article class="d-block mb-5">
   <h4 class="mb-4 text-light">{$_("pages.about.title")}</h4>
-  <p class="mb-0">{$_("pages.about.description")}</p>
+  <p class="mb-0 text-justify">{$_("pages.about.description")}</p>
 </article>
 
 <article class="d-block mb-5">

@@ -3,8 +3,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
 
 .skill {
-  width: 100px;
-  height: 100px;
+  width: 110px;
+  min-height: 140px;
   border-radius: $border-radius;
   display: flex;
   align-items: center;
@@ -14,8 +14,8 @@
   background: $lightglass;
   margin-bottom: 24px;
   &:after {
-    width: 95px;
-    height: 95px;
+    width: 105px;
+    height: 135px;
     border-radius: $border-radius;
     content: "";
     position: absolute;
@@ -23,8 +23,8 @@
   }
   > * {
     position: absolute;
-    width: 80px;
-    height: 80px;
+    width: 90px;
+    height: 120px;
     z-index: 1;
     font-weight: lighter;
   }
@@ -72,7 +72,11 @@
 
 .linux-bg {
   background: $primary;
-  background: linear-gradient(90deg, $primary 0%, rgba(0, 0, 0, 0) 100%);
+  background: linear-gradient(
+                  90deg,
+                  $primary 0%,
+                  rgba(24, 88, 134, 0.8) 100%
+  );
 }
 
 .pp {
