@@ -12,7 +12,7 @@ export default {
   },
   bio: {
     name: "Ahmet Enes Duruer",
-    status: "Yazılım Geliştiricisi,<br />Girişimci",
+    status: "Mid-Level Yazılım Geliştiricisi,<br />Girişimci",
     contact_button: "İletişim",
     download_cv_button: "CV'yi İndir",
     made_with:
@@ -22,7 +22,7 @@ export default {
     about: {
       title: "Hakkımda",
       description:
-        'Merhaba, ben Ahmet. Ya da oyun ve yazılım dünyasında "Kahverengi". Sakarya\'dan bir yazılım geliştiricisi ve girişimci. Günlük hayatımda, websiteler, mobil uygulamalar ve kişisel projelerimle uğraşıyorum. Boş zamanlarımda, yazılımda yeni teknolojiler deniyor ve öğreniyorum. Genel olarak, bir Back-End geliştiricisiyim.',
+        'Merhaba, ben Ahmet. Ya da oyun ve yazılım dünyasında "Kahverengi". Sakarya\'dan bir mid-level yazılım geliştiricisi ve girişimci. Günlük hayatımda, websiteler, mobil uygulamalar ve kişisel projelerimle uğraşıyorum. Boş zamanlarımda, yazılımda yeni teknolojiler deniyor ve öğreniyorum. Genel olarak, bir Back-End geliştiricisiyim.',
       interests_title: "İlgi Alanlarım",
       skills_title: "Yeteneklerim",
       interests: {
@@ -98,7 +98,7 @@ export default {
         start_date: "Kas 2017",
         end_date: "Ağu 2018",
         web_address: "https://www.generalmobile.com",
-        position: "Android Geliştiricisi",
+        position: "Junior Android Geliştiricisi",
         location: {
           city: "İstanbul",
           country: "Türkiye",
@@ -158,7 +158,7 @@ export default {
         start_date: "Şub 2022",
         end_date: "Hala",
         web_address: "https://iconecwave.com/",
-        position: "Java Yazılım Geliştiricisi",
+        position: "Mid Java Yazılım Geliştiricisi",
         location: {
           city: "İstanbul/Remote",
           country: "Turkey",

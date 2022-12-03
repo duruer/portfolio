@@ -12,7 +12,7 @@ export default {
   },
   bio: {
     name: "Ahmet Enes Duruer",
-    status: "Software Engineer, <br /> Entrepreneur",
+    status: "Mid-Level Software Engineer, <br /> Entrepreneur",
     contact_button: "Contact",
     download_cv_button: "Download CV",
     made_with:
@@ -22,7 +22,7 @@ export default {
     about: {
       title: "About Me",
       description:
-        "Hello, I'm Ahmet. Also known as \"Kahverengi\" in software and gaming world. An attentive, passionate Kotlin/Java Software Engineer and entrepreneur from Turkey. I'm passionate about learning and researching new technologies. In my daily life, I create and work on websites, mobile applications and personal projects. I'm developing and contributing to open-source projects in my free times.",
+        "Hello, I'm Ahmet. Also known as \"Kahverengi\" in software and gaming world. An attentive, passionate mid-level Kotlin/Java Software Engineer and entrepreneur from Turkey. I'm passionate about learning and researching new technologies. In my daily life, I create and work on websites, mobile applications and personal projects. I'm developing and contributing to open-source projects in my free times.",
       interests_title: "Interests",
       skills_title: "Skills",
       interests: {
@@ -99,7 +99,7 @@ export default {
         start_date: "Nov 2017",
         end_date: "Aug 2018",
         web_address: "https://www.generalmobile.com",
-        position: "Android Developer",
+        position: "Junior Android Developer",
         location: {
           city: "İstanbul",
           country: "Turkey",
@@ -162,7 +162,7 @@ export default {
         start_date: "Feb 2022",
         end_date: "Present",
         web_address: "https://iconecwave.com/",
-        position: "Java Software Engineer",
+        position: "Mid Java Software Engineer",
         location: {
           city: "İstanbul/Remote",
           country: "Turkey",
