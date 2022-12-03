@@ -1,5 +1,5 @@
 export default {
-  page_title: "Ahmet Enes Duruer - Yazılım Geliştiricisi",
+  page_title: "Ahmet Enes Duruer - Mid-Level Yazılım Geliştiricisi",
   language: {
     next_lang_title: "EN (US)",
     change_title: "Dili Değiştir",

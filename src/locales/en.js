@@ -1,5 +1,5 @@
 export default {
-  page_title: "Ahmet Enes Duruer - Software Engineer",
+  page_title: "Ahmet Enes Duruer - Mid-Level Software Engineer",
   language: {
     next_lang_title: "TR",
     change_title: "Change Language",
