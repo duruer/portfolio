@@ -1,5 +1,5 @@
 export default {
-  page_title: "Ahmet Enes Duruer - Mid-Level Software Engineer",
+  page_title: "Ahmet Enes Duruer - Mid Software Engineer",
   language: {
     next_lang_title: "TR",
     change_title: "Change Language",
@@ -12,7 +12,7 @@ export default {
   },
   bio: {
     name: "Ahmet Enes Duruer",
-    status: "Mid-Level Software Engineer, <br /> Entrepreneur",
+    status: "Mid Software Engineer, <br /> Entrepreneur",
     contact_button: "Contact",
     download_cv_button: "Download CV",
     made_with:
@@ -22,7 +22,7 @@ export default {
     about: {
       title: "About Me",
       description:
-        "Hello, I'm Ahmet. Also known as \"Kahverengi\" in software and gaming world. An attentive, passionate mid-level Kotlin/Java Software Engineer and entrepreneur from Turkey. I'm passionate about learning and researching new technologies. In my daily life, I create and work on websites, mobile applications and personal projects. I'm developing and contributing to open-source projects in my free times.",
+        "Hello, I'm Ahmet. Also known as \"Kahverengi\" in software and gaming world. An attentive, passionate Mid Kotlin/Java Software Engineer and entrepreneur from Turkey. I'm passionate about learning and researching new technologies. In my daily life, I create and work on websites, mobile applications and personal projects. I'm developing and contributing to open-source projects in my free times.",
       interests_title: "Interests",
       skills_title: "Skills",
       interests: {

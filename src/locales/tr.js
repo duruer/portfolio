@@ -1,5 +1,5 @@
 export default {
-  page_title: "Ahmet Enes Duruer - Mid-Level Yazılım Geliştiricisi",
+  page_title: "Ahmet Enes Duruer - Mid Yazılım Geliştiricisi",
   language: {
     next_lang_title: "EN (US)",
     change_title: "Dili Değiştir",
@@ -12,7 +12,7 @@ export default {
   },
   bio: {
     name: "Ahmet Enes Duruer",
-    status: "Mid-Level Yazılım Geliştiricisi,<br />Girişimci",
+    status: "Mid Yazılım Geliştiricisi,<br />Girişimci",
     contact_button: "İletişim",
     download_cv_button: "CV'yi İndir",
     made_with:
@@ -22,7 +22,7 @@ export default {
     about: {
       title: "Hakkımda",
       description:
-        'Merhaba, ben Ahmet. Ya da oyun ve yazılım dünyasında "Kahverengi". Sakarya\'dan bir mid-level yazılım geliştiricisi ve girişimci. Günlük hayatımda, websiteler, mobil uygulamalar ve kişisel projelerimle uğraşıyorum. Boş zamanlarımda, yazılımda yeni teknolojiler deniyor ve öğreniyorum. Genel olarak, bir Back-End geliştiricisiyim.',
+        'Merhaba, ben Ahmet. Ya da oyun ve yazılım dünyasında "Kahverengi". Sakarya\'dan bir Mid yazılım geliştiricisi ve girişimci. Günlük hayatımda, websiteler, mobil uygulamalar ve kişisel projelerimle uğraşıyorum. Boş zamanlarımda, yazılımda yeni teknolojiler deniyor ve öğreniyorum. Genel olarak, bir Back-End geliştiricisiyim.',
       interests_title: "İlgi Alanlarım",
       skills_title: "Yeteneklerim",
       interests: {
