@@ -79,7 +79,7 @@ export default {
     },
   },
   references: {
-    works: ["iconecwave", "kod-gemisi", "general-mobile"],
+    works: ["iconecwave", "kod-gemisi", "statu", "general-mobile"],
     projects: [
       "royal-canin",
       "dxpathfinder",

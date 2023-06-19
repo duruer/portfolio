@@ -152,6 +152,30 @@ export default {
           "Hexagonal Mimari"
         ],
       },
+      "statu": {
+        company_name: "Statu",
+        logo_image: "/assets/img/references/companies/statu-logo.jpg",
+        start_date: "Ocak 2020",
+        end_date: "Eylül 2021",
+        web_address: "https://www.linkedin.com/company/statu/",
+        position: "Back End Geliştiricisi",
+        location: {
+          city: "Uzaktan",
+          country: "Türkiye",
+        },
+        description:
+          "Lisans eğitim sürecinde, Statu A.Ş.'de sözleşmeyle birlikte back end geliştiricisi olarak çalıştım. Kotlin/Java, VertX, Docker ve ClickHouse DB kullanarak müşterilerimiz için kurumsal düzeyde back end yazılımları geliştirdim.",
+        used_technologies: [
+          "Kotlin",
+          "Java",
+          "Gradle",
+          "Git",
+          "GitHub",
+          "JIRA",
+          "Docker",
+          "ClickHouse",
+        ],
+      },
       "iconecwave": {
         company_name: "iConec Wave",
         logo_image: "/assets/img/references/companies/iconecwave-logo.jpg",

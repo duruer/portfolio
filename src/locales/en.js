@@ -156,6 +156,30 @@ export default {
           "Hexagonal Architecture"
         ],
       },
+      "statu": {
+        company_name: "Statu",
+        logo_image: "/assets/img/references/companies/statu-logo.jpg",
+        start_date: "Jan 2020",
+        end_date: "Sep 2021",
+        web_address: "https://www.linkedin.com/company/statu/",
+        position: "Back End Developer",
+        location: {
+          city: "Remote",
+          country: "Turkey",
+        },
+        description:
+          "During my studies, I had a contract with Statu Inc. Developed enterprise-level back-end software for our customers using Kotlin/Java, VertX, Docker and ClickHouse DB.",
+        used_technologies: [
+          "Kotlin",
+          "Java",
+          "Gradle",
+          "Git",
+          "GitHub",
+          "JIRA",
+          "Docker",
+          "ClickHouse",
+        ],
+      },
       "iconecwave": {
         company_name: "iConec Wave",
         logo_image: "/assets/img/references/companies/iconecwave-logo.jpg",
