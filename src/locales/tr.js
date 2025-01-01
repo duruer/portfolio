@@ -38,11 +38,14 @@ export default {
         server: {
           name: "Server",
         },
+        devops: {
+          name: "Dev-Ops",
+        },
       },
       skills: {
         kotlin: {
           name: "Kotlin",
-          techs: { android: "Android", "back-end": "Back-End" },
+          techs: { android: "Android", "back-end": "Back-End", "server": "Sunucu" },
         },
         javascript: {
           name: "JavaScript",
@@ -182,7 +185,7 @@ export default {
         start_date: "Şub 2022",
         end_date: "Hala",
         web_address: "https://iconecwave.com/",
-        position: "Java Yazılım Geliştiricisi",
+        position: "Full-Stack Yazılım Geliştiricisi",
         location: {
           city: "İstanbul/Remote",
           country: "Turkey",
@@ -206,6 +209,51 @@ export default {
       },
     },
     projects: {
+      "parsek": {
+        logo_image: "/assets/img/references/projects/parsek-logo.png",
+        project_name: "Parsek",
+        description: "Açık kaynak modüler Kotlin ile yazılmış back-end.",
+        start_date: "Ara 2023",
+        end_date: "",
+        details_description:
+            "Parsek, back-end uygulamalar için tasarlanmış bir çekirdek platformdur ve geliştiricilerin hız optimizasyonları, en iyi uygulamalar veya ölçeklenebilirlik konusunda endişelenmeden projelerine odaklanmalarını sağlar. Tekrar kullanılabilir eklentiler ve hızlı geliştirme araçları sunarak, her proje için aynı özellik kodlarını yazma gereksinimini ortadan kaldırır. Bu sayede daha hızlı ve daha verimli bir geliştirme süreci sağlarken yüksek performansı da korur.",
+        links: [
+          {
+            name: "Website",
+            address: "https://parsek.dev",
+          },
+          {
+            name: "GitHub",
+            address: "https://github.com/ParsekDev",
+          },
+        ],
+        images: [
+          {
+            title: "Logo",
+            address: "/assets/img/references/projects/parsek-logo.png",
+          }
+        ]
+      },
+      "rule": {
+        logo_image: "/assets/img/references/projects/rule-logo.png",
+        project_name: "Rule AI",
+        description: "E-ticaret ürün sahipleri için içerik oluşturma ve geliştirme amacıyla tasarlanmış bir yapay zeka platformu.",
+        start_date: "Ara 2023",
+        end_date: "Ekim 2024",
+        details_description:
+            "İçerik oluşturma ve geliştirme için tasarlanmış, kullanıcıların yüksek kaliteli ve etkileyici içerikleri zahmetsizce oluşturmasına yardımcı olan bir yapay zeka platformu. Bu platform, benzersiz içerik oluşturmak, mevcut metinleri geliştirmek ve iyileştirme önerileri sunmak için gelişmiş yapay zekadan faydalanır. Blog yazıları, sosyal medya paylaşımları veya pazarlama materyalleri hazırlıyor olun, bu yapay zeka destekli araç, içeriğinizin kusursuz, etkili ve hedef kitlenizin ihtiyaçlarına uygun olmasını sağlar.",
+        links: [],
+        images: [
+          {
+            title: "Logo",
+            address: "/assets/img/references/projects/rule-logo.png",
+          },
+          {
+            title: "Platform",
+            address: "/assets/img/references/projects/rule-1.png",
+          }
+        ]
+      },
       "royal-canin": {
         logo_image: "/assets/img/references/projects/royal-canin-logo.png",
         project_name: "iConec Wave - Royal Canin",

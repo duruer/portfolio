@@ -38,11 +38,14 @@ export default {
         android: {
           name: "Android",
         },
+        devops: {
+          name: "Dev-Ops",
+        },
       },
       skills: {
         kotlin: {
           name: "Kotlin",
-          techs: { android: "Android", "back-end":"Back-End" },
+          techs: { android: "Android", "back-end":"Back-End", "server": "Server" },
         },
         javascript: {
           name: "JavaScript",
@@ -186,7 +189,7 @@ export default {
         start_date: "Feb 2022",
         end_date: "Present",
         web_address: "https://iconecwave.com/",
-        position: "Java Software Engineer",
+        position: "Full-Stack Software Engineer",
         location: {
           city: "İstanbul/Remote",
           country: "Turkey",
@@ -210,6 +213,51 @@ export default {
       },
     },
     projects: {
+      "parsek": {
+        logo_image: "/assets/img/references/projects/parsek-logo.png",
+        project_name: "Parsek",
+        description: "An open-source modular back-end written in Kotlin.",
+        start_date: "Dec 2023",
+        end_date: "",
+        details_description:
+          "Parsek is a core platform designed for back-end applications, allowing developers to focus on their projects without worrying about speed optimizations, best practices, or scalability. By offering reusable plugins and rapid development tools, Parsek eliminates the need to write the same feature code for each project, ensuring faster, more efficient development while maintaining high performance.",
+        links: [
+          {
+            name: "Website",
+            address: "https://parsek.dev",
+          },
+          {
+            name: "GitHub",
+            address: "https://github.com/ParsekDev",
+          },
+        ],
+        images: [
+          {
+            title: "Logo",
+            address: "/assets/img/references/projects/parsek-logo.png",
+          }
+        ]
+      },
+      "rule": {
+        logo_image: "/assets/img/references/projects/rule-logo.png",
+        project_name: "Rule AI",
+        description: "An AI platform for content generation and enhancement for e-commerce product owners.",
+        start_date: "Dec 2023",
+        end_date: "Oct 2024",
+        details_description:
+          "An AI platform for content generation and enhancement, designed to assist users in creating high-quality, engaging content effortlessly. This platform leverages advanced artificial intelligence to generate unique content, refine existing text, and provide suggestions for improvement. Whether you're crafting blog posts, social media updates, or marketing materials, this AI-driven tool ensures your content is polished, impactful, and tailored to your audience's needs.",
+        links: [],
+        images: [
+          {
+            title: "Logo",
+            address: "/assets/img/references/projects/rule-logo.png",
+          },
+          {
+            title: "Platform",
+            address: "/assets/img/references/projects/rule-1.png",
+          }
+        ]
+      },
       "royal-canin": {
         logo_image: "/assets/img/references/projects/royal-canin-logo.png",
         project_name: "iConec Wave - Royal Canin",

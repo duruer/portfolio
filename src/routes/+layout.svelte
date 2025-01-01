@@ -49,34 +49,6 @@
         </a>
       </div>
     </div>
-    <div class="col-lg-6">
-      <nav class="nav pt-lg-0 pt-4">
-        <a
-          class="nav-link pl-0"
-          class:active="{checkNavLink($page.url.pathname, '/')}"
-          href="/">
-          {$_("nav_links.about")}
-        </a>
-        <a
-          class="nav-link"
-          class:active="{checkNavLink($page.url.pathname, '/references')}"
-          href="/references">
-          {$_("nav_links.references")}
-        </a>
-        <a
-          class="nav-link"
-          href="{Config.navigation.portfolio_github_link}"
-          target="_blank">
-          {$_("nav_links.this_website")}
-        </a>
-        <button
-          class="btn btn-link nav-link ml-auto"
-          on:click="{() => onLocaleChangeClick()}"
-          title="{$_('language.change_title')}">
-          {$_("language.next_lang_title")}
-        </button>
-      </nav>
-    </div>
   </header>
 
   <div class="row justify-content-center">
@@ -111,12 +83,42 @@
         </a>
       </div>
 
-      <small class="d-inline-block text-muted pt-5">
-        {@html $_("bio.made_with")}
-      </small>
       <div class="particle-1"></div>
     </div>
+  </div>
 
+  <div class="row justify-content-center mt-4">
+    <div class="col-lg-6">
+      <nav class="nav pt-lg-0 pt-4">
+        <a
+                class="nav-link pl-0"
+                class:active="{checkNavLink($page.url.pathname, '/')}"
+                href="/">
+          {$_("nav_links.about")}
+        </a>
+        <a
+                class="nav-link"
+                class:active="{checkNavLink($page.url.pathname, '/references')}"
+                href="/references">
+          {$_("nav_links.references")}
+        </a>
+        <a
+                class="nav-link"
+                href="{Config.navigation.portfolio_github_link}"
+                target="_blank">
+          {$_("nav_links.this_website")}
+        </a>
+        <button
+                class="btn btn-link nav-link ml-auto"
+                on:click="{() => onLocaleChangeClick()}"
+                title="{$_('language.change_title')}">
+          {$_("language.next_lang_title")}
+        </button>
+      </nav>
+    </div>
+  </div>
+
+  <div class="row justify-content-center mt-4">
     <div class="col-lg-6">
       {#if loading}
         <LoadingPlaceHolder />
@@ -124,6 +126,12 @@
         <slot />
       {/if}
     </div>
+  </div>
+
+  <div class="row justify-content-center mb-4">
+    <small class="d-inline-block text-muted pt-5">
+      {@html $_("bio.made_with")}
+    </small>
   </div>
 </div>
 
