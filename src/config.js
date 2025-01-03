@@ -1,6 +1,6 @@
 export default {
   bio: {
-    profile_photo_url: "/assets/img/pp.jpeg",
+    profile_photo_url: "/assets/img/pp.jpg",
     social_links: [
       {
         name: "GitHub",
