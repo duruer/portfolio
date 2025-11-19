@@ -8,8 +8,8 @@
 </svelte:head>
 
 <div class="container">
-  <header class="row justify-content-center py-4">
-    <div class="col-4">
+  <header class="row justify-content-center py-2 py-md-4">
+    <div class="col-12">
       <div class="pb-4">
         <img
           src="{Config.bio.profile_photo_url}"
@@ -19,7 +19,7 @@
           alt="{$_('bio.name')}" />
       </div>
     </div>
-    <div class="col d-lg-none">
+    <div class="col-12 d-lg-none text-center">
       <h4 class="font-weight-normal text-white">{@html $_("bio.name")}</h4>
       <p class="mb-2">
         {@html $_("bio.status")}
@@ -35,10 +35,10 @@
           </a>
         {/each}
       </ul>
-      <div>
+      <div class="d-flex justify-content-center">
         <a
           href="mailto:{Config.bio.email_address}"
-          class="btn btn-outline-lightglass text-primary">
+          class="btn btn-outline-lightglass text-primary mr-2">
           {$_("bio.contact_button")}
         </a>
         <a
@@ -68,10 +68,10 @@
           </a>
         {/each}
       </ul>
-      <div>
+      <div class="d-flex justify-content-center">
         <a
           href="mailto:{Config.bio.email_address}"
-          class="btn btn-outline-lightglass text-primary">
+          class="btn btn-outline-lightglass text-primary mr-2">
           {$_("bio.contact_button")}
         </a>
         <a
@@ -128,8 +128,8 @@
     </div>
   </div>
 
-  <div class="row justify-content-center mb-4">
-    <small class="d-inline-block text-muted pt-5">
+  <div class="row justify-content-center mb-2 mb-md-4">
+    <small class="d-inline-block text-muted pt-3 pt-md-5">
       {@html $_("bio.made_with")}
     </small>
   </div>
