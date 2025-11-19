@@ -87,7 +87,7 @@
     </div>
   </div>
 
-  <div class="row justify-content-center mt-4">
+  <div class="row justify-content-center mt-4" hidden>
     <div class="col-lg-6">
       <nav class="nav pt-lg-0 pt-4">
         <a
@@ -118,7 +118,7 @@
     </div>
   </div>
 
-  <div class="row justify-content-center mt-4">
+  <div class="row justify-content-center mt-4" hidden>
     <div class="col-lg-6">
       {#if loading}
         <LoadingPlaceHolder />
